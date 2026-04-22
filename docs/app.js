@@ -156,6 +156,67 @@ function h2hBar(lead, compact = false) {
     </div>`;
 }
 
+function renderVersus(uid, map, pb) {
+  const host = document.getElementById("map-versus");
+  if (!host) return;
+
+  const tTime = pb[PID_T];
+  const pTime = pb[PID_P];
+
+  let tClass = "";
+  let pClass = "";
+  let tDelta = "No record";
+  let pDelta = "No record";
+  let middleHtml = `<span class="vs-label">vs</span>`;
+
+  if (tTime != null && pTime != null) {
+    const delta = Math.abs(tTime - pTime);
+    if (tTime < pTime) {
+      tClass = "leader";
+      tDelta = `<span class="leader-badge">leader</span>`;
+      pDelta = `+${fmtTime(delta)} behind`;
+      middleHtml = `
+        <span class="vs-arrow thibault">◄</span>
+        <span class="vs-delta">${fmtTime(delta)}</span>
+        <span class="vs-label">gap</span>`;
+    } else if (pTime < tTime) {
+      pClass = "leader";
+      pDelta = `<span class="leader-badge">leader</span>`;
+      tDelta = `+${fmtTime(delta)} behind`;
+      middleHtml = `
+        <span class="vs-arrow pierre">►</span>
+        <span class="vs-delta">${fmtTime(delta)}</span>
+        <span class="vs-label">gap</span>`;
+    } else {
+      tDelta = "Tied";
+      pDelta = "Tied";
+      middleHtml = `<span class="vs-delta">=</span><span class="vs-label">tied</span>`;
+    }
+  } else if (tTime != null) {
+    tClass = "leader";
+    tDelta = `<span class="leader-badge">unopposed</span>`;
+    pDelta = "No record";
+  } else if (pTime != null) {
+    pClass = "leader";
+    pDelta = `<span class="leader-badge">unopposed</span>`;
+    tDelta = "No record";
+  }
+
+  host.innerHTML = `
+    <div class="versus-side thibault ${tClass}">
+      <span class="label">Thibault</span>
+      <span class="pb">${medalDot(medalOf(tTime, map))}${fmtTime(tTime)}</span>
+      <span class="delta">${tDelta}</span>
+    </div>
+    <div class="versus-middle">${middleHtml}</div>
+    <div class="versus-side pierre ${pClass}">
+      <span class="label">Pierre</span>
+      <span class="pb">${medalDot(medalOf(pTime, map))}${fmtTime(pTime)}</span>
+      <span class="delta">${pDelta}</span>
+    </div>
+  `;
+}
+
 function medalsBar(counts, pid) {
   const c = counts[pid];
   return `
@@ -300,6 +361,7 @@ function renderMap({ snapshots, maps }) {
     const map = maps[uid] || {};
     const current = entries.length ? entries[entries.length - 1] : null;
     const pb = playerPBs(snapshots)[uid] || {};
+    renderVersus(uid, map, pb);
     const threshold = (kind, score) =>
       score != null
         ? `<span class="medal-chip"><span class="medal-dot ${kind}"></span>${fmtTime(score)}</span>`
@@ -364,7 +426,8 @@ function renderLeaderboardInto(hostId, snapshots, maps, uids, { filterable = tru
             i === winnerIdx
               ? `time winner ${SLUG[pids[i]]}`
               : `time player-${SLUG[pids[i]]}`;
-          return `<td class="${cls}">${medalDot(medalOf(x, map))}${fmtTime(x)}</td>`;
+          const mark = i === winnerIdx ? `<span class="lead-mark">▲</span>` : "";
+          return `<td class="${cls}">${mark}${medalDot(medalOf(x, map))}${fmtTime(x)}</td>`;
         })
         .join("")}
       <td class="time muted">${delta}</td>
