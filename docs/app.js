@@ -420,12 +420,32 @@ function renderLeaderboard({ snapshots, maps }) {
   renderLeaderboardInto("leaderboard", snapshots, maps, sortedUids(maps));
 }
 
+const SEASON_ORDER = { Winter: 0, Spring: 1, Summer: 2, Fall: 3 };
+
+function campaignSortKey(name) {
+  const m = /^(Winter|Spring|Summer|Fall)\s+(\d{4})$/.exec(name);
+  if (m) {
+    return { seasonal: true, year: parseInt(m[2], 10), season: SEASON_ORDER[m[1]] };
+  }
+  return { seasonal: false, name };
+}
+
+function compareCampaigns(a, b) {
+  const ka = campaignSortKey(a.name);
+  const kb = campaignSortKey(b.name);
+  if (ka.seasonal && kb.seasonal) {
+    if (ka.year !== kb.year) return kb.year - ka.year;
+    return kb.season - ka.season;
+  }
+  if (ka.seasonal) return -1;
+  if (kb.seasonal) return 1;
+  return a.name.localeCompare(b.name, undefined, { numeric: true });
+}
+
 function renderCampaigns({ snapshots, maps }) {
   const pb = playerPBs(snapshots);
   const groups = groupByCampaign(maps);
-  const sorted = Object.values(groups).sort((a, b) =>
-    a.name.localeCompare(b.name, undefined, { numeric: true }),
-  );
+  const sorted = Object.values(groups).sort(compareCampaigns);
 
   const host = document.getElementById("campaigns");
   host.innerHTML = sorted
