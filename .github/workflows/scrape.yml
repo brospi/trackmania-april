@@ -5,9 +5,34 @@ on:
     - cron: "0 */6 * * *"
   workflow_dispatch:
 
-# TODO: implement — auth, build map set, snapshot records, commit diff to data/
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - run: "echo scaffold"
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Scrape
+        env:
+          NADEO_DEDI_LOGIN: ${{ secrets.NADEO_DEDI_LOGIN }}
+          NADEO_DEDI_PASSWORD: ${{ secrets.NADEO_DEDI_PASSWORD }}
+          NADEO_PIERRE_LOGIN: ${{ secrets.NADEO_PIERRE_LOGIN }}
+          NADEO_PIERRE_PASSWORD: ${{ secrets.NADEO_PIERRE_PASSWORD }}
+        run: python -m scraper.main
+      - name: Commit if changed
+        run: |
+          git config user.name  "trackmania-bot"
+          git config user.email "trackmania-bot@users.noreply.github.com"
+          git add data/snapshots.json data/maps.json
+          git diff --cached --quiet || git commit -m "snapshot $(date -u +%FT%TZ)"
+          git push

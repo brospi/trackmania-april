@@ -5,7 +5,7 @@
   <title>Club 115307 — Dashboard</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body data-page="dashboard">
   <nav>
     <a href="index.html">Dashboard</a>
     <a href="map.html">Per-map</a>
@@ -13,7 +13,9 @@
   </nav>
   <main>
     <h1>Dashboard</h1>
-    <!-- TODO: overview cards, recent changes, chart strip -->
+    <section id="summary"></section>
+    <h2>Recent changes</h2>
+    <table id="recent"></table>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="app.js"></script>

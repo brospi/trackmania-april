@@ -5,7 +5,7 @@
   <title>Per-map time evolution</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body data-page="map">
   <nav>
     <a href="index.html">Dashboard</a>
     <a href="map.html">Per-map</a>
@@ -13,7 +13,8 @@
   </nav>
   <main>
     <h1>Per-map time evolution</h1>
-    <!-- TODO: map picker + Chart.js line chart of each player's time over snapshots -->
+    <label for="map-picker">Map:</label>
+    <select id="map-picker"></select>
     <canvas id="chart"></canvas>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
