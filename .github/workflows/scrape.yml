@@ -26,8 +26,7 @@ jobs:
         env:
           NADEO_DEDI_LOGIN: ${{ secrets.NADEO_DEDI_LOGIN }}
           NADEO_DEDI_PASSWORD: ${{ secrets.NADEO_DEDI_PASSWORD }}
-          NADEO_PIERRE_LOGIN: ${{ secrets.NADEO_PIERRE_LOGIN }}
-          NADEO_PIERRE_PASSWORD: ${{ secrets.NADEO_PIERRE_PASSWORD }}
+          NADEO_USER_AGENT: ${{ vars.NADEO_USER_AGENT }}
         run: python -m scraper.main
       - name: Commit if changed
         run: |

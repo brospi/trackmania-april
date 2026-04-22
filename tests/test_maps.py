@@ -59,10 +59,10 @@ def test_resolve_unions_and_prefers_name(monkeypatch, tmp_path):
     extra.write_text("maps:\n  - map_uid: shared\n    name: FromExtra\n")
     monkeypatch.setattr(m, "EXTRA_MAPS_PATH", extra)
     monkeypatch.setattr(
-        m, "from_club_campaigns", lambda bot: {"shared": "", "club-only": "ClubName"}
+        m, "from_club_campaigns", lambda c: {"shared": "", "club-only": "ClubName"}
     )
-    monkeypatch.setattr(m, "from_pierre_records", lambda p: {"pierre-only": ""})
-    out = m.resolve_tracked_maps(bot=None, pierre="stub")
+    monkeypatch.setattr(m, "from_pierre_records", lambda c: {"pierre-only": ""})
+    out = m.resolve_tracked_maps(client=None)
     assert out == {
         "shared": "FromExtra",
         "pierre-only": "",
@@ -70,21 +70,29 @@ def test_resolve_unions_and_prefers_name(monkeypatch, tmp_path):
     }
 
 
-def test_resolve_without_pierre(monkeypatch, tmp_path):
-    monkeypatch.setattr(m, "EXTRA_MAPS_PATH", tmp_path / "none.yml")
-    monkeypatch.setattr(m, "from_club_campaigns", lambda bot: {"a": "A"})
-    out = m.resolve_tracked_maps(bot=None, pierre=None)
-    assert out == {"a": "A"}
-
-
 def test_pierre_records(client, respx_mock):
     respx_mock.post(f"{CORE_BASE}/v2/authentication/token/basic").mock(
         return_value=basic_response()
     )
-    respx_mock.get(f"{CORE_BASE}/v2/accounts/{PIERRE_ID}/mapRecords").mock(
+    respx_mock.get(f"{CORE_BASE}/v2/accounts/{PIERRE_ID}/mapRecords/").mock(
         return_value=httpx.Response(
             200,
             json=[{"mapId": "uid1"}, {"mapId": "uid2"}, {"foo": "bar"}],
         )
     )
     assert m.from_pierre_records(client) == {"uid1": "", "uid2": ""}
+
+
+def test_pierre_records_caps_at_limit(client, respx_mock, monkeypatch):
+    monkeypatch.setattr("scraper.maps.PIERRE_RECORDS_LIMIT", 3)
+    respx_mock.post(f"{CORE_BASE}/v2/authentication/token/basic").mock(
+        return_value=basic_response()
+    )
+    respx_mock.get(f"{CORE_BASE}/v2/accounts/{PIERRE_ID}/mapRecords/").mock(
+        return_value=httpx.Response(
+            200,
+            json=[{"mapId": f"uid{i}"} for i in range(10)],
+        )
+    )
+    out = m.from_pierre_records(client)
+    assert out == {"uid0": "", "uid1": "", "uid2": ""}

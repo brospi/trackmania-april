@@ -3,16 +3,22 @@ from pathlib import Path
 import yaml
 
 from .auth import NadeoClient
-from .config import CLUB_ID, CORE_BASE, LIVE_BASE, PIERRE_ID
+from .config import (
+    CLUB_ID,
+    CORE_BASE,
+    LIVE_BASE,
+    PIERRE_ID,
+    PIERRE_RECORDS_LIMIT,
+)
 
 EXTRA_MAPS_PATH = Path(__file__).parent.parent / "config" / "extra_maps.yml"
 
 
-def from_club_campaigns(bot: NadeoClient) -> dict[str, str]:
+def from_club_campaigns(client: NadeoClient) -> dict[str, str]:
     out: dict[str, str] = {}
     offset, page = 0, 75
     while True:
-        r = bot.get(
+        r = client.get(
             f"{LIVE_BASE}/api/token/club/{CLUB_ID}/campaign",
             audience="NadeoLiveServices",
             params={"length": page, "offset": offset},
@@ -32,14 +38,13 @@ def from_club_campaigns(bot: NadeoClient) -> dict[str, str]:
     return out
 
 
-def from_pierre_records(pierre: NadeoClient | None) -> dict[str, str]:
-    if pierre is None:
-        return {}
-    r = pierre.get(
-        f"{CORE_BASE}/v2/accounts/{PIERRE_ID}/mapRecords",
+def from_pierre_records(client: NadeoClient) -> dict[str, str]:
+    r = client.get(
+        f"{CORE_BASE}/v2/accounts/{PIERRE_ID}/mapRecords/",
         audience="NadeoServices",
     )
-    return {rec["mapId"]: "" for rec in r.json() if rec.get("mapId")}
+    records = r.json()[:PIERRE_RECORDS_LIMIT]
+    return {rec["mapId"]: "" for rec in records if rec.get("mapId")}
 
 
 def from_extras() -> dict[str, str]:
@@ -49,11 +54,13 @@ def from_extras() -> dict[str, str]:
     return {m["map_uid"]: m.get("name", "") for m in (doc.get("maps") or [])}
 
 
-def resolve_tracked_maps(
-    bot: NadeoClient, pierre: NadeoClient | None
-) -> dict[str, str]:
+def resolve_tracked_maps(client: NadeoClient) -> dict[str, str]:
     merged: dict[str, str] = {}
-    for src in (from_extras(), from_pierre_records(pierre), from_club_campaigns(bot)):
+    for src in (
+        from_extras(),
+        from_pierre_records(client),
+        from_club_campaigns(client),
+    ):
         for uid, name in src.items():
             if uid not in merged or (not merged[uid] and name):
                 merged[uid] = name

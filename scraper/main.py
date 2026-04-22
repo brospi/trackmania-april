@@ -7,22 +7,19 @@ from .auth import NadeoClient
 from .maps import resolve_tracked_maps
 from .snapshot import snapshot
 
+DEFAULT_UA = "trackmania-april / https://github.com/brospi/trackmania-april"
+
 
 def main() -> int:
     login = os.environ["NADEO_DEDI_LOGIN"]
     password = os.environ["NADEO_DEDI_PASSWORD"]
-    pierre_login = os.environ.get("NADEO_PIERRE_LOGIN")
-    pierre_password = os.environ.get("NADEO_PIERRE_PASSWORD")
+    user_agent = os.environ.get("NADEO_USER_AGENT", DEFAULT_UA)
 
-    with httpx.Client(timeout=30.0) as http:
-        bot = NadeoClient(http, login, password)
-        pierre = (
-            NadeoClient(http, pierre_login, pierre_password)
-            if pierre_login and pierre_password
-            else None
-        )
-        maps = resolve_tracked_maps(bot, pierre)
-        changed = snapshot(bot, maps)
+    headers = {"User-Agent": user_agent}
+    with httpx.Client(timeout=30.0, headers=headers) as http:
+        client = NadeoClient(http, login, password)
+        maps = resolve_tracked_maps(client)
+        changed = snapshot(client, maps)
 
     print(f"tracked={len(maps)} changed={changed}")
     return 0
