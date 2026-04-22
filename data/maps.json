@@ -1,10 +1,150 @@
 {
+  "002b34b9-783a-46a2-8fd5-35285a625f1f": {
+    "authorScore": 37420,
+    "bronzeScore": 57000,
+    "goldScore": 40000,
+    "name": "Spring 2023 - 08",
+    "silverScore": 45000
+  },
+  "003607b0-d472-4e0b-862a-94b56b45408b": {
+    "authorScore": 27939,
+    "bronzeScore": 42000,
+    "goldScore": 30000,
+    "name": "Mmm yes, transitional",
+    "silverScore": 34000
+  },
+  "00e5a646-5b21-4a65-bc78-0233d2a7cb4e": {
+    "authorScore": 63052,
+    "bronzeScore": 95000,
+    "goldScore": 67000,
+    "name": "Spring 2022 - 22",
+    "silverScore": 76000
+  },
+  "0120bb09-0e84-4dbe-9be9-1edff6bdbc77": {
+    "authorScore": 71210,
+    "bronzeScore": 102720,
+    "goldScore": 74020,
+    "name": "D13-Race",
+    "silverScore": 83170
+  },
+  "012f5a1f-971e-4eec-a744-ae1077e45fad": {
+    "authorScore": 38382,
+    "bronzeScore": 58000,
+    "goldScore": 41000,
+    "name": "Fall 2024 - 18",
+    "silverScore": 47000
+  },
+  "0212f42d-bb92-4c26-8059-5ca7a5d7cfb6": {
+    "authorScore": 16020,
+    "bronzeScore": 25000,
+    "goldScore": 17000,
+    "name": "Winter 2023 - 01",
+    "silverScore": 20000
+  },
+  "0227cb0a-bd61-42dd-b607-d2abf837e805": {
+    "authorScore": 49282,
+    "bronzeScore": 74000,
+    "goldScore": 53000,
+    "name": "Winter 2024 - 18",
+    "silverScore": 60000
+  },
+  "02308b7a-7179-4725-bc9f-af06fee86ad7": {
+    "authorScore": 55321,
+    "bronzeScore": 83000,
+    "goldScore": 59000,
+    "name": "Summer 2024 - 14",
+    "silverScore": 67000
+  },
+  "02c4c6a0-b389-4a66-9970-f24b741a058d": {
+    "authorScore": 25940,
+    "bronzeScore": 39000,
+    "goldScore": 28000,
+    "name": "Summer 2021 - 08",
+    "silverScore": 32000
+  },
+  "02e16512-590f-42f8-9932-0aa46e20e9c0": {
+    "authorScore": 50586,
+    "bronzeScore": 76000,
+    "goldScore": 54000,
+    "name": "Spring 2022 - 17",
+    "silverScore": 61000
+  },
+  "02fbac7b-4f23-4728-94dd-7ea0ca8b6611": {
+    "authorScore": 39135,
+    "bronzeScore": 59000,
+    "goldScore": 42000,
+    "name": "Winter 2021 - 05",
+    "silverScore": 47000
+  },
+  "030dea5d-0e9f-4227-bd67-bc8bddd8305a": {
+    "authorScore": 34503,
+    "bronzeScore": 52000,
+    "goldScore": 40000,
+    "name": "Summer 2025 - 12",
+    "silverScore": 45000
+  },
   "03147ac8-d61e-4a5d-917f-c92c257d8f51": {
     "authorScore": 14575,
     "bronzeScore": 15320,
     "goldScore": 14820,
     "name": "Under 15 - 03",
     "silverScore": 15070
+  },
+  "037bfcf7-d56b-4bda-adee-3ffa7b13fcf6": {
+    "authorScore": 18177,
+    "bronzeScore": 23000,
+    "goldScore": 19000,
+    "name": "Training - 17",
+    "silverScore": 21000
+  },
+  "0492de6b-04d5-43eb-a3fd-b6e409ad2f17": {
+    "authorScore": 51922,
+    "bronzeScore": 78000,
+    "goldScore": 56000,
+    "name": "Winter 2025 - 18",
+    "silverScore": 63000
+  },
+  "052b5795-a515-41b4-899c-c29b443bce91": {
+    "authorScore": 30721,
+    "bronzeScore": 47000,
+    "goldScore": 33000,
+    "name": "CS - Secret Routes by TD0g4002",
+    "silverScore": 37000
+  },
+  "053134f2-dc51-4b66-96c8-e1bf9368ec0b": {
+    "authorScore": 33888,
+    "bronzeScore": 51000,
+    "goldScore": 36000,
+    "name": "Fall 2020 - 08",
+    "silverScore": 41000
+  },
+  "05396936-b8ac-4bed-bfee-4d99d4ac3f0d": {
+    "authorScore": 45208,
+    "bronzeScore": 68000,
+    "goldScore": 48000,
+    "name": "Winter 2021 - 10",
+    "silverScore": 55000
+  },
+  "054b28b2-6128-435a-a575-2f867e5a8e6d": {
+    "authorScore": 41418,
+    "bronzeScore": 63000,
+    "goldScore": 44000,
+    "name": "Fall 2020 - 18",
+    "silverScore": 50000
+  },
+  "058458d1-7019-45dd-9478-56babd539d98": {
+    "authorScore": 16786,
+    "bronzeScore": 25000,
+    "goldScore": 18000,
+    "name": "3 - Cut between blocks",
+    "silverScore": 20000
+  },
+  "05b3a91b-c5ad-494d-8da5-d484c0145238": {
+    "authorScore": 39275,
+    "bronzeScore": 59000,
+    "goldScore": 42000,
+    "name": "Spring 2024 - 20",
+    "silverScore": 48000
   },
   "0638b603-0e8d-440f-a11c-64d9007e8a0e": {
     "authorScore": 37224,
@@ -13,12 +153,166 @@
     "name": "Summer 2024 - 15",
     "silverScore": 45000
   },
+  "063da81b-9be6-4837-a155-17255830dd25": {
+    "authorScore": 22304,
+    "bronzeScore": 34000,
+    "goldScore": 24000,
+    "name": "Ripple",
+    "silverScore": 27000
+  },
+  "06721f8c-90cb-4da7-aa2b-e123865352b1": {
+    "authorScore": 22752,
+    "bronzeScore": 35000,
+    "goldScore": 25000,
+    "name": "Slide",
+    "silverScore": 28000
+  },
+  "06d0d85b-5a7a-4fe9-9d1e-cb9f773fc3a7": {
+    "authorScore": 19702,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "1 - Tower Valley",
+    "silverScore": 24000
+  },
+  "06d9e170-e5f6-4c05-aac0-780c2ccd5d60": {
+    "authorScore": 57000,
+    "bronzeScore": 86000,
+    "goldScore": 61000,
+    "name": "FASTER CLIMB",
+    "silverScore": 69000
+  },
+  "0717aad3-73ba-4ff6-9616-d95736ba9685": {
+    "authorScore": 110636,
+    "bronzeScore": 166000,
+    "goldScore": 118000,
+    "name": "[MK8] DS Cheep Cheep Beach",
+    "silverScore": 133000
+  },
   "071c0a0e-e84d-414e-95ae-ab7572b68085": {
     "authorScore": 71871,
     "bronzeScore": 108000,
     "goldScore": 77000,
     "name": "Spring 2026 - 11",
     "silverScore": 87000
+  },
+  "07a96b40-0fc9-477f-9ce8-8819582b5a49": {
+    "authorScore": 17500,
+    "bronzeScore": 27000,
+    "goldScore": 19000,
+    "name": "2 - crawl",
+    "silverScore": 22000
+  },
+  "07dc115e-bcb7-49e6-bb00-76384525c033": {
+    "authorScore": 16000,
+    "bronzeScore": 25000,
+    "goldScore": 17000,
+    "name": "4 - The Celebration of",
+    "silverScore": 20000
+  },
+  "07f70658-234a-4cb8-bfe8-bef069ed64ef": {
+    "authorScore": 72000,
+    "bronzeScore": 109000,
+    "goldScore": 77000,
+    "name": "FASTER EVEREST",
+    "silverScore": 87000
+  },
+  "0828938a-49de-49f8-9617-ec3367989573": {
+    "authorScore": 14750,
+    "bronzeScore": 23500,
+    "goldScore": 16000,
+    "name": "Desert Storm",
+    "silverScore": 18500
+  },
+  "08405bf0-98c5-46e7-83c1-b38122f0cff4": {
+    "authorScore": 58774,
+    "bronzeScore": 89000,
+    "goldScore": 63000,
+    "name": "Winter 2026 - 18",
+    "silverScore": 71000
+  },
+  "0917e050-bd20-4758-b4cf-7b0736c36863": {
+    "authorScore": 42999,
+    "bronzeScore": 65000,
+    "goldScore": 46000,
+    "name": "Summer 2022 - 20",
+    "silverScore": 52000
+  },
+  "0942db42-246f-45cf-b01f-c20d517d542a": {
+    "authorScore": 13852,
+    "bronzeScore": 21000,
+    "goldScore": 15000,
+    "name": "5 - Footy",
+    "silverScore": 17000
+  },
+  "09853d2c-b29f-4c25-8fa5-8a4c08adba8e": {
+    "authorScore": 36915,
+    "bronzeScore": 56000,
+    "goldScore": 40000,
+    "name": "Winter 2021 - 07",
+    "silverScore": 45000
+  },
+  "0990b69c-82da-4182-97ec-5d70ce1fc784": {
+    "authorScore": 32588,
+    "bronzeScore": 49000,
+    "goldScore": 35000,
+    "name": "-RoGa Bonkeasy-018",
+    "silverScore": 40000
+  },
+  "099afa09-544f-4201-ac6e-0d4efca93b4b": {
+    "authorScore": 29663,
+    "bronzeScore": 45000,
+    "goldScore": 32000,
+    "name": "Spring 2025 - 10",
+    "silverScore": 36000
+  },
+  "09b72f75-af7b-4fd0-bba7-7a3d1c83cd6d": {
+    "authorScore": 29892,
+    "bronzeScore": 45000,
+    "goldScore": 32000,
+    "name": "Spring 2022 - 05",
+    "silverScore": 36000
+  },
+  "09ec505d-7ef5-4f2e-b48c-d5d6c173f1cc": {
+    "authorScore": 138944,
+    "bronzeScore": 209000,
+    "goldScore": 148000,
+    "name": "Shallow Dip \u2014 Floor 5 Practice (7 CPs)",
+    "silverScore": 167000
+  },
+  "09ed0472-6108-4e42-a5ff-5dbbc84a371e": {
+    "authorScore": 34060,
+    "bronzeScore": 52000,
+    "goldScore": 37000,
+    "name": "admin hes doing it upside down",
+    "silverScore": 41000
+  },
+  "0a12b854-a822-4d95-8add-49266fb9eca5": {
+    "authorScore": 70347,
+    "bronzeScore": 106000,
+    "goldScore": 75000,
+    "name": "Summer 2024 - 25",
+    "silverScore": 85000
+  },
+  "0a5a4eb6-3f8e-47a4-a036-8118982f40c8": {
+    "authorScore": 54321,
+    "bronzeScore": 82000,
+    "goldScore": 58000,
+    "name": "Kacky of the Day #3",
+    "silverScore": 66000
+  },
+  "0ad42920-1478-4dcb-adc1-9747d04d765b": {
+    "authorScore": 121338,
+    "bronzeScore": 540000,
+    "goldScore": 129500,
+    "name": "[RPG] Nintendo Switch",
+    "silverScore": 165000
+  },
+  "0b030814-8051-4fa7-8f51-78ea33cade98": {
+    "authorScore": 35287,
+    "bronzeScore": 53000,
+    "goldScore": 38000,
+    "name": "Spring 2023 - 06",
+    "silverScore": 43000
   },
   "0bfb3f3e-aa72-401b-a392-a2e3d84ec60c": {
     "authorScore": 52643,
@@ -27,12 +321,96 @@
     "name": "Voyage",
     "silverScore": 64000
   },
+  "0c031b16-f8d9-49a1-a9c8-7d7e40a989be": {
+    "authorScore": 20545,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "Lime Slushy",
+    "silverScore": 25000
+  },
+  "0cd18b59-ef45-4d8d-9565-7d12d73f1f0d": {
+    "authorScore": 46818,
+    "bronzeScore": 71000,
+    "goldScore": 50000,
+    "name": "Spring 2024 - 23",
+    "silverScore": 57000
+  },
+  "0d4ae83b-0f08-4408-a2e5-2deb6779c371": {
+    "authorScore": 43111,
+    "bronzeScore": 65000,
+    "goldScore": 46000,
+    "name": "Winter 2024 - 15",
+    "silverScore": 52000
+  },
+  "0dceb596-5e09-4853-a47c-f075e2c4de23": {
+    "authorScore": 25338,
+    "bronzeScore": 39000,
+    "goldScore": 27000,
+    "name": "Spring 2026 - 08",
+    "silverScore": 31000
+  },
+  "0ecac013-d679-4a15-b523-7dd29fd839f4": {
+    "authorScore": 35648,
+    "bronzeScore": 54000,
+    "goldScore": 38000,
+    "name": "Arena",
+    "silverScore": 43000
+  },
+  "0ee32de6-bd21-469b-9873-1d5e21fab9a9": {
+    "authorScore": 80720,
+    "bronzeScore": 122000,
+    "goldScore": 86000,
+    "name": "[MK8] GBA Mario Circuit",
+    "silverScore": 97000
+  },
+  "0f8253a8-56c7-4352-a5dc-072e2b8af778": {
+    "authorScore": 39315,
+    "bronzeScore": 59000,
+    "goldScore": 42000,
+    "name": "Yearning for Simpler Times",
+    "silverScore": 48000
+  },
   "0fb348f9-1dbf-41b4-b0be-3009d064612c": {
     "authorScore": 14765,
     "bronzeScore": 15510,
     "goldScore": 15010,
     "name": "Under 15 - 21",
     "silverScore": 15260
+  },
+  "0fd8e79b-bddd-4b1c-b933-cfcb2d210be5": {
+    "authorScore": 116390,
+    "bronzeScore": 175450,
+    "goldScore": 124300,
+    "name": "C05-Endurance",
+    "silverScore": 139770
+  },
+  "0fef1328-e38e-4374-84af-3d26a88a73c6": {
+    "authorScore": 28940,
+    "bronzeScore": 44000,
+    "goldScore": 31000,
+    "name": "Spring 2026 - 07",
+    "silverScore": 35000
+  },
+  "1025c4df-d8e5-43a0-9f25-f8b85506b0ef": {
+    "authorScore": 50555,
+    "bronzeScore": 76000,
+    "goldScore": 56000,
+    "name": "Fall 2025 - 18",
+    "silverScore": 61000
+  },
+  "105192fa-f66c-409d-81d3-84e1e9265901": {
+    "authorScore": 30499,
+    "bronzeScore": 46000,
+    "goldScore": 33000,
+    "name": "Fall 2023 - 06",
+    "silverScore": 37000
+  },
+  "1073d051-b641-4aac-95bd-b81c1c65df78": {
+    "authorScore": 5950,
+    "bronzeScore": 9620,
+    "goldScore": 6360,
+    "name": "A04-Acrobatic",
+    "silverScore": 7150
   },
   "11022b79-a442-42f9-8463-c557779ec500": {
     "authorScore": 39412,
@@ -41,12 +419,75 @@
     "name": "Fall 2021 - 11",
     "silverScore": 48000
   },
+  "11661ce2-e333-490d-99cb-f1ff6be7826c": {
+    "authorScore": 22196,
+    "bronzeScore": 34000,
+    "goldScore": 24000,
+    "name": "Summer 2023 - 08",
+    "silverScore": 27000
+  },
+  "11703854-d6fd-40f1-b5d1-0ef7347f82f8": {
+    "authorScore": 27511,
+    "bronzeScore": 42000,
+    "goldScore": 30000,
+    "name": "Fall 2024 - 09",
+    "silverScore": 34000
+  },
+  "11f05603-58f4-4289-b643-d88e4d757015": {
+    "authorScore": 23923,
+    "bronzeScore": 36000,
+    "goldScore": 26000,
+    "name": "Summer 2024 - 01",
+    "silverScore": 29000
+  },
+  "1209e217-409b-46e8-8498-84953559b46e": {
+    "authorScore": 20000,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "2 - You, from Us",
+    "silverScore": 25000
+  },
+  "12138235-3878-4e36-8460-c0a489d830cc": {
+    "authorScore": 34300,
+    "bronzeScore": 52000,
+    "goldScore": 37000,
+    "name": "Spring 2023 - 13",
+    "silverScore": 42000
+  },
+  "1255469a-bbf8-4bcf-b8bb-3ad57220d6a1": {
+    "authorScore": 41838,
+    "bronzeScore": 63000,
+    "goldScore": 45000,
+    "name": "Spring 2024 - 12",
+    "silverScore": 51000
+  },
   "12d4be83-0235-4381-a23c-5f776e0826f4": {
     "authorScore": 36823,
     "bronzeScore": 56000,
     "goldScore": 40000,
     "name": "Summer 2023 - 20",
     "silverScore": 45000
+  },
+  "12e910f8-6770-40b6-af87-df6fb9e67bec": {
+    "authorScore": 552661,
+    "bronzeScore": 840000,
+    "goldScore": 570000,
+    "name": "Desolate [RPG]",
+    "silverScore": 645000
+  },
+  "13268992-67b7-4072-a2ea-42a0ec167976": {
+    "authorScore": 44150,
+    "bronzeScore": 67000,
+    "goldScore": 47000,
+    "name": "Blueberry Yogurt",
+    "silverScore": 53000
+  },
+  "1335c919-d336-46dc-af18-687339a2aee3": {
+    "authorScore": 19994,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "1 - Happy",
+    "silverScore": 24000
   },
   "13666040-051c-4377-a52d-6c652c4346bb": {
     "authorScore": 36992,
@@ -55,12 +496,460 @@
     "name": "Winter 2026 - 14",
     "silverScore": 45000
   },
+  "13e63673-2165-4c8d-99aa-0c58d4e2a2dd": {
+    "authorScore": 58797,
+    "bronzeScore": 89000,
+    "goldScore": 63000,
+    "name": "Summer 2022 - 23",
+    "silverScore": 71000
+  },
+  "14816e4d-ee82-4430-893e-8db250d0ff74": {
+    "authorScore": 14684,
+    "bronzeScore": 15430,
+    "goldScore": 14930,
+    "name": "Under 15 - 07",
+    "silverScore": 15180
+  },
+  "14a779d8-ac70-4540-a3be-3af451a080cb": {
+    "authorScore": 19876,
+    "bronzeScore": 30300,
+    "goldScore": 22220,
+    "name": "3 - Freedom of Choice",
+    "silverScore": 24240
+  },
+  "14b3b6b3-76d9-40c7-8972-c074e92e38b3": {
+    "authorScore": 19507,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "2 - Mirage",
+    "silverScore": 24000
+  },
+  "14bf05ac-770d-48ba-a2ac-e3ccaf14a95b": {
+    "authorScore": 20650,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "Winter 2023 - 03",
+    "silverScore": 25000
+  },
+  "14c17a90-2d38-4592-89de-8894f41ec3f7": {
+    "authorScore": 77959,
+    "bronzeScore": 117000,
+    "goldScore": 83000,
+    "name": "Greece 2026",
+    "silverScore": 94000
+  },
+  "14f9f9ec-e75e-495c-924a-ce63f410d748": {
+    "authorScore": 64581,
+    "bronzeScore": 97000,
+    "goldScore": 69000,
+    "name": "Fall 2022 - 25",
+    "silverScore": 78000
+  },
+  "158bbb98-2f67-4464-a43f-e610cddfcd76": {
+    "authorScore": 42651,
+    "bronzeScore": 64000,
+    "goldScore": 46000,
+    "name": "Summer 2022 - 17",
+    "silverScore": 52000
+  },
+  "15f4ccd5-89d5-4ef2-96d2-ba61c2fdc0d3": {
+    "authorScore": 17132,
+    "bronzeScore": 26000,
+    "goldScore": 19000,
+    "name": "STUNT meltdown",
+    "silverScore": 21000
+  },
+  "1621a3a9-4b63-4730-a95e-51d7617874a9": {
+    "authorScore": 19835,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "3 - Guided by the Forest",
+    "silverScore": 24000
+  },
+  "16b39bb0-baee-4b3a-8b83-941e4bdba3f3": {
+    "authorScore": 33256,
+    "bronzeScore": 50000,
+    "goldScore": 40000,
+    "name": "Summer 2025 - 11",
+    "silverScore": 45000
+  },
+  "16bab9df-e94f-4b04-84d2-e7e6d5a7fc43": {
+    "authorScore": 14044,
+    "bronzeScore": 22000,
+    "goldScore": 15000,
+    "name": "Traffic Jam",
+    "silverScore": 17000
+  },
+  "16fdfbaf-3b47-490b-901f-e90db89aaa84": {
+    "authorScore": 27636,
+    "bronzeScore": 42000,
+    "goldScore": 30000,
+    "name": "Summer 2021 - 06",
+    "silverScore": 34000
+  },
+  "172f8767-4391-4425-b61e-d0cc535baa34": {
+    "authorScore": 41872,
+    "bronzeScore": 63000,
+    "goldScore": 45000,
+    "name": "Amberoid ft' Hashbjorn",
+    "silverScore": 51000
+  },
+  "17418d1f-9f0e-4c2a-b55d-be4d4b944fc1": {
+    "authorScore": 19407,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "3 - Avoid the Checkpoints",
+    "silverScore": 24000
+  },
+  "1757ada3-30cf-421d-a24f-68a2cfc35593": {
+    "authorScore": 19701,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "Summer 2022 - 02",
+    "silverScore": 24000
+  },
+  "1759028c-9ed8-4857-be36-e73932818065": {
+    "authorScore": 29777,
+    "bronzeScore": 45000,
+    "goldScore": 32000,
+    "name": "Fall 2020 - 11",
+    "silverScore": 36000
+  },
+  "1780e317-e6b0-4eb3-87cf-57be96d0cb29": {
+    "authorScore": 54951,
+    "bronzeScore": 83000,
+    "goldScore": 59000,
+    "name": "Fall 2023 - 22",
+    "silverScore": 66000
+  },
   "1789af58-d494-4cb0-8f2d-dcaa2a0b8c00": {
     "authorScore": 46628,
     "bronzeScore": 70000,
     "goldScore": 50000,
     "name": "Winter 2022 - 16",
     "silverScore": 56000
+  },
+  "17b3410b-34e4-44be-b40b-f2ea60c6075f": {
+    "authorScore": 43682,
+    "bronzeScore": 66000,
+    "goldScore": 47000,
+    "name": "Spring 2023 - 19",
+    "silverScore": 53000
+  },
+  "17b7e6ee-2c2d-48af-9380-7d5b93c1f853": {
+    "authorScore": 36415,
+    "bronzeScore": 55000,
+    "goldScore": 39000,
+    "name": "Spring 2022 - 06",
+    "silverScore": 44000
+  },
+  "17cf04f8-c183-4b9b-975c-1facedbc5ecb": {
+    "authorScore": 19084,
+    "bronzeScore": 29000,
+    "goldScore": 21000,
+    "name": "2 - Mini grass castle",
+    "silverScore": 23000
+  },
+  "1821cc1c-492c-42b6-8919-e0c5d897a9c4": {
+    "authorScore": 19963,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "CS - Dang Boa by Rioyter",
+    "silverScore": 24000
+  },
+  "1852501e-422f-42af-bf4a-22ef4a77d139": {
+    "authorScore": 8664,
+    "bronzeScore": 13000,
+    "goldScore": 10000,
+    "name": "Minigolf - 11",
+    "silverScore": 11000
+  },
+  "1853448b-0995-4e62-a4df-7dadbea572be": {
+    "authorScore": 18385,
+    "bronzeScore": 28000,
+    "goldScore": 20000,
+    "name": "4 - No Rest",
+    "silverScore": 23000
+  },
+  "186d251f-b295-403e-bbf8-6299492bad9b": {
+    "authorScore": 62550,
+    "bronzeScore": 94000,
+    "goldScore": 69000,
+    "name": "Fall 2025 - 22",
+    "silverScore": 76000
+  },
+  "1874cf0a-3884-4a0e-85d7-038484119923": {
+    "authorScore": 55482,
+    "bronzeScore": 84000,
+    "goldScore": 59000,
+    "name": "Winter 2026 - 19",
+    "silverScore": 67000
+  },
+  "18b42598-8f29-4d06-aa7a-3e13f7f78f20": {
+    "authorScore": 19609,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "Hurt",
+    "silverScore": 24000
+  },
+  "19149896-8907-440e-a56d-b3d8c5e7d0db": {
+    "authorScore": 19903,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "5 - tropic blunder",
+    "silverScore": 24000
+  },
+  "19cf43b7-e84e-4ee8-9fe8-81b775823cb9": {
+    "authorScore": 27308,
+    "bronzeScore": 41000,
+    "goldScore": 29000,
+    "name": "The Cumulative Effect of Concussion",
+    "silverScore": 33000
+  },
+  "19dddde3-7884-48eb-8595-f7627af32f4b": {
+    "authorScore": 19992,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "1 - GrassyReact$",
+    "silverScore": 24000
+  },
+  "19f62cc2-ef10-4eda-a68a-ba8d59b36145": {
+    "authorScore": 106668,
+    "bronzeScore": 161000,
+    "goldScore": 114000,
+    "name": "[MK8] Sunshine Airport",
+    "silverScore": 129000
+  },
+  "1aace21a-1929-408b-afbc-cc824119d98b": {
+    "authorScore": 56358,
+    "bronzeScore": 85000,
+    "goldScore": 60000,
+    "name": "Spring 2025 - 23",
+    "silverScore": 68000
+  },
+  "1b7d1ec9-9304-4b69-b1a6-38b64528c753": {
+    "authorScore": 116910,
+    "bronzeScore": 172680,
+    "goldScore": 121280,
+    "name": "C14-Endurance",
+    "silverScore": 143380
+  },
+  "1c14c8c5-6e04-49b2-9c93-6a6fa0dd5cd8": {
+    "authorScore": 9640,
+    "bronzeScore": 14490,
+    "goldScore": 10140,
+    "name": "A10-Acrobatic",
+    "silverScore": 11420
+  },
+  "1c435c27-0e58-4c37-94fd-1dba97967c4d": {
+    "authorScore": 6018,
+    "bronzeScore": 10000,
+    "goldScore": 7000,
+    "name": "Minigolf - 02",
+    "silverScore": 8000
+  },
+  "1c51f419-85c8-4020-a928-f7bc25085a26": {
+    "authorScore": 36363,
+    "bronzeScore": 60000,
+    "goldScore": 40000,
+    "name": "Training - 25",
+    "silverScore": 45000
+  },
+  "1ca6150b-960d-41d3-9805-8960925317bc": {
+    "authorScore": 24756,
+    "bronzeScore": 38000,
+    "goldScore": 27000,
+    "name": "Fall 2021 - 04",
+    "silverScore": 30000
+  },
+  "1caeceef-a2aa-44df-8ce4-b18fdbf5c66d": {
+    "authorScore": 48532,
+    "bronzeScore": 73000,
+    "goldScore": 54000,
+    "name": "Fall 2025 - 17",
+    "silverScore": 59000
+  },
+  "1cce7ab3-bdd3-4423-8e7f-87f95bafb023": {
+    "authorScore": 37080,
+    "bronzeScore": 56000,
+    "goldScore": 40000,
+    "name": "Winter 2025 - 15",
+    "silverScore": 45000
+  },
+  "1cdd32ae-9c10-4844-8183-3ca868912356": {
+    "authorScore": 19243,
+    "bronzeScore": 29000,
+    "goldScore": 21000,
+    "name": "2 - Cactus Canyon (ft rhino)",
+    "silverScore": 24000
+  },
+  "1cf76023-71c7-4d44-a25c-f7d443f7d687": {
+    "authorScore": 50318,
+    "bronzeScore": 76000,
+    "goldScore": 54000,
+    "name": "Winter 2024 - 16",
+    "silverScore": 61000
+  },
+  "1d4fb324-5974-477c-b714-216089564b89": {
+    "authorScore": 38520,
+    "bronzeScore": 58000,
+    "goldScore": 41000,
+    "name": "Summer 2021 - 10",
+    "silverScore": 47000
+  },
+  "1d5541f0-d139-494c-9cf8-9799dadf83b1": {
+    "authorScore": 19455,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "Fall 2022 - 02",
+    "silverScore": 24000
+  },
+  "1d57ddfa-378d-4c77-969e-555e6d6fe4a9": {
+    "authorScore": 18518,
+    "bronzeScore": 28000,
+    "goldScore": 20000,
+    "name": "4 - velocit\u00e0",
+    "silverScore": 23000
+  },
+  "1e0baa7e-7de1-4e83-af67-2c0e92c442d4": {
+    "authorScore": 42824,
+    "bronzeScore": 65000,
+    "goldScore": 46000,
+    "name": "Summer 2023 - 24",
+    "silverScore": 52000
+  },
+  "1e5c7dbc-bdb1-44e5-a951-7ab5df3a6154": {
+    "authorScore": 17632,
+    "bronzeScore": 27000,
+    "goldScore": 19000,
+    "name": "First",
+    "silverScore": 22000
+  },
+  "1e70fc80-c7b8-44dd-9cb0-a1d0c762c913": {
+    "authorScore": 40465,
+    "bronzeScore": 61000,
+    "goldScore": 43000,
+    "name": "Summer 2024 - 13",
+    "silverScore": 49000
+  },
+  "1e8484b5-b0bf-4659-9452-12210fb5d9aa": {
+    "authorScore": 19678,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "CS - Jut by PajChamp",
+    "silverScore": 24000
+  },
+  "1ecb804b-caaf-4394-8a2e-2f5a23aeaf56": {
+    "authorScore": 25288,
+    "bronzeScore": 38000,
+    "goldScore": 27000,
+    "name": "Winter 2021 - 01",
+    "silverScore": 31000
+  },
+  "1ed1d2c0-6da7-46b2-9777-f6ca3e5a1b2c": {
+    "authorScore": 32144,
+    "bronzeScore": 49000,
+    "goldScore": 35000,
+    "name": "Spring 2024 - 03",
+    "silverScore": 39000
+  },
+  "1f2f1afd-b4fd-4e0d-8b1e-e56db651a4e5": {
+    "authorScore": 14961,
+    "bronzeScore": 15710,
+    "goldScore": 15210,
+    "name": "Under 15 - 24",
+    "silverScore": 15460
+  },
+  "1f47c84a-c8ff-49cd-b392-6d062150d538": {
+    "authorScore": 18481,
+    "bronzeScore": 28000,
+    "goldScore": 20000,
+    "name": "1 - Experiment 1188",
+    "silverScore": 23000
+  },
+  "1f5e2782-07ca-4d5c-92cc-53f6112fd7f4": {
+    "authorScore": 43988,
+    "bronzeScore": 66000,
+    "goldScore": 47000,
+    "name": "Spring 2024 - 14",
+    "silverScore": 53000
+  },
+  "1fcaa93c-65dc-4235-8bf9-c3e5185107f8": {
+    "authorScore": 60561,
+    "bronzeScore": 91000,
+    "goldScore": 65000,
+    "name": "FASTER DOWNHILL",
+    "silverScore": 73000
+  },
+  "201eed34-18cb-4a46-ad61-e038e98270d3": {
+    "authorScore": 37437,
+    "bronzeScore": 57000,
+    "goldScore": 40000,
+    "name": "Fall 2023 - 15",
+    "silverScore": 45000
+  },
+  "20b9b642-e396-4ea3-a996-105c3c5d98ee": {
+    "authorScore": 29411,
+    "bronzeScore": 45000,
+    "goldScore": 32000,
+    "name": "Spring 2024 - 06",
+    "silverScore": 36000
+  },
+  "20fbc899-920e-471c-a07e-d2bfabcaff06": {
+    "authorScore": 15061,
+    "bronzeScore": 23000,
+    "goldScore": 16000,
+    "name": "Summer 2020 - 02",
+    "silverScore": 19000
+  },
+  "2123a833-1a50-4900-9f9d-c1c5881bfa30": {
+    "authorScore": 23428,
+    "bronzeScore": 36000,
+    "goldScore": 25000,
+    "name": "Summer 2023 - 03",
+    "silverScore": 29000
+  },
+  "2145151a-ead1-4658-a916-873187259364": {
+    "authorScore": 13020,
+    "bronzeScore": 19820,
+    "goldScore": 13790,
+    "name": "B04-Acrobatic",
+    "silverScore": 15880
+  },
+  "21dd6561-d58c-495b-80ca-af68bc21fd06": {
+    "authorScore": 23000,
+    "bronzeScore": 35000,
+    "goldScore": 25000,
+    "name": "Fall 2025 - 04",
+    "silverScore": 28000
+  },
+  "21f72b78-904a-4c10-b761-1d5958e0d871": {
+    "authorScore": 47701,
+    "bronzeScore": 72000,
+    "goldScore": 51000,
+    "name": "Fall 2023 - 18",
+    "silverScore": 58000
+  },
+  "223574e1-6eb4-491d-a8e2-85542a4de31e": {
+    "authorScore": 20000,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "3 - Kitchen Chaos",
+    "silverScore": 25000
+  },
+  "226cef77-8f1d-42c9-a7c3-42ff897326d6": {
+    "authorScore": 19873,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "1 - Pratum",
+    "silverScore": 24000
+  },
+  "22b2eaa7-0806-4705-a3dd-53ef662662fc": {
+    "authorScore": 13900,
+    "bronzeScore": 20200,
+    "goldScore": 14590,
+    "name": "C03-Acrobatic",
+    "silverScore": 16820
   },
   "22cb73e3-e95c-46a5-81e9-d8011624735a": {
     "authorScore": 46637,
@@ -69,11 +958,207 @@
     "name": "Summer 2020 - 21",
     "silverScore": 56000
   },
+  "22d521e3-06e8-44bb-b758-e58b7266ff73": {
+    "authorScore": 22543,
+    "bronzeScore": 34000,
+    "goldScore": 24000,
+    "name": "Sub-20 Sunken Castle",
+    "silverScore": 28000
+  },
+  "2329ee0f-19c9-4279-a370-957c80be9cad": {
+    "authorScore": 35556,
+    "bronzeScore": 54000,
+    "goldScore": 38000,
+    "name": "Spring 2023 - 09",
+    "silverScore": 43000
+  },
+  "233d2044-c403-47d8-90f4-734a61f9ab48": {
+    "authorScore": 46564,
+    "bronzeScore": 70000,
+    "goldScore": 50000,
+    "name": "Winter 2024 - 17",
+    "silverScore": 56000
+  },
+  "235559ba-eac0-43b8-9bdf-d92e497b3faa": {
+    "authorScore": 14757,
+    "bronzeScore": 15500,
+    "goldScore": 15000,
+    "name": "Under 15 - 12",
+    "silverScore": 15250
+  },
+  "2396d95e-bafe-4efc-9884-c0d07725d0a0": {
+    "authorScore": 17782,
+    "bronzeScore": 27000,
+    "goldScore": 19000,
+    "name": "1 - \u00b0Aezuria\u00b0",
+    "silverScore": 22000
+  },
+  "23a49e05-77c9-4d2c-b6e3-182980d2408a": {
+    "authorScore": 42593,
+    "bronzeScore": 64000,
+    "goldScore": 46000,
+    "name": "Spring 2022 - 13",
+    "silverScore": 52000
+  },
+  "23a774bd-2651-46c8-9a19-f84fadedf364": {
+    "authorScore": 45500,
+    "bronzeScore": 67230,
+    "goldScore": 47500,
+    "name": "B12-Race",
+    "silverScore": 55170
+  },
+  "23a8d15f-1e8f-4ccb-9660-8702dbb56cef": {
+    "authorScore": 50224,
+    "bronzeScore": 76000,
+    "goldScore": 54000,
+    "name": "Spring 2024 - 17",
+    "silverScore": 61000
+  },
+  "24648120-a599-4b48-9ee9-55a900dabd68": {
+    "authorScore": 28000,
+    "bronzeScore": 43000,
+    "goldScore": 30000,
+    "name": "Summer 2025 - 06",
+    "silverScore": 34000
+  },
+  "24c94673-4c18-4def-b771-9ba8725bae65": {
+    "authorScore": 12275,
+    "bronzeScore": 19000,
+    "goldScore": 14000,
+    "name": "THREE LANE",
+    "silverScore": 15000
+  },
+  "2500798a-21c3-4997-a747-5b1e96a34729": {
+    "authorScore": 32910,
+    "bronzeScore": 50000,
+    "goldScore": 35000,
+    "name": "Winter 2026 - 07",
+    "silverScore": 40000
+  },
+  "257bba1a-6bad-4641-adc0-5b4fbf8f5bdd": {
+    "authorScore": 38987,
+    "bronzeScore": 59000,
+    "goldScore": 42000,
+    "name": "Winter 2023 - 20",
+    "silverScore": 47000
+  },
+  "25b39d58-67bf-4024-8b3b-618234423bab": {
+    "authorScore": 21500,
+    "bronzeScore": 33000,
+    "goldScore": 23000,
+    "name": "Summer 2025 - 01",
+    "silverScore": 26000
+  },
   "25d27bb9-a648-4161-bc1c-e371b28a8f93": {
     "authorScore": 31573,
     "bronzeScore": 48000,
     "goldScore": 34000,
     "name": "Summer 2023 - 13",
+    "silverScore": 38000
+  },
+  "25dcef59-c678-4c3f-ae8d-f00b53d6de1a": {
+    "authorScore": 349021,
+    "bronzeScore": 524000,
+    "goldScore": 370000,
+    "name": "Escape the Forest",
+    "silverScore": 419000
+  },
+  "2624fc71-edef-424c-8be6-b9ab715c8539": {
+    "authorScore": 19589,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "5 - Frozen cave",
+    "silverScore": 24000
+  },
+  "270f30a9-3bb7-4ada-a656-ed338dfa8777": {
+    "authorScore": 19712,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "4-WitchForest",
+    "silverScore": 24000
+  },
+  "274b72ec-879c-470d-b633-e33c60b006ef": {
+    "authorScore": 62212,
+    "bronzeScore": 94000,
+    "goldScore": 66000,
+    "name": "Fall 2022 - 21",
+    "silverScore": 75000
+  },
+  "27836564-4937-46a5-b006-4e0434edfc15": {
+    "authorScore": 63365,
+    "bronzeScore": 96000,
+    "goldScore": 68000,
+    "name": "Shallow Dip \u2014 Floor 0 Practice (3 CPs)",
+    "silverScore": 77000
+  },
+  "27a7a997-a812-49be-8e42-2e5414f9b529": {
+    "authorScore": 21500,
+    "bronzeScore": 33000,
+    "goldScore": 23000,
+    "name": "Summer 2025 - 02",
+    "silverScore": 26000
+  },
+  "2802b0f4-02a5-440b-b988-3d370d2539e2": {
+    "authorScore": 19993,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "BonkInTheSky",
+    "silverScore": 24000
+  },
+  "28338207-805e-4d74-bc86-a889a88c682a": {
+    "authorScore": 41575,
+    "bronzeScore": 63000,
+    "goldScore": 45000,
+    "name": "Summer 2020 - 10",
+    "silverScore": 50000
+  },
+  "285eb9e5-9c9e-464a-b0cb-390b47847471": {
+    "authorScore": 21509,
+    "bronzeScore": 33000,
+    "goldScore": 23000,
+    "name": "5 - YELLAUGH",
+    "silverScore": 26000
+  },
+  "287e7458-a79c-4dba-93f7-0118350a7743": {
+    "authorScore": 15500,
+    "bronzeScore": 23000,
+    "goldScore": 17000,
+    "name": "Fekl's Route finding - Road 01",
+    "silverScore": 19000
+  },
+  "287f5ef1-ee33-415e-89c2-b3ae813baeac": {
+    "authorScore": 14868,
+    "bronzeScore": 15610,
+    "goldScore": 15110,
+    "name": "Under 15 - 15",
+    "silverScore": 15360
+  },
+  "28ee72f3-ff6e-45d7-89c3-781e99f5141b": {
+    "authorScore": 33258,
+    "bronzeScore": 50000,
+    "goldScore": 37000,
+    "name": "Summer 2020 - 05",
+    "silverScore": 40000
+  },
+  "2959147e-7a5f-4283-bdc3-c7adb448ac7c": {
+    "authorScore": 50340,
+    "bronzeScore": 74900,
+    "goldScore": 53920,
+    "name": "C15-Speed",
+    "silverScore": 60370
+  },
+  "2972ce26-e862-467b-92df-f01a910a5f8f": {
+    "authorScore": 32539,
+    "bronzeScore": 49000,
+    "goldScore": 35000,
+    "name": "BOnk46",
+    "silverScore": 40000
+  },
+  "29b5dc2c-4d6f-4d74-8ca3-5b6255ce2b7f": {
+    "authorScore": 31524,
+    "bronzeScore": 48000,
+    "goldScore": 34000,
+    "name": "Summer 2024 - 06",
     "silverScore": 38000
   },
   "29f84e57-71bb-4cea-880d-787b7c3601d7": {
@@ -83,12 +1168,131 @@
     "name": "Summer 2025 - 16",
     "silverScore": 62000
   },
+  "2a2edce7-a8d5-4c63-9dba-8cca612ec88c": {
+    "authorScore": 19905,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "2 - Under the Dust",
+    "silverScore": 24000
+  },
+  "2a30de21-9fbf-4666-bb08-e92dd8494398": {
+    "authorScore": 17472,
+    "bronzeScore": 27000,
+    "goldScore": 19000,
+    "name": "3 - Try-all (ft' classjan)",
+    "silverScore": 21000
+  },
+  "2a4a5c83-913f-4b03-bdca-00f19f547df5": {
+    "authorScore": 49356,
+    "bronzeScore": 75000,
+    "goldScore": 53000,
+    "name": "Jeskai",
+    "silverScore": 60000
+  },
+  "2a72791f-f68f-440d-8d16-d0e2f8366fbc": {
+    "authorScore": 39852,
+    "bronzeScore": 60000,
+    "goldScore": 43000,
+    "name": "Fall 2022 - 11",
+    "silverScore": 48000
+  },
+  "2a76ffac-5c3d-4b9f-9196-4f7793141e84": {
+    "authorScore": 21298,
+    "bronzeScore": 32000,
+    "goldScore": 23000,
+    "name": "Keis ShortHunt #1",
+    "silverScore": 26000
+  },
+  "2acb7a8e-d823-4c60-83ea-d7a5253b40cf": {
+    "authorScore": 49412,
+    "bronzeScore": 75000,
+    "goldScore": 55000,
+    "name": "Fall 2025 - 24",
+    "silverScore": 60000
+  },
+  "2ad56ac9-5dfc-4bec-a1c9-9d6af540170c": {
+    "authorScore": 40692041,
+    "bronzeScore": 162768164,
+    "goldScore": 81384082,
+    "name": "[RPG]  M I S S I O N -to- M A R S",
+    "silverScore": 122076123
+  },
+  "2aed77c9-128b-4253-b40b-e14512c87a05": {
+    "authorScore": 37345,
+    "bronzeScore": 57000,
+    "goldScore": 40000,
+    "name": "Nyco, your camera is getting away!",
+    "silverScore": 45000
+  },
   "2af5afe7-7257-4b2f-a0fa-03834e381a4a": {
     "authorScore": 41902,
     "bronzeScore": 63000,
     "goldScore": 45000,
     "name": "Winter 2025 - 11",
     "silverScore": 51000
+  },
+  "2bcc3559-e09a-4019-8b83-2c38aaebb213": {
+    "authorScore": 10495,
+    "bronzeScore": 16000,
+    "goldScore": 12000,
+    "name": "Lily Hopping",
+    "silverScore": 13000
+  },
+  "2bde73e5-3e97-4bba-9498-69abfad703d4": {
+    "authorScore": 24724,
+    "bronzeScore": 38000,
+    "goldScore": 27000,
+    "name": "Carswitch puzzle",
+    "silverScore": 30000
+  },
+  "2bf6d287-4ccc-488a-8bcc-a427c148600d": {
+    "authorScore": 61782,
+    "bronzeScore": 93000,
+    "goldScore": 66000,
+    "name": "Summer 2022 - 22",
+    "silverScore": 75000
+  },
+  "2c79302a-7a29-476c-aecb-ba38f77df22c": {
+    "authorScore": 50942,
+    "bronzeScore": 77000,
+    "goldScore": 54000,
+    "name": "52'0302\u00b0 N 8'5325\u00b0 E ft' huebsch_af",
+    "silverScore": 62000
+  },
+  "2ce82c83-633e-4f95-ba12-c1cbfb292eee": {
+    "authorScore": 42650,
+    "bronzeScore": 64000,
+    "goldScore": 46000,
+    "name": "Spring 2025 - 14",
+    "silverScore": 52000
+  },
+  "2cf0ce4d-82f8-48f7-b92a-4dc8e179dda7": {
+    "authorScore": 35435,
+    "bronzeScore": 54000,
+    "goldScore": 38000,
+    "name": "Winter 2024 - 07",
+    "silverScore": 43000
+  },
+  "2d01d0d9-ff95-4f72-9518-afb8923571f0": {
+    "authorScore": 5394,
+    "bronzeScore": 9000,
+    "goldScore": 6000,
+    "name": "Minigolf - 08",
+    "silverScore": 7000
+  },
+  "2d212d2e-4d9f-4c12-b227-9395479c3993": {
+    "authorScore": 17041,
+    "bronzeScore": 26000,
+    "goldScore": 19000,
+    "name": "4  -  Dirty Skis",
+    "silverScore": 21000
+  },
+  "2d31479c-2a26-4600-b226-f1313acbda0a": {
+    "authorScore": 19918,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "4 - NASCAR Fury",
+    "silverScore": 24000
   },
   "2d316793-5506-4dc3-9620-989f7e81cb5e": {
     "authorScore": 16677,
@@ -97,12 +1301,138 @@
     "name": "Training - 21",
     "silverScore": 21000
   },
+  "2d5eda64-857e-4685-a6b3-9f6bcba01bc0": {
+    "authorScore": 24500,
+    "bronzeScore": 37000,
+    "goldScore": 26000,
+    "name": "Fall 2025 - 06",
+    "silverScore": 30000
+  },
+  "2d87d82c-0bc7-4e76-bd29-69bf2b10ebaf": {
+    "authorScore": 24448,
+    "bronzeScore": 37000,
+    "goldScore": 26000,
+    "name": "Fall 2021 - 01",
+    "silverScore": 30000
+  },
+  "2d8dac70-af87-46a8-b34a-fea5ec550244": {
+    "authorScore": 42117,
+    "bronzeScore": 64000,
+    "goldScore": 46000,
+    "name": "Summer 2020 - 20",
+    "silverScore": 51000
+  },
+  "2dacb4bd-e7b4-4f92-83c2-15d007b6ad39": {
+    "authorScore": 5438,
+    "bronzeScore": 9000,
+    "goldScore": 6000,
+    "name": "Minigolf - 03",
+    "silverScore": 7000
+  },
+  "2de7bc55-ef15-424b-8c17-8e2cd753a503": {
+    "authorScore": 46800,
+    "bronzeScore": 71000,
+    "goldScore": 50000,
+    "name": "Crystal Dawn ft' Voltus_NL",
+    "silverScore": 57000
+  },
+  "2df8b209-40d3-4cb9-94ca-5cf6b520fade": {
+    "authorScore": 35258,
+    "bronzeScore": 53000,
+    "goldScore": 38000,
+    "name": "Fall 2021 - 14",
+    "silverScore": 43000
+  },
+  "2e2a5334-4f2d-4e78-9047-9f01c98837ba": {
+    "authorScore": 34611,
+    "bronzeScore": 52000,
+    "goldScore": 37000,
+    "name": "Winter 2024 - 11",
+    "silverScore": 42000
+  },
+  "2e3b4977-bc3f-4bd4-afbc-28b50f38cb87": {
+    "authorScore": 16213,
+    "bronzeScore": 25000,
+    "goldScore": 18000,
+    "name": "2 - Honeycomb",
+    "silverScore": 20000
+  },
+  "2e49324b-c83c-45ef-8a2c-7172f3653427": {
+    "authorScore": 29122,
+    "bronzeScore": 44000,
+    "goldScore": 31000,
+    "name": "Winter 2024 - 06",
+    "silverScore": 35000
+  },
+  "2f7e047d-9ea5-4e03-8f8e-b3ad487bdf84": {
+    "authorScore": 16805,
+    "bronzeScore": 26000,
+    "goldScore": 18000,
+    "name": "Summer 2022 - 01",
+    "silverScore": 21000
+  },
+  "2fc3199f-b8d0-421c-8577-4e03bb1e4988": {
+    "authorScore": 24540,
+    "bronzeScore": 38030,
+    "goldScore": 25870,
+    "name": "A01-Race",
+    "silverScore": 29190
+  },
+  "30494bc4-1d2d-4f6f-ae09-9c410c1058dd": {
+    "authorScore": 17971,
+    "bronzeScore": 27000,
+    "goldScore": 20000,
+    "name": "1 - Channel in the Sands",
+    "silverScore": 22000
+  },
+  "30ab8300-867f-46e7-8f1e-131d836d0ab2": {
+    "authorScore": 14965,
+    "bronzeScore": 15710,
+    "goldScore": 15210,
+    "name": "Under 15 - 13",
+    "silverScore": 15460
+  },
+  "30ce3448-135b-4bd5-af55-1a091359c9c6": {
+    "authorScore": 56888,
+    "bronzeScore": 86000,
+    "goldScore": 61000,
+    "name": "Fall 2024 - 23",
+    "silverScore": 69000
+  },
+  "3117d3c5-a01e-486d-96a6-ba0fa4e70095": {
+    "authorScore": 63814,
+    "bronzeScore": 96000,
+    "goldScore": 68000,
+    "name": "Spring 2025 - 22",
+    "silverScore": 77000
+  },
   "313bc422-8ba4-4882-9095-ee88e0a9fb2a": {
     "authorScore": 62851,
     "bronzeScore": 95000,
     "goldScore": 67000,
     "name": "Fall 2022 - 24",
     "silverScore": 76000
+  },
+  "31476ba8-dfe8-46de-9435-a955046ac46f": {
+    "authorScore": 65720,
+    "bronzeScore": 99000,
+    "goldScore": 70000,
+    "name": "Summer 2025 - 23",
+    "silverScore": 79000
+  },
+  "31f9ad07-92e6-41e9-af95-7287586e53dc": {
+    "authorScore": 61650,
+    "bronzeScore": 93000,
+    "goldScore": 66000,
+    "name": "FASTER ALPINE",
+    "silverScore": 74000
+  },
+  "325d05a8-2716-4c92-95d0-fa77dd5134cb": {
+    "authorScore": 18421,
+    "bronzeScore": 28000,
+    "goldScore": 20000,
+    "name": "3 - Under Construction",
+    "silverScore": 23000
   },
   "325f854a-d958-41c8-b431-0c21b784a212": {
     "authorScore": 6419,
@@ -111,12 +1441,194 @@
     "name": "Minigolf - 07",
     "silverScore": 8000
   },
+  "327a17ce-f236-4bd9-9a43-23a85b585ce7": {
+    "authorScore": 14304,
+    "bronzeScore": 22000,
+    "goldScore": 16000,
+    "name": "Boost",
+    "silverScore": 18000
+  },
+  "327c47e9-db3f-4688-b995-3bf06f6e6ca3": {
+    "authorScore": 49887,
+    "bronzeScore": 75000,
+    "goldScore": 54000,
+    "name": "Summer 2020 - 09",
+    "silverScore": 60000
+  },
+  "32bc6d38-ce2b-4c39-a1ce-e69be8865149": {
+    "authorScore": 25560,
+    "bronzeScore": 39000,
+    "goldScore": 28000,
+    "name": "Fall 2023 - 02",
+    "silverScore": 31000
+  },
+  "33663b59-63ca-4713-bbec-0b40d9120908": {
+    "authorScore": 50620,
+    "bronzeScore": 80000,
+    "goldScore": 55000,
+    "name": "Summer 2020 - 15",
+    "silverScore": 62000
+  },
+  "342c1f53-db78-40d1-9e48-e5778ac57af7": {
+    "authorScore": 35814,
+    "bronzeScore": 54000,
+    "goldScore": 38000,
+    "name": "Spring 2024 - 19",
+    "silverScore": 43000
+  },
+  "348ab28e-1054-4cae-a0fa-cc871154ecbc": {
+    "authorScore": 23371,
+    "bronzeScore": 36000,
+    "goldScore": 25000,
+    "name": "Golden Mirage",
+    "silverScore": 29000
+  },
+  "34a44cae-b24d-4083-91c0-23b5585920e5": {
+    "authorScore": 19741,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "1 - Industrialized with Inleader",
+    "silverScore": 24000
+  },
+  "34f4bde1-18c3-442a-9991-059a4172e415": {
+    "authorScore": 18883,
+    "bronzeScore": 29000,
+    "goldScore": 21000,
+    "name": "5 - Uphill from here",
+    "silverScore": 23000
+  },
+  "35301e62-9d08-404e-a58e-adf9a4256fa4": {
+    "authorScore": 35810,
+    "bronzeScore": 54000,
+    "goldScore": 38000,
+    "name": "Fall 2023 - 10",
+    "silverScore": 43000
+  },
+  "35543b8f-8f13-43f2-93b3-580c6e7e4793": {
+    "authorScore": 29723,
+    "bronzeScore": 45000,
+    "goldScore": 32000,
+    "name": "Winter 2026 - 11",
+    "silverScore": 36000
+  },
+  "35ee8ba6-22ec-4e08-b12d-e6af1bee9c71": {
+    "authorScore": 28685,
+    "bronzeScore": 44000,
+    "goldScore": 31000,
+    "name": "Winter 2022 - 08",
+    "silverScore": 35000
+  },
+  "35fd44f5-8811-4f2c-9159-4b1eb774d28e": {
+    "authorScore": 33355,
+    "bronzeScore": 51000,
+    "goldScore": 36000,
+    "name": "Fall 2021 - 08",
+    "silverScore": 41000
+  },
+  "361d59b9-ab5f-463a-b2a2-85c15341e5c1": {
+    "authorScore": 59815,
+    "bronzeScore": 90000,
+    "goldScore": 64000,
+    "name": "Spring 2025 - 21",
+    "silverScore": 72000
+  },
+  "372dd336-0ee7-4168-9730-f127926da201": {
+    "authorScore": 26725,
+    "bronzeScore": 45000,
+    "goldScore": 30000,
+    "name": "Training - 20",
+    "silverScore": 35000
+  },
   "3787cd90-d59b-4ea1-a058-e3fa3eafb240": {
     "authorScore": 46622,
     "bronzeScore": 70000,
     "goldScore": 52000,
     "name": "Summer 2025 - 20",
     "silverScore": 56000
+  },
+  "37b13f81-6150-42c1-8208-a42d27465274": {
+    "authorScore": 15138,
+    "bronzeScore": 23000,
+    "goldScore": 17000,
+    "name": "1 - Your First Map",
+    "silverScore": 19000
+  },
+  "37b47d24-ce70-48d2-9cca-06c080e7dddf": {
+    "authorScore": 20583,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "Spring 2023 - 04",
+    "silverScore": 25000
+  },
+  "3896dc4f-919a-4da7-8c49-bcc70a341cf1": {
+    "authorScore": 21755,
+    "bronzeScore": 33000,
+    "goldScore": 24000,
+    "name": "Spring 2021 - 01",
+    "silverScore": 27000
+  },
+  "39a46e22-b6fd-43bd-9683-1061bd88d2d5": {
+    "authorScore": 58697,
+    "bronzeScore": 89000,
+    "goldScore": 63000,
+    "name": "Summer 2022 - 21",
+    "silverScore": 71000
+  },
+  "39d36001-b24b-4b6d-906e-4984e22f5bfe": {
+    "authorScore": 28580,
+    "bronzeScore": 41940,
+    "goldScore": 30260,
+    "name": "A06-Obstacle",
+    "silverScore": 33770
+  },
+  "39f4b5b8-a77b-4210-8f95-d18fce37472f": {
+    "authorScore": 36250,
+    "bronzeScore": 55000,
+    "goldScore": 39000,
+    "name": "Fall 2025 - 09",
+    "silverScore": 44000
+  },
+  "3a0ea8f6-96e3-44fd-b2be-2c89939502f9": {
+    "authorScore": 18777,
+    "bronzeScore": 29000,
+    "goldScore": 20000,
+    "name": "3 - Canyon Run",
+    "silverScore": 23000
+  },
+  "3a1f55bf-34f2-49aa-821f-3b101670191d": {
+    "authorScore": 59741,
+    "bronzeScore": 90000,
+    "goldScore": 64000,
+    "name": "Spring 2022 - 23",
+    "silverScore": 72000
+  },
+  "3a59493f-be45-4e6e-beaa-d9afe48db2f2": {
+    "authorScore": 34671,
+    "bronzeScore": 53000,
+    "goldScore": 37000,
+    "name": "Winter 2024 - 13",
+    "silverScore": 42000
+  },
+  "3ae52cf0-6197-4833-99a2-ad021c44dd6b": {
+    "authorScore": 45396,
+    "bronzeScore": 69000,
+    "goldScore": 49000,
+    "name": "Summer 2023 - 15",
+    "silverScore": 55000
+  },
+  "3b04c289-cb7e-47e5-b967-a217c57379d1": {
+    "authorScore": 7498,
+    "bronzeScore": 12000,
+    "goldScore": 8000,
+    "name": "Minigolf - 09",
+    "silverScore": 9000
+  },
+  "3b5e9a5d-fec4-4970-8873-92641bca476c": {
+    "authorScore": 23142,
+    "bronzeScore": 35000,
+    "goldScore": 25000,
+    "name": "Pool",
+    "silverScore": 28000
   },
   "3b93842e-e883-49c7-9629-9bcb3b8e2ebc": {
     "authorScore": 18887,
@@ -125,12 +1637,152 @@
     "name": "4 - Small Hops",
     "silverScore": 23000
   },
+  "3c2bcc4b-10ef-4c7c-b6b6-36b484f9818b": {
+    "authorScore": 37289,
+    "bronzeScore": 56000,
+    "goldScore": 40000,
+    "name": "Winter 2026 - 13",
+    "silverScore": 45000
+  },
+  "3ce67c4b-573b-4de9-a6a6-b69f9a00636a": {
+    "authorScore": 18843,
+    "bronzeScore": 29000,
+    "goldScore": 20000,
+    "name": "Fall 2020 - 02",
+    "silverScore": 23000
+  },
+  "3d93ee0c-3ec0-49ae-b7ac-caebea38ffda": {
+    "authorScore": 48782,
+    "bronzeScore": 74000,
+    "goldScore": 52000,
+    "name": "Winter 2025 - 19",
+    "silverScore": 59000
+  },
+  "3dd9a203-0237-4aa6-8482-cf867af838ad": {
+    "authorScore": 38269,
+    "bronzeScore": 58000,
+    "goldScore": 41000,
+    "name": "Fall 2021 - 12",
+    "silverScore": 46000
+  },
+  "3e222aea-64fd-4f37-9558-c1a082f43216": {
+    "authorScore": 35220,
+    "bronzeScore": 53000,
+    "goldScore": 38000,
+    "name": "Spring 2026 - 13",
+    "silverScore": 43000
+  },
+  "3e4d455e-96d7-4ba6-a905-dc40d9749278": {
+    "authorScore": 27500,
+    "bronzeScore": 42000,
+    "goldScore": 30000,
+    "name": "Summer 2025 - 10",
+    "silverScore": 34000
+  },
   "3e9e985d-6765-45ba-b142-94c5b1bd3083": {
     "authorScore": 19448,
     "bronzeScore": 30000,
     "goldScore": 21000,
     "name": "1 - Grassy Arena",
     "silverScore": 24000
+  },
+  "3ea4157d-9ca1-4b2e-bb5e-84060286d4dd": {
+    "authorScore": 24783,
+    "bronzeScore": 38000,
+    "goldScore": 27000,
+    "name": "Winter 2025 - 01",
+    "silverScore": 30000
+  },
+  "3efc1c96-3614-4631-bbf3-ea359f7b44fe": {
+    "authorScore": 21322,
+    "bronzeScore": 32000,
+    "goldScore": 23000,
+    "name": "Pick your POISON! SHORTS",
+    "silverScore": 26000
+  },
+  "3f243712-dc7d-473d-be6e-3a31f87d4214": {
+    "authorScore": 46503,
+    "bronzeScore": 70000,
+    "goldScore": 50000,
+    "name": "Summer 2024 - 19",
+    "silverScore": 56000
+  },
+  "3f791e59-8b15-4f8e-afeb-de87d8689bfd": {
+    "authorScore": 31334,
+    "bronzeScore": 48000,
+    "goldScore": 34000,
+    "name": "TURBO DROP",
+    "silverScore": 38000
+  },
+  "3fc60b58-1b8e-46ed-a362-9116619b108d": {
+    "authorScore": 66708,
+    "bronzeScore": 101000,
+    "goldScore": 71000,
+    "name": "Brazil 2026",
+    "silverScore": 81000
+  },
+  "403df416-37d5-4253-a8bc-3dbaac0b3c7f": {
+    "authorScore": 121060,
+    "bronzeScore": 176820,
+    "goldScore": 128640,
+    "name": "E04-Obstacle",
+    "silverScore": 132530
+  },
+  "404eba22-7408-4a7f-be99-a0240ccc2d50": {
+    "authorScore": 44013,
+    "bronzeScore": 67000,
+    "goldScore": 47000,
+    "name": "Fall 2020 - 05",
+    "silverScore": 53000
+  },
+  "405ab088-a583-4620-8958-d360c660a58d": {
+    "authorScore": 63148,
+    "bronzeScore": 95000,
+    "goldScore": 67000,
+    "name": "Winter 2023 - 17",
+    "silverScore": 76000
+  },
+  "40805f0e-7913-4eea-95da-a6ce4efe532a": {
+    "authorScore": 33333,
+    "bronzeScore": 50000,
+    "goldScore": 36000,
+    "name": "Fall 2024 - 10",
+    "silverScore": 40000
+  },
+  "40f3438e-2fed-4bda-ab66-09b6bec56747": {
+    "authorScore": 27447,
+    "bronzeScore": 42000,
+    "goldScore": 30000,
+    "name": "CS - Water World by Crayhax",
+    "silverScore": 33000
+  },
+  "416cd11c-a867-41e5-b6c0-582bf0ecb255": {
+    "authorScore": 36041,
+    "bronzeScore": 55000,
+    "goldScore": 39000,
+    "name": "Fall 2020 - 10",
+    "silverScore": 44000
+  },
+  "41780229-a2ba-4f9f-abee-af88e212e5a3": {
+    "authorScore": 22401,
+    "bronzeScore": 34000,
+    "goldScore": 24000,
+    "name": "CS - [Flaming Wheels] - 15 by Riyoter",
+    "silverScore": 27000
+  },
+  "4189ff38-6ab4-40b8-abe8-21d2ff60a1eb": {
+    "authorScore": 393614,
+    "bronzeScore": 591000,
+    "goldScore": 418000,
+    "name": "[RPG] Greener Grass",
+    "silverScore": 473000
+  },
+  "4209915c-37a9-4e6e-984c-dc69cc421a8d": {
+    "authorScore": 21651,
+    "bronzeScore": 33000,
+    "goldScore": 23000,
+    "name": "Fall 2022 - 03",
+    "silverScore": 26000
   },
   "427dc6f8-8c87-4064-b292-42722fe1726e": {
     "authorScore": 11715,
@@ -139,12 +1791,327 @@
     "name": "500 Speed SSD",
     "silverScore": 15000
   },
+  "42bb54a6-0fb5-4964-8f4d-967e1ccf270c": {
+    "authorScore": 14823,
+    "bronzeScore": 15570,
+    "goldScore": 15070,
+    "name": "Under 15 - 01",
+    "silverScore": 15320
+  },
+  "42c91c55-6ed0-4e8f-88c4-15a33459c870": {
+    "authorScore": 22215,
+    "bronzeScore": 34000,
+    "goldScore": 24000,
+    "name": "Winter 2022 - 01",
+    "silverScore": 27000
+  },
+  "4320e924-8748-45de-a15e-e160d61f7941": {
+    "authorScore": 30251,
+    "bronzeScore": 46000,
+    "goldScore": 33000,
+    "name": "Summer 2023 - 18",
+    "silverScore": 37000
+  },
+  "4350a2ce-4118-4d61-b536-14e1a2de1e15": {
+    "authorScore": 26840,
+    "bronzeScore": 41000,
+    "goldScore": 29000,
+    "name": "Summer 2021 - 04",
+    "silverScore": 33000
+  },
   "43ad34e9-0b56-42f5-8978-81315dc99469": {
     "authorScore": 30000,
     "bronzeScore": 45000,
     "goldScore": 35000,
     "name": "CS - Cube by Yumi",
     "silverScore": 40000
+  },
+  "43c4f1d4-52c3-4611-830f-cc1412ed8696": {
+    "authorScore": 31507,
+    "bronzeScore": 48000,
+    "goldScore": 34000,
+    "name": "Summer 2024 - 04",
+    "silverScore": 38000
+  },
+  "43c6cc77-8200-42fb-a0a5-f2069814a162": {
+    "authorScore": 19886,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "1 - SUMMER DRIVE",
+    "silverScore": 24000
+  },
+  "440e2962-7f9b-46fc-80e6-856ff1991a4f": {
+    "authorScore": 36393,
+    "bronzeScore": 55000,
+    "goldScore": 39000,
+    "name": "Bonk Cup Arcade",
+    "silverScore": 44000
+  },
+  "44171f53-ac74-4fba-80d9-1eca68ee161d": {
+    "authorScore": 120000,
+    "bronzeScore": 210000,
+    "goldScore": 150000,
+    "name": "Summer 2025 - 15",
+    "silverScore": 170000
+  },
+  "445a75e3-401d-4c1f-a9fe-e326e651cb94": {
+    "authorScore": 33500,
+    "bronzeScore": 51000,
+    "goldScore": 36000,
+    "name": "Summer 2025 - 07",
+    "silverScore": 41000
+  },
+  "45355061-09fb-45de-80f5-b34fe00b104e": {
+    "authorScore": 18885,
+    "bronzeScore": 29000,
+    "goldScore": 21000,
+    "name": "4 - Gorge of the Sands",
+    "silverScore": 23000
+  },
+  "45c458c7-d55f-47aa-97ba-a4863fc87252": {
+    "authorScore": 23153,
+    "bronzeScore": 35000,
+    "goldScore": 26000,
+    "name": "Training - 23",
+    "silverScore": 30000
+  },
+  "45d25b00-b0c5-48ac-97cf-4b9351b99cbd": {
+    "authorScore": 55452,
+    "bronzeScore": 84000,
+    "goldScore": 59000,
+    "name": "Summer 2024 - 21",
+    "silverScore": 67000
+  },
+  "45f80b54-205f-47a2-bff3-352d39738e03": {
+    "authorScore": 36658,
+    "bronzeScore": 55000,
+    "goldScore": 39000,
+    "name": "Winter 2022 - 05",
+    "silverScore": 44000
+  },
+  "4601ed64-3ab1-4e1b-8332-d2a20e5cdb76": {
+    "authorScore": 13484,
+    "bronzeScore": 15000,
+    "goldScore": 13750,
+    "name": "Training - 15",
+    "silverScore": 14000
+  },
+  "4610e4bc-1281-4328-9062-58d790edbdfa": {
+    "authorScore": 20376,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "Bibidiba Bidiboop",
+    "silverScore": 25000
+  },
+  "46641f73-1535-4ab0-bf4d-aa0af9fce9d1": {
+    "authorScore": 9354,
+    "bronzeScore": 15000,
+    "goldScore": 10000,
+    "name": "Minigolf - 04",
+    "silverScore": 12000
+  },
+  "466bca71-41bd-47cf-b443-072f54e1ed56": {
+    "authorScore": 22000,
+    "bronzeScore": 34000,
+    "goldScore": 24000,
+    "name": "CS - What? by Starieefy",
+    "silverScore": 27000
+  },
+  "46f46e2a-2db3-4ac6-a49e-38255297d73e": {
+    "authorScore": 28344,
+    "bronzeScore": 43000,
+    "goldScore": 31000,
+    "name": "Spring 2024 - 04",
+    "silverScore": 35000
+  },
+  "46f8ae5a-a3d8-4d02-a626-f58ddd16d211": {
+    "authorScore": 30401,
+    "bronzeScore": 46000,
+    "goldScore": 33000,
+    "name": "Fall 2020 - 06",
+    "silverScore": 37000
+  },
+  "4703aedf-464a-446b-918e-71dac1ae523d": {
+    "authorScore": 35081,
+    "bronzeScore": 53000,
+    "goldScore": 38000,
+    "name": "Spring 2026 - 14",
+    "silverScore": 43000
+  },
+  "4774688b-3150-4579-97fe-0c5bd6a739e2": {
+    "authorScore": 21824,
+    "bronzeScore": 33000,
+    "goldScore": 24000,
+    "name": "3 - Skatepark",
+    "silverScore": 27000
+  },
+  "47ccbae8-d1c4-40cc-9535-dbbddd397479": {
+    "authorScore": 29180,
+    "bronzeScore": 44000,
+    "goldScore": 31000,
+    "name": "Winter 2023 - 10",
+    "silverScore": 36000
+  },
+  "48074107-5fc9-4a24-821a-4107e7681771": {
+    "authorScore": 26280,
+    "bronzeScore": 38690,
+    "goldScore": 27570,
+    "name": "B05-Race",
+    "silverScore": 31410
+  },
+  "481977ee-a775-4515-b964-7a6e26a676a9": {
+    "authorScore": 29279,
+    "bronzeScore": 44000,
+    "goldScore": 32000,
+    "name": "Spring 2024 - 08",
+    "silverScore": 36000
+  },
+  "491eebc2-7e98-4906-b11d-b1822e7a5163": {
+    "authorScore": 70854,
+    "bronzeScore": 107000,
+    "goldScore": 76000,
+    "name": "Spring 2022 - 24",
+    "silverScore": 86000
+  },
+  "494b1cda-50b3-4f40-b173-1d3f97afa029": {
+    "authorScore": 19131,
+    "bronzeScore": 29000,
+    "goldScore": 21000,
+    "name": "3 - Marshland Maze",
+    "silverScore": 23000
+  },
+  "4968de8c-314e-4488-a18e-66f215e02a8c": {
+    "authorScore": 61501,
+    "bronzeScore": 93000,
+    "goldScore": 66000,
+    "name": "Summer 2025 - 21",
+    "silverScore": 74000
+  },
+  "49a21591-1655-422a-8e6b-fcf4e53e2538": {
+    "authorScore": 193566,
+    "bronzeScore": 291000,
+    "goldScore": 206000,
+    "name": "Late to the match",
+    "silverScore": 233000
+  },
+  "49bd3f7f-fa15-4c0d-9c89-4024c53f91ba": {
+    "authorScore": 19367,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "Spring 2021 - 02",
+    "silverScore": 24000
+  },
+  "49d5c3f2-a6de-4410-9c94-e4bfa14c9f20": {
+    "authorScore": 18505,
+    "bronzeScore": 30000,
+    "goldScore": 23000,
+    "name": "5 - Stunt Hunt",
+    "silverScore": 26000
+  },
+  "49d9242a-fdde-4533-af5b-9ed9d52dc466": {
+    "authorScore": 19745,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "2 - magic mountains",
+    "silverScore": 24000
+  },
+  "49f1bb49-69a4-4a51-91f7-5a3463582cd5": {
+    "authorScore": 46126,
+    "bronzeScore": 70000,
+    "goldScore": 49000,
+    "name": "Fall 2023 - 21",
+    "silverScore": 56000
+  },
+  "4a768d33-f42a-4040-9df7-1cd339cd8119": {
+    "authorScore": 21857,
+    "bronzeScore": 33000,
+    "goldScore": 24000,
+    "name": "Glizzy Glide",
+    "silverScore": 27000
+  },
+  "4a786e9b-f27c-4f81-9dbc-07da0398ea91": {
+    "authorScore": 25451,
+    "bronzeScore": 39000,
+    "goldScore": 27000,
+    "name": "Winter 2023 - 07",
+    "silverScore": 31000
+  },
+  "4aa3344c-9876-417b-a0e4-96c10e5f4e2b": {
+    "authorScore": 49644,
+    "bronzeScore": 75000,
+    "goldScore": 53000,
+    "name": "Summer 2022 - 16",
+    "silverScore": 60000
+  },
+  "4aeab467-a164-44ba-bc90-0592188c3d68": {
+    "authorScore": 46053,
+    "bronzeScore": 70000,
+    "goldScore": 49000,
+    "name": "Winter 2026 - 10",
+    "silverScore": 56000
+  },
+  "4b5b9aaa-5b9d-4cfb-ac36-bdf8b740cada": {
+    "authorScore": 10172,
+    "bronzeScore": 16000,
+    "goldScore": 11000,
+    "name": "Powerslide Trilltorial #1",
+    "silverScore": 13000
+  },
+  "4ba8473e-2ba1-42e6-8452-424e30d92d77": {
+    "authorScore": 21777,
+    "bronzeScore": 33000,
+    "goldScore": 24000,
+    "name": "Spring 2021 - 03",
+    "silverScore": 27000
+  },
+  "4bbcfb0f-ddf6-4ba4-94b2-3c7a8f77e7c3": {
+    "authorScore": 18699,
+    "bronzeScore": 29000,
+    "goldScore": 20000,
+    "name": "CS - Refugia by Tenax",
+    "silverScore": 23000
+  },
+  "4bc8b910-30b3-4da7-8ec9-aae1c163002c": {
+    "authorScore": 70530,
+    "bronzeScore": 106810,
+    "goldScore": 74280,
+    "name": "D06-Obstacle",
+    "silverScore": 84770
+  },
+  "4cecd4af-03a0-44f9-a7a8-18f5b02cd308": {
+    "authorScore": 23508,
+    "bronzeScore": 36000,
+    "goldScore": 25000,
+    "name": "Fall 2020 - 03",
+    "silverScore": 29000
+  },
+  "4d4b2220-96e4-4779-94e8-7fe4a658a1fc": {
+    "authorScore": 203057,
+    "bronzeScore": 305000,
+    "goldScore": 216000,
+    "name": "[RPG]Castle Rush",
+    "silverScore": 244000
+  },
+  "4d510164-19c6-4109-a810-64ba8fc99348": {
+    "authorScore": 18134,
+    "bronzeScore": 35000,
+    "goldScore": 21500,
+    "name": "Training - 19",
+    "silverScore": 25000
+  },
+  "4da25fc3-b4cd-49a7-acf6-526a557273fc": {
+    "authorScore": 8305,
+    "bronzeScore": 13000,
+    "goldScore": 8750,
+    "name": "Training - 03",
+    "silverScore": 10000
+  },
+  "4da933fb-f217-42bf-b766-8141f525b7dc": {
+    "authorScore": 8306,
+    "bronzeScore": 10000,
+    "goldScore": 8400,
+    "name": "Training - 07",
+    "silverScore": 8800
   },
   "4dae3aaf-1304-4410-80ca-0e3bfc689435": {
     "authorScore": 16701,
@@ -153,6 +2120,34 @@
     "name": "CS - Frolic by PajChamp",
     "silverScore": 21000
   },
+  "4e0d9195-78ac-4e1a-a6c5-dd287b191b14": {
+    "authorScore": 11428,
+    "bronzeScore": 18000,
+    "goldScore": 13000,
+    "name": "Basic Slide Trilltorial #3",
+    "silverScore": 14000
+  },
+  "4e25f2c5-f776-4447-9e89-a78e014b6e85": {
+    "authorScore": 36858,
+    "bronzeScore": 56000,
+    "goldScore": 40000,
+    "name": "Fall 2024 - 20",
+    "silverScore": 45000
+  },
+  "4eb28728-2dfd-4d45-b889-a437c56861e3": {
+    "authorScore": 57684,
+    "bronzeScore": 87000,
+    "goldScore": 62000,
+    "name": "Fall 2022 - 18",
+    "silverScore": 70000
+  },
+  "4f603460-dd58-49e5-b845-035acad3654b": {
+    "authorScore": 13990,
+    "bronzeScore": 19690,
+    "goldScore": 14870,
+    "name": "B09-Acrobatic",
+    "silverScore": 17150
+  },
   "503a8e45-de46-461b-a401-feb0e4a68dfb": {
     "authorScore": 16150,
     "bronzeScore": 25000,
@@ -160,11 +2155,109 @@
     "name": "5 - Van Go Go Go",
     "silverScore": 20000
   },
+  "504e9af8-2347-409f-8830-c16017f8118b": {
+    "authorScore": 50506,
+    "bronzeScore": 76000,
+    "goldScore": 58000,
+    "name": "Summer 2025 - 18",
+    "silverScore": 65000
+  },
+  "50c88ec0-90f2-45ba-9bd0-c398575d7412": {
+    "authorScore": 42254,
+    "bronzeScore": 64000,
+    "goldScore": 45000,
+    "name": "Mossy Paths",
+    "silverScore": 51000
+  },
+  "50e08898-bd31-45e9-91dc-76cefa82503d": {
+    "authorScore": 26392,
+    "bronzeScore": 40000,
+    "goldScore": 28000,
+    "name": "Spring 2025 - 04",
+    "silverScore": 32000
+  },
   "515d9e49-2474-4a08-9643-c1a429d0190d": {
     "authorScore": 28610,
     "bronzeScore": 43000,
     "goldScore": 31000,
     "name": "Spring 2023 - 01",
+    "silverScore": 35000
+  },
+  "51b8be42-6124-4562-b280-84b8f46f5d45": {
+    "authorScore": 31284,
+    "bronzeScore": 47000,
+    "goldScore": 34000,
+    "name": "Spring 2023 - 11",
+    "silverScore": 38000
+  },
+  "51f79a7a-be8d-4562-92e2-665505ae687e": {
+    "authorScore": 56252,
+    "bronzeScore": 85000,
+    "goldScore": 60000,
+    "name": "Spring 2025 - 15",
+    "silverScore": 68000
+  },
+  "52335c20-f061-4bc1-b1b3-a78b20aa4a83": {
+    "authorScore": 48336,
+    "bronzeScore": 73000,
+    "goldScore": 52000,
+    "name": "Winter 2021 - 09",
+    "silverScore": 59000
+  },
+  "523e5ff7-08c5-49a7-a939-d3aac1a74e61": {
+    "authorScore": 29232,
+    "bronzeScore": 44000,
+    "goldScore": 31000,
+    "name": "Winter 2024 - 04",
+    "silverScore": 36000
+  },
+  "52ce59a0-ea2d-4a92-8f0a-8c4f59423eee": {
+    "authorScore": 22170,
+    "bronzeScore": 33270,
+    "goldScore": 23520,
+    "name": "A14-Race",
+    "silverScore": 26520
+  },
+  "52e68aec-0b4a-478a-b780-296a194000f8": {
+    "authorScore": 26314,
+    "bronzeScore": 40000,
+    "goldScore": 28000,
+    "name": "Summer 2022 - 07",
+    "silverScore": 32000
+  },
+  "5340e6b6-3c05-469a-8a4b-fc58cd94bd88": {
+    "authorScore": 37574,
+    "bronzeScore": 57000,
+    "goldScore": 40000,
+    "name": "Fall 2020 - 09",
+    "silverScore": 46000
+  },
+  "546ee9f5-46c3-4ffb-a34b-5faa7640da11": {
+    "authorScore": 19537,
+    "bronzeScore": 27000,
+    "goldScore": 20000,
+    "name": "5 - GRIPSLIDE feat skidtz",
+    "silverScore": 23000
+  },
+  "5490a4a2-3866-46a1-845a-46b5684509b9": {
+    "authorScore": 42783,
+    "bronzeScore": 65000,
+    "goldScore": 49000,
+    "name": "Summer 2025 - 17",
+    "silverScore": 52000
+  },
+  "54ef7896-c93e-4718-8fc3-ea396b113868": {
+    "authorScore": 15164,
+    "bronzeScore": 23000,
+    "goldScore": 17000,
+    "name": "Forest Relic",
+    "silverScore": 19000
+  },
+  "54f52217-2e15-42a5-b6b8-cb88f35a3230": {
+    "authorScore": 29000,
+    "bronzeScore": 44000,
+    "goldScore": 31000,
+    "name": "Summer 2024 - 10",
     "silverScore": 35000
   },
   "5546883f-b1ed-49e0-9397-55fc46f1d00c": {
@@ -174,12 +2267,110 @@
     "name": "SnowIsBack",
     "silverScore": 33000
   },
+  "5563f80f-9870-4805-a013-fd430ccfdbc6": {
+    "authorScore": 292984,
+    "bronzeScore": 440000,
+    "goldScore": 311000,
+    "name": "The Last Tower",
+    "silverScore": 352000
+  },
+  "55a28f82-e1e0-4ae1-8774-fa802f3caa1d": {
+    "authorScore": 40336,
+    "bronzeScore": 61000,
+    "goldScore": 43000,
+    "name": "Fall 2025 - 12",
+    "silverScore": 49000
+  },
+  "55e6a61a-ebd4-46e9-9ccc-94739ae6cf05": {
+    "authorScore": 39436,
+    "bronzeScore": 60000,
+    "goldScore": 42000,
+    "name": "Winter 2023 - 18",
+    "silverScore": 48000
+  },
+  "55f76d5b-b77e-4862-9164-6eb6da439237": {
+    "authorScore": 46808,
+    "bronzeScore": 71000,
+    "goldScore": 50000,
+    "name": "cold nights",
+    "silverScore": 57000
+  },
+  "561106d6-ba38-4918-8f2d-da654049880f": {
+    "authorScore": 19869,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "3 - The Calming Catastrophes",
+    "silverScore": 24000
+  },
   "56405da5-e03a-4eea-a654-c3f8d5f4fe8b": {
     "authorScore": 243890,
     "bronzeScore": 366000,
     "goldScore": 259000,
     "name": "[RPG] La Berra",
     "silverScore": 293000
+  },
+  "5682841f-bf85-47a2-b391-342ffa13e117": {
+    "authorScore": 45115,
+    "bronzeScore": 68000,
+    "goldScore": 48000,
+    "name": "Winter 2026 - 16",
+    "silverScore": 55000
+  },
+  "5697c692-6e38-41cd-8185-667dd5c4c413": {
+    "authorScore": 42680,
+    "bronzeScore": 65000,
+    "goldScore": 46000,
+    "name": "Fall 2023 - 17",
+    "silverScore": 52000
+  },
+  "56a18653-d944-4f05-aeb1-31a5572887bb": {
+    "authorScore": 25019,
+    "bronzeScore": 38000,
+    "goldScore": 27000,
+    "name": "Spring 2025 - 01",
+    "silverScore": 31000
+  },
+  "56bfdd1d-8dcd-4f9e-bec1-06a3fbfecbcc": {
+    "authorScore": 13655,
+    "bronzeScore": 21000,
+    "goldScore": 15000,
+    "name": "CS - BackYYards by tluss",
+    "silverScore": 17000
+  },
+  "57098da1-5083-4ef4-80a7-cfb1bfc5aedc": {
+    "authorScore": 28714,
+    "bronzeScore": 44000,
+    "goldScore": 31000,
+    "name": "Winter 2025 - 05",
+    "silverScore": 35000
+  },
+  "57150946-22dc-4cb7-9366-6d8ab6c11c2e": {
+    "authorScore": 18448,
+    "bronzeScore": 28000,
+    "goldScore": 20000,
+    "name": "NebulousNorth",
+    "silverScore": 23000
+  },
+  "57210e32-4c4b-4b8e-8f31-87ce94f7d950": {
+    "authorScore": 20941,
+    "bronzeScore": 32000,
+    "goldScore": 23000,
+    "name": "Broken",
+    "silverScore": 26000
+  },
+  "573e12c7-7b9e-4002-898d-8f8c6b121c88": {
+    "authorScore": 29100,
+    "bronzeScore": 44000,
+    "goldScore": 31000,
+    "name": "Summer 2024 - 02",
+    "silverScore": 35000
+  },
+  "57907102-2888-4017-a4fa-c47030328809": {
+    "authorScore": 51800,
+    "bronzeScore": 78000,
+    "goldScore": 55000,
+    "name": "Summer 2023 - 21",
+    "silverScore": 63000
   },
   "5815a0a1-220d-4f77-b13a-ec3696338468": {
     "authorScore": 19494,
@@ -188,12 +2379,47 @@
     "name": "5 - Eden's Slide ft' Heravan",
     "silverScore": 24000
   },
+  "586d6c70-4cd3-4ce8-a6ab-4f73c36e7577": {
+    "authorScore": 34680,
+    "bronzeScore": 52520,
+    "goldScore": 36530,
+    "name": "C12-Obstacle",
+    "silverScore": 41550
+  },
+  "588c61e0-b404-418f-90c3-e594baf8e6bd": {
+    "authorScore": 44873,
+    "bronzeScore": 68000,
+    "goldScore": 52000,
+    "name": "Fall 2025 - 16",
+    "silverScore": 54000
+  },
+  "58cb5d6a-b3d7-4995-a4a4-464861e50855": {
+    "authorScore": 13698,
+    "bronzeScore": 21000,
+    "goldScore": 15000,
+    "name": "linarite* 'ft yrolg",
+    "silverScore": 17000
+  },
+  "5908ce76-7538-4156-8663-cb5ca09f9585": {
+    "authorScore": 44421,
+    "bronzeScore": 67000,
+    "goldScore": 48000,
+    "name": "Pyramidori ft Oclavukixus",
+    "silverScore": 54000
+  },
   "59130908-aba2-41c8-81d5-ce1a9fccd101": {
     "authorScore": 33502,
     "bronzeScore": 51000,
     "goldScore": 36000,
     "name": "Winter 2022 - 12",
     "silverScore": 41000
+  },
+  "59521431-a21f-43de-bc5f-b2e3ec452413": {
+    "authorScore": 18496,
+    "bronzeScore": 28000,
+    "goldScore": 20000,
+    "name": "3 - Mistery snow paths",
+    "silverScore": 23000
   },
   "596729f9-3e3e-4964-bb99-53a7e6becd3c": {
     "authorScore": 38218,
@@ -209,6 +2435,363 @@
     "name": "Summer 2021 - 03",
     "silverScore": 27000
   },
+  "59deeb6e-b7ed-46bc-b9e0-e0433f5662ea": {
+    "authorScore": 64325,
+    "bronzeScore": 97000,
+    "goldScore": 69000,
+    "name": "Spring 2022 - 20",
+    "silverScore": 78000
+  },
+  "5a70b58f-6ae3-4a61-924e-74146a3c942c": {
+    "authorScore": 25310,
+    "bronzeScore": 38000,
+    "goldScore": 27000,
+    "name": "Winter 2023 - 12",
+    "silverScore": 31000
+  },
+  "5a9fcfbc-6b8f-495f-8042-494a9156d5c4": {
+    "authorScore": 20750,
+    "bronzeScore": 32000,
+    "goldScore": 22000,
+    "name": "1 - Sunny Paradise",
+    "silverScore": 25000
+  },
+  "5ad1a58e-0a13-4d34-832b-a50c9377f02c": {
+    "authorScore": 63886,
+    "bronzeScore": 96000,
+    "goldScore": 68000,
+    "name": "Summer 2024 - 24",
+    "silverScore": 77000
+  },
+  "5adf2543-7841-4f28-88d3-f1f2c6cc63fc": {
+    "authorScore": 27744,
+    "bronzeScore": 42000,
+    "goldScore": 30000,
+    "name": "Summer 2024 - 07",
+    "silverScore": 34000
+  },
+  "5afd2afb-eac3-498d-ab75-fd32cfe8c7a1": {
+    "authorScore": 153260,
+    "bronzeScore": 229690,
+    "goldScore": 163040,
+    "name": "D01-Endurance",
+    "silverScore": 183880
+  },
+  "5b2ab7fd-1bc3-43f5-ac54-9aac93b28fd9": {
+    "authorScore": 50120,
+    "bronzeScore": 75410,
+    "goldScore": 53350,
+    "name": "C09-Race",
+    "silverScore": 60170
+  },
+  "5b2b3bdb-ed78-4122-b0d5-e44fe1bdab2f": {
+    "authorScore": 22043,
+    "bronzeScore": 34000,
+    "goldScore": 24000,
+    "name": "Winter 2021 - 03",
+    "silverScore": 27000
+  },
+  "5b4e2e0b-6b11-4d16-a90b-242ec39c6c05": {
+    "authorScore": 54082,
+    "bronzeScore": 82000,
+    "goldScore": 58000,
+    "name": "Fall 2024 - 17",
+    "silverScore": 65000
+  },
+  "5b4f38d6-6e6c-4201-9ab1-6392efe3da42": {
+    "authorScore": 112233,
+    "bronzeScore": 169000,
+    "goldScore": 119000,
+    "name": "Shallow Dip \u2014 Floor 4 Practice (6 CPs)",
+    "silverScore": 135000
+  },
+  "5b5d94f9-811c-4157-bac3-ac5675e8458e": {
+    "authorScore": 19788,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "1 - Nature's Bend",
+    "silverScore": 24000
+  },
+  "5b75b51f-04fa-48da-8574-aeeee7a92052": {
+    "authorScore": 20000,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "1 - Seigfried",
+    "silverScore": 25000
+  },
+  "5b9fec5f-02cf-4219-9902-4a08730fa0e0": {
+    "authorScore": 37820,
+    "bronzeScore": 57260,
+    "goldScore": 40260,
+    "name": "B10-Speed",
+    "silverScore": 46090
+  },
+  "5bfdcffc-f63b-4500-9cc6-c0312c635529": {
+    "authorScore": 19645,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "3 - sunk in the sand",
+    "silverScore": 24000
+  },
+  "5c5201fa-d493-473b-8dbf-884fe204e925": {
+    "authorScore": 17221,
+    "bronzeScore": 26000,
+    "goldScore": 19000,
+    "name": "4 - Locust",
+    "silverScore": 21000
+  },
+  "5c75f5c9-e31c-4f82-b1a6-f7dda6b11512": {
+    "authorScore": 12260,
+    "bronzeScore": 18000,
+    "goldScore": 13500,
+    "name": "Training - 13",
+    "silverScore": 15000
+  },
+  "5c859224-8661-46ef-ae22-e51dce2729b5": {
+    "authorScore": 30856,
+    "bronzeScore": 47000,
+    "goldScore": 33000,
+    "name": "Spring 2023 - 16",
+    "silverScore": 38000
+  },
+  "5d031733-47bf-49c2-b4f8-af23c01c9061": {
+    "authorScore": 24819,
+    "bronzeScore": 38000,
+    "goldScore": 27000,
+    "name": "Fall 2023 - 04",
+    "silverScore": 30000
+  },
+  "5d4c5312-133c-4472-a5d6-74ddab019284": {
+    "authorScore": 52440,
+    "bronzeScore": 79100,
+    "goldScore": 55970,
+    "name": "D08-Speed",
+    "silverScore": 63100
+  },
+  "5d72a335-97e2-4659-9f39-1b89046ed868": {
+    "authorScore": 16910,
+    "bronzeScore": 25430,
+    "goldScore": 18050,
+    "name": "A05-Race",
+    "silverScore": 20260
+  },
+  "5d732993-70e3-4b80-b36b-37999dde025b": {
+    "authorScore": 50598,
+    "bronzeScore": 76000,
+    "goldScore": 54000,
+    "name": "Summer 2023 - 10",
+    "silverScore": 61000
+  },
+  "5e4f2a7a-b2c5-4410-a4ae-0911b88c869a": {
+    "authorScore": 30255,
+    "bronzeScore": 46000,
+    "goldScore": 33000,
+    "name": "Spring 2025 - 05",
+    "silverScore": 37000
+  },
+  "5e9ccb9b-58b6-4b1a-9a24-b9d8d248fd87": {
+    "authorScore": 14844,
+    "bronzeScore": 15590,
+    "goldScore": 15090,
+    "name": "Under 15 - 19",
+    "silverScore": 15340
+  },
+  "5e9fbfe1-ff5a-4aa7-9f65-205790b57858": {
+    "authorScore": 679301,
+    "bronzeScore": 1019000,
+    "goldScore": 721000,
+    "name": "[RPG] SEQUENCE",
+    "silverScore": 816000
+  },
+  "5ea8376d-1683-4153-9cff-d9499bcd719c": {
+    "authorScore": 15139,
+    "bronzeScore": 23000,
+    "goldScore": 17000,
+    "name": "Not Cut Proof",
+    "silverScore": 19000
+  },
+  "5eac4750-8b8e-4487-87d1-bda63ef81d00": {
+    "authorScore": 27777,
+    "bronzeScore": 42000,
+    "goldScore": 30000,
+    "name": "Fall 2024 - 02",
+    "silverScore": 34000
+  },
+  "5ed1e909-b845-4ea8-936e-b9e8b4b28b27": {
+    "authorScore": 41012,
+    "bronzeScore": 62000,
+    "goldScore": 44000,
+    "name": "Watch out for that tree!",
+    "silverScore": 50000
+  },
+  "5f0e4a29-8bb2-4c6b-ab2f-e18b036667b1": {
+    "authorScore": 34230,
+    "bronzeScore": 52000,
+    "goldScore": 37000,
+    "name": "Winter 2026 - 09",
+    "silverScore": 42000
+  },
+  "5f3bab2d-e9e1-4d0d-96a1-841449101c43": {
+    "authorScore": 27460,
+    "bronzeScore": 41160,
+    "goldScore": 29430,
+    "name": "B06-Obstacle",
+    "silverScore": 33520
+  },
+  "5f93c4f5-fe91-4e16-b215-7e85e2cb63c5": {
+    "authorScore": 28000,
+    "bronzeScore": 43000,
+    "goldScore": 30000,
+    "name": "Mwuah",
+    "silverScore": 34000
+  },
+  "6092ee87-0f12-44d2-ac20-8654472a5901": {
+    "authorScore": 44172,
+    "bronzeScore": 67000,
+    "goldScore": 47000,
+    "name": "Winter 2025 - 13",
+    "silverScore": 54000
+  },
+  "60efc68e-a224-4b0c-a4eb-ca4684bfb1b6": {
+    "authorScore": 19719,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "2 - Penalty Mix",
+    "silverScore": 24000
+  },
+  "61533dc9-d705-4a22-914c-2a4cfbdb431e": {
+    "authorScore": 20626,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "Amusement slides",
+    "silverScore": 25000
+  },
+  "6167827b-8fd6-40cb-96f7-d2ce5ef51d4c": {
+    "authorScore": 31496,
+    "bronzeScore": 48000,
+    "goldScore": 34000,
+    "name": "Winter 2025 - 08",
+    "silverScore": 38000
+  },
+  "61699c26-b02a-42f5-93a2-c608580182d5": {
+    "authorScore": 19715,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "3 - old town paths",
+    "silverScore": 24000
+  },
+  "61be1bd7-7b63-4ad2-a687-f8e2ded989f9": {
+    "authorScore": 19653,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "3 - OPEN ENDED JOURNEY",
+    "silverScore": 24000
+  },
+  "624068be-4798-4a0d-a773-6b92d4e23936": {
+    "authorScore": 54903,
+    "bronzeScore": 83000,
+    "goldScore": 59000,
+    "name": "Winter 2022 - 18",
+    "silverScore": 66000
+  },
+  "628187b7-f3d1-4ca9-a619-38989daaa2d0": {
+    "authorScore": 38698,
+    "bronzeScore": 59000,
+    "goldScore": 42000,
+    "name": "Fall 2023 - 13",
+    "silverScore": 47000
+  },
+  "62a9efbf-4159-4b70-b464-2649feecf379": {
+    "authorScore": 11958,
+    "bronzeScore": 14000,
+    "goldScore": 12100,
+    "name": "Training - 08",
+    "silverScore": 13000
+  },
+  "631918ab-f585-4c28-bb4f-b4256484af1d": {
+    "authorScore": 19965,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "4 - Expanding Metropolis",
+    "silverScore": 24000
+  },
+  "635a6132-d50c-4434-bf36-67e616089105": {
+    "authorScore": 36235,
+    "bronzeScore": 55000,
+    "goldScore": 39000,
+    "name": "desert line",
+    "silverScore": 44000
+  },
+  "635e4958-69b4-498a-8ba1-c3626a896a4c": {
+    "authorScore": 63582,
+    "bronzeScore": 96000,
+    "goldScore": 70000,
+    "name": "Fall 2025 - 23",
+    "silverScore": 77000
+  },
+  "643b7019-f12a-4323-88be-3e1166a89c4c": {
+    "authorScore": 53998,
+    "bronzeScore": 81000,
+    "goldScore": 58000,
+    "name": "Spring 2022 - 19",
+    "silverScore": 65000
+  },
+  "6483d052-f2af-4cad-b00a-9261f800490f": {
+    "authorScore": 18307,
+    "bronzeScore": 28000,
+    "goldScore": 20000,
+    "name": "Presence - 410",
+    "silverScore": 22000
+  },
+  "64cf9fce-4f49-41e8-b80b-6d2fe2151b8b": {
+    "authorScore": 33427,
+    "bronzeScore": 51000,
+    "goldScore": 36000,
+    "name": "Summer 2021 - 11",
+    "silverScore": 41000
+  },
+  "6568a645-5c21-4766-8d57-421163b66cfe": {
+    "authorScore": 62636,
+    "bronzeScore": 94000,
+    "goldScore": 67000,
+    "name": "Fall 2022 - 23",
+    "silverScore": 76000
+  },
+  "659d2967-9102-4d81-9d56-3734fa1c7c08": {
+    "authorScore": 36825,
+    "bronzeScore": 56000,
+    "goldScore": 40000,
+    "name": "Bonkophonie #1",
+    "silverScore": 45000
+  },
+  "65b8b547-926d-4615-9be2-31540adb7ace": {
+    "authorScore": 18505,
+    "bronzeScore": 28000,
+    "goldScore": 20000,
+    "name": "CS - Tiltbringer by nod32_tm",
+    "silverScore": 23000
+  },
+  "65ebcda7-1971-452e-8bcb-8d081036ebf6": {
+    "authorScore": 20000,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "2 - Amber Veil - ft' Inleader",
+    "silverScore": 25000
+  },
+  "66863157-2a26-49c8-843e-e6bc87d50a51": {
+    "authorScore": 20832,
+    "bronzeScore": 32000,
+    "goldScore": 23000,
+    "name": "3 - Three Selectif",
+    "silverScore": 25000
+  },
+  "66b37789-ecf9-4f02-b402-cdd508e7b086": {
+    "authorScore": 31010,
+    "bronzeScore": 47000,
+    "goldScore": 33000,
+    "name": "Winter 2024 - 10",
+    "silverScore": 38000
+  },
   "66be7390-9f2c-4929-b38d-44103fcd1943": {
     "authorScore": 21488,
     "bronzeScore": 33000,
@@ -216,12 +2799,187 @@
     "name": "Unfairly Basic 001",
     "silverScore": 26000
   },
+  "66c03ca3-b7e1-4a89-b31d-bdb329b45be2": {
+    "authorScore": 42721,
+    "bronzeScore": 65000,
+    "goldScore": 46000,
+    "name": "Summer 2024 - 23",
+    "silverScore": 52000
+  },
+  "67056ba6-9bad-484e-bea7-6b78085d513e": {
+    "authorScore": 21698,
+    "bronzeScore": 33000,
+    "goldScore": 23000,
+    "name": "Long Season",
+    "silverScore": 27000
+  },
+  "6765bc06-aedc-4aa4-8ced-9fe9adb74132": {
+    "authorScore": 27242,
+    "bronzeScore": 41000,
+    "goldScore": 29000,
+    "name": "Rally Supercross",
+    "silverScore": 33000
+  },
+  "69130a9e-674f-4491-b4f8-2dedf757c7e5": {
+    "authorScore": 25672,
+    "bronzeScore": 39000,
+    "goldScore": 28000,
+    "name": "Spring 2022 - 03",
+    "silverScore": 31000
+  },
+  "69279253-426d-4923-a17b-97071f7f6c8e": {
+    "authorScore": 26007,
+    "bronzeScore": 40000,
+    "goldScore": 28000,
+    "name": "Spring 2026 - 01",
+    "silverScore": 32000
+  },
+  "69897cc1-9743-401f-a7e3-71c658a6d156": {
+    "authorScore": 20000,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "1 - Snowy Kingdom",
+    "silverScore": 25000
+  },
+  "699e92bf-c556-4136-b6be-0600d27f6ba9": {
+    "authorScore": 44006,
+    "bronzeScore": 67000,
+    "goldScore": 47000,
+    "name": "Summer 2023 - 14",
+    "silverScore": 53000
+  },
+  "6a3bf410-eeb1-4feb-a424-40fdbfd83971": {
+    "authorScore": 41696,
+    "bronzeScore": 65000,
+    "goldScore": 46000,
+    "name": "Summer 2020 - 18",
+    "silverScore": 52000
+  },
+  "6a5487b9-902b-4d29-b7b8-92b8b5b7ea9e": {
+    "authorScore": 14848,
+    "bronzeScore": 15590,
+    "goldScore": 15090,
+    "name": "Under 15 - 22",
+    "silverScore": 15340
+  },
+  "6b20ec6c-f8f1-4b8b-b6e9-93089d6a2a09": {
+    "authorScore": 37172,
+    "bronzeScore": 56000,
+    "goldScore": 40000,
+    "name": "Spring 2024 - 11",
+    "silverScore": 45000
+  },
+  "6b31cdfe-3927-411a-87ae-264e5dfff1bb": {
+    "authorScore": 35046,
+    "bronzeScore": 53000,
+    "goldScore": 38000,
+    "name": "Fall 2020 - 14",
+    "silverScore": 43000
+  },
+  "6b3617eb-2635-46e2-92f7-2ee9a0311e96": {
+    "authorScore": 17159,
+    "bronzeScore": 26000,
+    "goldScore": 19000,
+    "name": "3 - Lagoon Splitway",
+    "silverScore": 21000
+  },
+  "6b47c948-c906-4a00-bcb0-49bebbfbf0f0": {
+    "authorScore": 21000,
+    "bronzeScore": 32000,
+    "goldScore": 23000,
+    "name": "Yellow Lanes",
+    "silverScore": 26000
+  },
+  "6ba96dc0-2b4b-4f85-9494-501ad12a71a9": {
+    "authorScore": 19988,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "4 - Hillside Suburb",
+    "silverScore": 24000
+  },
+  "6baf0019-f261-479f-8033-49f475a926fa": {
+    "authorScore": 33675,
+    "bronzeScore": 51000,
+    "goldScore": 36000,
+    "name": "Fall 2024 - 07",
+    "silverScore": 41000
+  },
+  "6bc05bad-112f-4991-8c13-f6e377e0c656": {
+    "authorScore": 61001,
+    "bronzeScore": 92000,
+    "goldScore": 65000,
+    "name": "Spring 2024 - 24",
+    "silverScore": 74000
+  },
   "6c19a351-96f8-41e5-8404-5384cd2281c9": {
     "authorScore": 144398,
     "bronzeScore": 217000,
     "goldScore": 154000,
     "name": "[RPG]  Nuclear Central",
     "silverScore": 174000
+  },
+  "6c3ea9f3-f10c-4700-ad3d-bb016b0fdbb2": {
+    "authorScore": 21649,
+    "bronzeScore": 33000,
+    "goldScore": 23000,
+    "name": "Climb",
+    "silverScore": 26000
+  },
+  "6c6c2e03-060d-41c8-84b2-879019367f8d": {
+    "authorScore": 68708,
+    "bronzeScore": 104000,
+    "goldScore": 76000,
+    "name": "China 2026",
+    "silverScore": 83000
+  },
+  "6c93a3bb-2a21-43c8-8f54-4b3f729ca2e2": {
+    "authorScore": 30784,
+    "bronzeScore": 47000,
+    "goldScore": 33000,
+    "name": "Winter 2022 - 07",
+    "silverScore": 37000
+  },
+  "6dde3a80-3c1f-4e25-bc29-390c313f93f7": {
+    "authorScore": 41111,
+    "bronzeScore": 62000,
+    "goldScore": 44000,
+    "name": "Summer 2023 - 17",
+    "silverScore": 50000
+  },
+  "6e08e2c0-ff25-44e4-8ac0-276de7cdcd4b": {
+    "authorScore": 40627,
+    "bronzeScore": 61000,
+    "goldScore": 44000,
+    "name": "Spring 2022 - 11",
+    "silverScore": 49000
+  },
+  "6e1523ee-b4ab-40a1-bc4c-879716d0082b": {
+    "authorScore": 26207,
+    "bronzeScore": 40000,
+    "goldScore": 28500,
+    "name": "Summer 2020 - 04",
+    "silverScore": 33000
+  },
+  "6e2f48ef-fe35-4365-a35f-4c6430e3b103": {
+    "authorScore": 34693,
+    "bronzeScore": 53000,
+    "goldScore": 37000,
+    "name": "Spring 2021 - 08",
+    "silverScore": 42000
+  },
+  "6e38954a-ae51-47d1-ada4-94fde254a390": {
+    "authorScore": 71430,
+    "bronzeScore": 110380,
+    "goldScore": 75090,
+    "name": "D05-Race",
+    "silverScore": 81490
+  },
+  "6f4e2392-3f50-4091-bbc2-4fa68ad6ef6a": {
+    "authorScore": 3987,
+    "bronzeScore": 6000,
+    "goldScore": 5000,
+    "name": "Minigolf - 01",
+    "silverScore": 5000
   },
   "6f8762a2-13bc-4821-9845-f901883d9f70": {
     "authorScore": 32456,
@@ -244,12 +3002,68 @@
     "name": "Summer 2021 - 01",
     "silverScore": 26000
   },
+  "6fef094e-0f37-467e-8a76-f20cf5ffbf01": {
+    "authorScore": 33958,
+    "bronzeScore": 51000,
+    "goldScore": 36000,
+    "name": "Summer 2022 - 11",
+    "silverScore": 41000
+  },
+  "6ff492c2-8005-4dec-a021-37179a5343d3": {
+    "authorScore": 26312,
+    "bronzeScore": 40000,
+    "goldScore": 28000,
+    "name": "Winter 2025 - 03",
+    "silverScore": 32000
+  },
+  "7026a60a-cc4c-4322-900a-b64d16160802": {
+    "authorScore": 17234,
+    "bronzeScore": 26000,
+    "goldScore": 19000,
+    "name": "Fall 2021 - 02",
+    "silverScore": 21000
+  },
+  "7029070f-c498-4086-bc69-5f13e106417a": {
+    "authorScore": 22008,
+    "bronzeScore": 34000,
+    "goldScore": 24000,
+    "name": "Summer 2022 - 04",
+    "silverScore": 27000
+  },
+  "706b8b08-f2e2-4bf6-b080-d81743ceb6f9": {
+    "authorScore": 59000,
+    "bronzeScore": 89000,
+    "goldScore": 63000,
+    "name": "FASTER OBSTACLE",
+    "silverScore": 71000
+  },
+  "70ac0247-8b0e-4292-bac4-0ca28a126c94": {
+    "authorScore": 20517,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "Hill",
+    "silverScore": 25000
+  },
   "70b7d881-7396-4b23-8c01-5d43d8a686c5": {
     "authorScore": 21004,
     "bronzeScore": 32000,
     "goldScore": 23000,
     "name": "Fall 2023 - 08",
     "silverScore": 26000
+  },
+  "70cffcd3-8544-4285-83d5-5ef1374799e8": {
+    "authorScore": 55888,
+    "bronzeScore": 84000,
+    "goldScore": 60000,
+    "name": "FASTER AEROBATIC",
+    "silverScore": 68000
+  },
+  "70e00988-8b0b-436b-b9d4-96851b6a4083": {
+    "authorScore": 27321,
+    "bronzeScore": 41000,
+    "goldScore": 29000,
+    "name": "Fall 2024 - 04",
+    "silverScore": 33000
   },
   "71006534-1350-49d4-bf8b-2b29121e573f": {
     "authorScore": 45560,
@@ -258,12 +3072,61 @@
     "name": "E01-Obstacle",
     "silverScore": 48740
   },
+  "717a9a26-1f41-40ae-ad66-b2f0016f34dc": {
+    "authorScore": 16209,
+    "bronzeScore": 25000,
+    "goldScore": 18000,
+    "name": "3 - Playground of colors",
+    "silverScore": 20000
+  },
   "71bfb59d-0fa2-431a-93ee-183ff42df783": {
     "authorScore": 20104,
     "bronzeScore": 31000,
     "goldScore": 22000,
     "name": "1 - Spinning on Ice Ft' Mosqido",
     "silverScore": 25000
+  },
+  "72926940-9df1-4eea-8fe6-5952a7cb4e37": {
+    "authorScore": 13092,
+    "bronzeScore": 20000,
+    "goldScore": 14000,
+    "name": "STUNT potatorice99",
+    "silverScore": 16000
+  },
+  "72e13cce-02d1-448a-943d-a857251b94f4": {
+    "authorScore": 40593,
+    "bronzeScore": 61000,
+    "goldScore": 44000,
+    "name": "Breezy Peaks",
+    "silverScore": 49000
+  },
+  "73525f1f-d0fa-4afa-811c-ab9bba05f315": {
+    "authorScore": 16826,
+    "bronzeScore": 26000,
+    "goldScore": 18000,
+    "name": "5 - Checkered a08",
+    "silverScore": 21000
+  },
+  "7378d9ad-4cd7-4642-8360-301def0d14a5": {
+    "authorScore": 32826,
+    "bronzeScore": 50000,
+    "goldScore": 35000,
+    "name": "Fall 2021 - 05",
+    "silverScore": 40000
+  },
+  "737f4b6c-77ad-4f8a-9ae8-1b6fa9b5c74e": {
+    "authorScore": 18000,
+    "bronzeScore": 21000,
+    "goldScore": 19000,
+    "name": "Tiny",
+    "silverScore": 20000
+  },
+  "73b6b1ce-c4e7-4897-bfe8-53580ecf474a": {
+    "authorScore": 23500,
+    "bronzeScore": 36000,
+    "goldScore": 25000,
+    "name": "Fall 2025 - 03",
+    "silverScore": 29000
   },
   "73c1654e-5682-4455-a653-ed835bbf8679": {
     "authorScore": 45868,
@@ -272,12 +3135,89 @@
     "name": "\u0421\u0430\u043a\u0443\u0440\u0430",
     "silverScore": 56000
   },
+  "73edcfb9-0f84-4fd8-9c52-272dae4e82e5": {
+    "authorScore": 20651,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "Summer 2020 - 03",
+    "silverScore": 25000
+  },
+  "740318c2-41e5-461c-9a8e-687e27831fbc": {
+    "authorScore": 51101,
+    "bronzeScore": 77000,
+    "goldScore": 55000,
+    "name": "Fall 2023 - 19",
+    "silverScore": 62000
+  },
+  "7430f350-b4f0-4531-a776-493b027dee09": {
+    "authorScore": 69154,
+    "bronzeScore": 104000,
+    "goldScore": 74000,
+    "name": "Shallow Dip \u2014 Floor 1 Practice (3 CPs)",
+    "silverScore": 83000
+  },
+  "744e09c3-d98a-461b-8233-d06f2385f861": {
+    "authorScore": 22209,
+    "bronzeScore": 34000,
+    "goldScore": 24000,
+    "name": "Waldszenen",
+    "silverScore": 27000
+  },
+  "749f0c3c-a25f-4f3a-918a-60cd780eff3e": {
+    "authorScore": 21794,
+    "bronzeScore": 33000,
+    "goldScore": 24000,
+    "name": "Summer 2020 - 01",
+    "silverScore": 27000
+  },
   "74f3e5fa-9c92-4b8a-9ae8-e31b86b3c3d2": {
     "authorScore": 28891,
     "bronzeScore": 44000,
     "goldScore": 31000,
     "name": "Fall 2022 - 09",
     "silverScore": 35000
+  },
+  "754aacf6-dc3a-4932-9f27-3980107227ca": {
+    "authorScore": 73011,
+    "bronzeScore": 110000,
+    "goldScore": 78000,
+    "name": "Fall 2023 - 16",
+    "silverScore": 88000
+  },
+  "76022f61-09ec-404c-a8bb-d4d583e5e0dd": {
+    "authorScore": 24500,
+    "bronzeScore": 37000,
+    "goldScore": 26000,
+    "name": "Fall 2025 - 01",
+    "silverScore": 30000
+  },
+  "76270648-63b1-4629-b1be-37c31425e16b": {
+    "authorScore": 35722,
+    "bronzeScore": 54000,
+    "goldScore": 38000,
+    "name": "Spring 2025 - 12",
+    "silverScore": 43000
+  },
+  "76416c30-70c5-49c1-98e1-aa0f4b4bc476": {
+    "authorScore": 34999,
+    "bronzeScore": 53000,
+    "goldScore": 38000,
+    "name": "Winter 2024 - 09",
+    "silverScore": 42000
+  },
+  "766f1a3f-ebd0-453a-a215-494ed5c6f90a": {
+    "authorScore": 19484,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "Training - 24",
+    "silverScore": 24000
+  },
+  "767dcb42-f1c0-42e1-bf7c-f97c0305e9d5": {
+    "authorScore": 29200,
+    "bronzeScore": 44000,
+    "goldScore": 31000,
+    "name": "Fall 2024 - 05",
+    "silverScore": 36000
   },
   "768fb752-c6e6-4f25-b0dd-2af7231b2b17": {
     "authorScore": 60370,
@@ -286,12 +3226,215 @@
     "name": "D07-Race",
     "silverScore": 72150
   },
+  "76a435b6-f034-4ef9-8d11-534b169844be": {
+    "authorScore": 33201,
+    "bronzeScore": 50000,
+    "goldScore": 36000,
+    "name": "Fall 2021 - 09",
+    "silverScore": 40000
+  },
+  "7784af8c-b7f7-4d43-91ba-1db9720a0414": {
+    "authorScore": 19728,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "4 - TOURNICHATEAU",
+    "silverScore": 24000
+  },
   "77f987dc-8448-409f-a969-ee89adca6ac8": {
     "authorScore": 44892,
     "bronzeScore": 68000,
     "goldScore": 48000,
     "name": "Summer 2022 - 19",
     "silverScore": 54000
+  },
+  "7812e379-1958-4ed5-996c-d39da84029ec": {
+    "authorScore": 67118,
+    "bronzeScore": 101000,
+    "goldScore": 74000,
+    "name": "Spring 2025 - 25",
+    "silverScore": 81000
+  },
+  "7815bee4-7c6f-4bb6-bde9-e447a64a8e51": {
+    "authorScore": 12217,
+    "bronzeScore": 19000,
+    "goldScore": 13000,
+    "name": "Training - 14",
+    "silverScore": 15000
+  },
+  "78306e75-41b4-4e51-a479-1817e4832cdf": {
+    "authorScore": 391644,
+    "bronzeScore": 900000,
+    "goldScore": 480000,
+    "name": "Alpha - Azure",
+    "silverScore": 750000
+  },
+  "79232ebf-b4eb-4c5a-bc37-95470be648d3": {
+    "authorScore": 28305,
+    "bronzeScore": 43000,
+    "goldScore": 31000,
+    "name": "Winter 2023 - 06",
+    "silverScore": 34000
+  },
+  "7997e20e-78b5-418a-a8f9-5c4c0785b208": {
+    "authorScore": 37528,
+    "bronzeScore": 57000,
+    "goldScore": 40000,
+    "name": "Fall 2021 - 10",
+    "silverScore": 46000
+  },
+  "79c204e7-764f-48a4-962b-332ed8d3c0ca": {
+    "authorScore": 31700,
+    "bronzeScore": 47400,
+    "goldScore": 33790,
+    "name": "A13-Race",
+    "silverScore": 38210
+  },
+  "7a95c22f-ec47-4422-b78a-f0bdb1b9cadd": {
+    "authorScore": 28908,
+    "bronzeScore": 44000,
+    "goldScore": 31000,
+    "name": "Winter 2025 - 09",
+    "silverScore": 35000
+  },
+  "7aaa9c5e-a61d-4413-bbfb-be4b67f5113f": {
+    "authorScore": 14814,
+    "bronzeScore": 15560,
+    "goldScore": 15060,
+    "name": "Under 15 - 10",
+    "silverScore": 15310
+  },
+  "7ae9b004-6ad2-4f67-b130-61bae4fd087b": {
+    "authorScore": 25980,
+    "bronzeScore": 39230,
+    "goldScore": 27760,
+    "name": "A09-Race",
+    "silverScore": 31160
+  },
+  "7b7e03d9-90b2-426c-80dd-9f7638e2bc8a": {
+    "authorScore": 25681,
+    "bronzeScore": 39000,
+    "goldScore": 28000,
+    "name": "Spring 2023 - 18",
+    "silverScore": 31000
+  },
+  "7b9373ad-b754-4c6d-9abf-7304517ba96e": {
+    "authorScore": 26411,
+    "bronzeScore": 40000,
+    "goldScore": 28000,
+    "name": "Summer 2023 - 02",
+    "silverScore": 32000
+  },
+  "7bd387fa-e5a1-4a8a-9f41-c54d2f52ba78": {
+    "authorScore": 28942,
+    "bronzeScore": 44000,
+    "goldScore": 31000,
+    "name": "Fall 2021 - 06",
+    "silverScore": 35000
+  },
+  "7c45d95c-a348-41b2-867e-6efcd97c9cbc": {
+    "authorScore": 45733,
+    "bronzeScore": 69000,
+    "goldScore": 49000,
+    "name": "7DS - Gluttony",
+    "silverScore": 55000
+  },
+  "7c7d55e1-de7c-4352-9704-93aee81ebf32": {
+    "authorScore": 55774,
+    "bronzeScore": 84000,
+    "goldScore": 60000,
+    "name": "Spring 2022 - 18",
+    "silverScore": 67000
+  },
+  "7c972628-994d-4b98-baeb-c3f0b250362c": {
+    "authorScore": 44398,
+    "bronzeScore": 67000,
+    "goldScore": 48000,
+    "name": "REBOOT NATURE ft Svendsenz",
+    "silverScore": 54000
+  },
+  "7ce3acd8-494b-4caa-9e0e-b7352f9afde1": {
+    "authorScore": 27993,
+    "bronzeScore": 42000,
+    "goldScore": 30000,
+    "name": "Winter 2024 - 02",
+    "silverScore": 34000
+  },
+  "7d3a58c9-a0d1-42e0-9d5f-97785c1d9f72": {
+    "authorScore": 28656,
+    "bronzeScore": 43000,
+    "goldScore": 31000,
+    "name": "Winter 2026 - 08",
+    "silverScore": 35000
+  },
+  "7d73511d-d5a7-4b67-9b02-971ea0b560a1": {
+    "authorScore": 18213,
+    "bronzeScore": 28000,
+    "goldScore": 20000,
+    "name": "2 - Cliffside",
+    "silverScore": 22000
+  },
+  "7d74e875-ff0f-49f7-b573-6b9ba67d6069": {
+    "authorScore": 51082,
+    "bronzeScore": 77000,
+    "goldScore": 55000,
+    "name": "Winter 2026 - 17",
+    "silverScore": 62000
+  },
+  "7d74fcc1-115b-4bf6-a668-0028d1600377": {
+    "authorScore": 34528,
+    "bronzeScore": 52000,
+    "goldScore": 37000,
+    "name": "kz_d1",
+    "silverScore": 42000
+  },
+  "7e6c4d33-a670-4880-8c2a-da3d995e864c": {
+    "authorScore": 27410,
+    "bronzeScore": 40280,
+    "goldScore": 29050,
+    "name": "B02-Race",
+    "silverScore": 32980
+  },
+  "7e8ed299-8eca-4cde-91ad-6e4acac862e0": {
+    "authorScore": 31605,
+    "bronzeScore": 48000,
+    "goldScore": 34000,
+    "name": "Fall 2025 - 11",
+    "silverScore": 38000
+  },
+  "7ebf50c8-1c9b-4b28-8d63-b99b4ad5157e": {
+    "authorScore": 29587,
+    "bronzeScore": 45000,
+    "goldScore": 32000,
+    "name": "Spring 2026 - 10",
+    "silverScore": 36000
+  },
+  "7ed44d98-8a77-4707-99b6-0fbe21763de5": {
+    "authorScore": 20478,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "Granite Hills",
+    "silverScore": 25000
+  },
+  "8021ae2d-0975-410d-a44d-ef0314e5e680": {
+    "authorScore": 43498,
+    "bronzeScore": 66000,
+    "goldScore": 47000,
+    "name": "Fall 2022 - 12",
+    "silverScore": 53000
+  },
+  "804d3c67-ad14-4ff8-863a-65c62654a325": {
+    "authorScore": 40263,
+    "bronzeScore": 61000,
+    "goldScore": 43000,
+    "name": "Winter 2022 - 15",
+    "silverScore": 49000
+  },
+  "80831584-4bd2-47be-b537-04c2bd6fa904": {
+    "authorScore": 37432,
+    "bronzeScore": 57000,
+    "goldScore": 41000,
+    "name": "Summer 2020 - 13",
+    "silverScore": 45000
   },
   "815a2a8e-e299-4e93-8097-5285d6036240": {
     "authorScore": 39572,
@@ -300,12 +3443,313 @@
     "name": "Spring 2021 - 09",
     "silverScore": 48000
   },
+  "821e8544-74b2-4285-9ed3-aa6afc812018": {
+    "authorScore": 31440,
+    "bronzeScore": 47480,
+    "goldScore": 33700,
+    "name": "B11-Race",
+    "silverScore": 38390
+  },
+  "82260934-95f3-4cfb-bdb5-b2b0bcbfbdc6": {
+    "authorScore": 19148,
+    "bronzeScore": 29000,
+    "goldScore": 21000,
+    "name": "3 - Dawnspire Pass",
+    "silverScore": 23000
+  },
+  "826e29d4-ff33-4a1a-b5a8-6a8d1211261b": {
+    "authorScore": 51617,
+    "bronzeScore": 78000,
+    "goldScore": 55000,
+    "name": "Summer 2024 - 20",
+    "silverScore": 62000
+  },
+  "828d8557-aed3-4a01-8e16-130bedc24364": {
+    "authorScore": 17185,
+    "bronzeScore": 26000,
+    "goldScore": 19000,
+    "name": "KSHORT #42",
+    "silverScore": 21000
+  },
+  "82969eb5-e48f-4d4f-8a1f-3a30b568c2fc": {
+    "authorScore": 29854,
+    "bronzeScore": 45000,
+    "goldScore": 32000,
+    "name": "Fall 2022 - 06",
+    "silverScore": 36000
+  },
+  "82b77a8e-e9f1-4b51-af6c-a9ae542cdebc": {
+    "authorScore": 20000,
+    "bronzeScore": 32000,
+    "goldScore": 23000,
+    "name": "4 - Autumn Gardens",
+    "silverScore": 26000
+  },
+  "82bfac67-f6ce-4bfe-9abb-16676e5c1014": {
+    "authorScore": 44882,
+    "bronzeScore": 68000,
+    "goldScore": 48000,
+    "name": "Spring 2023 - 20",
+    "silverScore": 54000
+  },
+  "82faae8d-d457-4628-8dfb-95171970dab5": {
+    "authorScore": 32257,
+    "bronzeScore": 49000,
+    "goldScore": 35000,
+    "name": "Winter 2022 - 10",
+    "silverScore": 39000
+  },
+  "836fe682-4149-460b-b154-c30c4e798500": {
+    "authorScore": 40242,
+    "bronzeScore": 61000,
+    "goldScore": 43000,
+    "name": "dark bouille",
+    "silverScore": 49000
+  },
+  "83af63f7-ad71-43dd-8c67-834de8a207f4": {
+    "authorScore": 36351,
+    "bronzeScore": 55000,
+    "goldScore": 39000,
+    "name": "Fall 2024 - 13",
+    "silverScore": 44000
+  },
+  "83bd6702-ae66-49fa-96c2-a58945cf71ea": {
+    "authorScore": 51878,
+    "bronzeScore": 78000,
+    "goldScore": 55000,
+    "name": "Summer 2022 - 18",
+    "silverScore": 63000
+  },
+  "83bdd79e-c5d7-4e87-97fb-e2fdf149d91f": {
+    "authorScore": 19653,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "5 - Downhill Oasis",
+    "silverScore": 24000
+  },
+  "84b455ac-b9d0-4d3e-89ce-88751a17bac9": {
+    "authorScore": 15417,
+    "bronzeScore": 24000,
+    "goldScore": 17000,
+    "name": "Powerslide Trilltorial #2",
+    "silverScore": 19000
+  },
+  "8512771d-458a-4f62-85dd-0c0d0d4416c6": {
+    "authorScore": 15940,
+    "bronzeScore": 24640,
+    "goldScore": 16690,
+    "name": "D03-Acrobatic",
+    "silverScore": 19420
+  },
+  "85d75ff6-395b-43b6-89cd-fb64f5e52555": {
+    "authorScore": 7438,
+    "bronzeScore": 12000,
+    "goldScore": 8000,
+    "name": "Minigolf - 06",
+    "silverScore": 9000
+  },
+  "8643b3c7-9613-44d1-9790-0fc71068285a": {
+    "authorScore": 30198,
+    "bronzeScore": 46000,
+    "goldScore": 33000,
+    "name": "Fall 2023 - 09",
+    "silverScore": 37000
+  },
+  "8653a2bb-a919-407e-95be-19050947daf7": {
+    "authorScore": 19868,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "2 - Mountain Cliff",
+    "silverScore": 24000
+  },
+  "869af84c-901a-496a-accb-b2b086560ff4": {
+    "authorScore": 40536,
+    "bronzeScore": 61000,
+    "goldScore": 43000,
+    "name": "Spring 2022 - 14",
+    "silverScore": 49000
+  },
+  "86a11fe9-e5e3-42e5-9d67-1303e4c977e0": {
+    "authorScore": 19901,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "1 - Red Driveby",
+    "silverScore": 24000
+  },
+  "86abfb6d-943b-431b-b057-259452cf74e4": {
+    "authorScore": 17059,
+    "bronzeScore": 26000,
+    "goldScore": 19000,
+    "name": "3 - Cutting with Pink Scissors",
+    "silverScore": 21000
+  },
+  "870f297f-74cb-41b5-8179-40bc39d61d10": {
+    "authorScore": 53918,
+    "bronzeScore": 81000,
+    "goldScore": 58000,
+    "name": "Winter 2025 - 17",
+    "silverScore": 65000
+  },
+  "87157bef-aba0-4fe7-b857-c848dd4279bc": {
+    "authorScore": 30730,
+    "bronzeScore": 47000,
+    "goldScore": 33000,
+    "name": "Wet Road Race 4",
+    "silverScore": 37000
+  },
+  "874d81b1-9c1a-48c4-91ae-75767fbb358e": {
+    "authorScore": 53854,
+    "bronzeScore": 81000,
+    "goldScore": 58000,
+    "name": "Winter 2024 - 20",
+    "silverScore": 65000
+  },
+  "875c05c7-dd33-4cd4-b0ea-d6e210b95260": {
+    "authorScore": 56986,
+    "bronzeScore": 86000,
+    "goldScore": 61000,
+    "name": "Summer 2022 - 24",
+    "silverScore": 69000
+  },
+  "875ce0ee-a954-4194-bea2-e4fc0a6282a0": {
+    "authorScore": 14875,
+    "bronzeScore": 15620,
+    "goldScore": 15120,
+    "name": "Under 15 - 20",
+    "silverScore": 15370
+  },
+  "879afbc0-0f94-4384-a134-462b4c92235b": {
+    "authorScore": 14745,
+    "bronzeScore": 15490,
+    "goldScore": 14990,
+    "name": "Under 15 - 08",
+    "silverScore": 15240
+  },
+  "87a892b5-a601-44d5-a01d-a9fe32a4d686": {
+    "authorScore": 35732,
+    "bronzeScore": 54000,
+    "goldScore": 38000,
+    "name": "Spring 2024 - 07",
+    "silverScore": 43000
+  },
+  "87ccc1f9-1fe7-4022-965c-533d72b1156d": {
+    "authorScore": 66651,
+    "bronzeScore": 100000,
+    "goldScore": 71000,
+    "name": "Summer 2022 - 25",
+    "silverScore": 80000
+  },
+  "882868f8-a2cf-4767-9608-5416ad1c6cac": {
+    "authorScore": 25353,
+    "bronzeScore": 39000,
+    "goldScore": 27000,
+    "name": "Summer 2021 - 09",
+    "silverScore": 31000
+  },
+  "8876318f-3006-4277-9e74-301279dd13e5": {
+    "authorScore": 40698,
+    "bronzeScore": 62000,
+    "goldScore": 44000,
+    "name": "Winter 2025 - 12",
+    "silverScore": 49000
+  },
+  "88d58ec1-b435-434b-abc1-80bc940f9552": {
+    "authorScore": 19805,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "4 - Snowo Mobile",
+    "silverScore": 24000
+  },
+  "88f4c0ec-f394-4b8c-90fc-11c254ac18b5": {
+    "authorScore": 29285,
+    "bronzeScore": 44000,
+    "goldScore": 32000,
+    "name": "Winter 2022 - 09",
+    "silverScore": 36000
+  },
+  "89fdee90-09d5-47a5-92fc-42eefe578834": {
+    "authorScore": 30957,
+    "bronzeScore": 47000,
+    "goldScore": 33000,
+    "name": "Summer 2022 - 10",
+    "silverScore": 38000
+  },
+  "8a23f452-61fd-4f03-bc32-a527f2821c9e": {
+    "authorScore": 14805,
+    "bronzeScore": 15550,
+    "goldScore": 15050,
+    "name": "Under 15 - 05",
+    "silverScore": 15300
+  },
+  "8ac819f6-621e-4f3c-bb8e-ab6c7baa694f": {
+    "authorScore": 26085,
+    "bronzeScore": 40000,
+    "goldScore": 28000,
+    "name": "Angles",
+    "silverScore": 32000
+  },
+  "8aca5ace-2fc4-4007-81a0-3729c1f805f8": {
+    "authorScore": 19000,
+    "bronzeScore": 29000,
+    "goldScore": 21000,
+    "name": "5 - Years of Trackmania",
+    "silverScore": 23000
+  },
+  "8acc07e7-2f14-44e7-b121-8bf7836cd792": {
+    "authorScore": 38284,
+    "bronzeScore": 58000,
+    "goldScore": 41000,
+    "name": "Fall 2022 - 14",
+    "silverScore": 46000
+  },
   "8b0078bf-5d2d-4834-b6f1-4f00d230e08c": {
     "authorScore": 43290,
     "bronzeScore": 65000,
     "goldScore": 46000,
     "name": "Winter 2025 - 16",
     "silverScore": 52000
+  },
+  "8b2c8f9e-3e7a-4866-ae17-9e1d88fb3d64": {
+    "authorScore": 31805,
+    "bronzeScore": 48000,
+    "goldScore": 34000,
+    "name": "Summer 2023 - 11",
+    "silverScore": 39000
+  },
+  "8b49421a-8946-4dde-a8d6-59e7cc6f4d19": {
+    "authorScore": 19768,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "RubberLand",
+    "silverScore": 24000
+  },
+  "8b51d3ea-50b6-468c-be02-6367941edaa2": {
+    "authorScore": 19869,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "2 - Sir Jumpsalot",
+    "silverScore": 24000
+  },
+  "8b61a48e-4d5e-4596-85fa-b6ceedda8792": {
+    "authorScore": 18951,
+    "bronzeScore": 29000,
+    "goldScore": 21000,
+    "name": "4 - Poolspeed",
+    "silverScore": 23000
+  },
+  "8b7c0bc3-108c-455f-a97b-5286fc1a9b86": {
+    "authorScore": 34214,
+    "bronzeScore": 52000,
+    "goldScore": 37000,
+    "name": "Spring 2023 - 17",
+    "silverScore": 42000
+  },
+  "8b8c0fd4-2dfd-4bdc-b3b8-56d3a9285d79": {
+    "authorScore": 50901,
+    "bronzeScore": 77000,
+    "goldScore": 54000,
+    "name": "Hattara",
+    "silverScore": 62000
   },
   "8bca3d04-3819-4998-ab0b-c17cc3f4cd71": {
     "authorScore": 21823,
@@ -314,12 +3758,194 @@
     "name": "Winter 2025 - 04",
     "silverScore": 27000
   },
+  "8c791e58-d1ca-4c3a-a6c1-4355c17d301b": {
+    "authorScore": 34550,
+    "bronzeScore": 52000,
+    "goldScore": 37000,
+    "name": "Fall 2024 - 14",
+    "silverScore": 42000
+  },
+  "8c973e2d-fa73-4db7-af94-57135bdaa778": {
+    "authorScore": 37878,
+    "bronzeScore": 57000,
+    "goldScore": 41000,
+    "name": "Spring 2024 - 10",
+    "silverScore": 46000
+  },
   "8ca2f431-78dc-4be3-8763-bb8489d30f24": {
     "authorScore": 31382,
     "bronzeScore": 48000,
     "goldScore": 34000,
     "name": "Summer 2023 - 07",
     "silverScore": 38000
+  },
+  "8d362480-9717-4431-8ee3-65aad4db4861": {
+    "authorScore": 14860,
+    "bronzeScore": 15610,
+    "goldScore": 15110,
+    "name": "Under 15 - 23",
+    "silverScore": 15360
+  },
+  "8d533e76-44cc-436f-82b7-b54a42bb0604": {
+    "authorScore": 58996,
+    "bronzeScore": 89000,
+    "goldScore": 63000,
+    "name": "Spring 2022 - 16",
+    "silverScore": 71000
+  },
+  "8d82853d-0b48-4744-b9ae-9da0c25b3b18": {
+    "authorScore": 19481,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "2 - Frostveil Village",
+    "silverScore": 24000
+  },
+  "8db35d58-221a-4572-8675-902bb5d159b3": {
+    "authorScore": 19998,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "1 - Mirage ft B1EM",
+    "silverScore": 24000
+  },
+  "8e4eb316-667e-4938-9363-b8d221fb202d": {
+    "authorScore": 59000,
+    "bronzeScore": 89000,
+    "goldScore": 63000,
+    "name": "FASTER OBSTACLE",
+    "silverScore": 71000
+  },
+  "8e8310bd-c082-437f-ba0a-c51d21718145": {
+    "authorScore": 17845,
+    "bronzeScore": 27000,
+    "goldScore": 19000,
+    "name": "3 - Palm Tree Water",
+    "silverScore": 22000
+  },
+  "8ea71a14-bcd4-48b9-8e11-3bdcf68c7f05": {
+    "authorScore": 19341,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "1 - Road Trip",
+    "silverScore": 24000
+  },
+  "8eca9ce2-b63c-4605-b014-e678ebf6c531": {
+    "authorScore": 27720,
+    "bronzeScore": 41770,
+    "goldScore": 29730,
+    "name": "C08-Obstacle",
+    "silverScore": 33330
+  },
+  "8f30e830-9eff-4e14-8906-c70012baedb5": {
+    "authorScore": 115000,
+    "bronzeScore": 173000,
+    "goldScore": 122000,
+    "name": "Shallow Dip \u2014 Floor 3 Practice (No CPs)",
+    "silverScore": 139000
+  },
+  "8f3a9564-0178-4773-b1bc-f455d3c67ef5": {
+    "authorScore": 23135,
+    "bronzeScore": 35000,
+    "goldScore": 25000,
+    "name": "Spring 2026 - 06",
+    "silverScore": 28000
+  },
+  "8f57f9cc-380e-40a4-a790-b2c31bf082b0": {
+    "authorScore": 23610,
+    "bronzeScore": 36000,
+    "goldScore": 26000,
+    "name": "Fall 2022 - 05",
+    "silverScore": 29000
+  },
+  "8fbb021f-99e3-41c1-a019-9c1e1b357871": {
+    "authorScore": 55590,
+    "bronzeScore": 78440,
+    "goldScore": 59030,
+    "name": "C06-Speed",
+    "silverScore": 66100
+  },
+  "8fdebe1e-0a7f-4c7a-9cbd-56c932d7d790": {
+    "authorScore": 16250,
+    "bronzeScore": 24280,
+    "goldScore": 17270,
+    "name": "A02-Race",
+    "silverScore": 19470
+  },
+  "91039f5f-31df-4cf6-aaa4-42b9670c057f": {
+    "authorScore": 26412,
+    "bronzeScore": 40000,
+    "goldScore": 28000,
+    "name": "Spring 2023 - 12",
+    "silverScore": 32000
+  },
+  "911c4f67-5d90-40e2-bc8d-dd9383d98deb": {
+    "authorScore": 31989,
+    "bronzeScore": 48000,
+    "goldScore": 34000,
+    "name": "Fall 2024 - 03",
+    "silverScore": 39000
+  },
+  "9140f612-8a13-406c-a311-6015f74855b0": {
+    "authorScore": 19956,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "4 - SpringFlow",
+    "silverScore": 24000
+  },
+  "914fb4d3-d979-48cc-a1a8-673626f5f66d": {
+    "authorScore": 6177,
+    "bronzeScore": 10000,
+    "goldScore": 7000,
+    "name": "Minigolf - 05",
+    "silverScore": 8000
+  },
+  "91808e00-e4c5-4a30-9c41-6bea6c8101f9": {
+    "authorScore": 42221,
+    "bronzeScore": 64000,
+    "goldScore": 45000,
+    "name": "Summer 2024 - 11",
+    "silverScore": 51000
+  },
+  "918352fb-7c5a-460c-a837-fa38f664bd9e": {
+    "authorScore": 20222,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "Winter 2022 - 02",
+    "silverScore": 25000
+  },
+  "928194af-0d1d-4796-9a80-28b4e1bfdf81": {
+    "authorScore": 19999,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "3 - Snowo Village",
+    "silverScore": 24000
+  },
+  "93317b03-3202-4bf2-85c8-6cf4418d8989": {
+    "authorScore": 14852,
+    "bronzeScore": 15600,
+    "goldScore": 15100,
+    "name": "Under 15 - 06",
+    "silverScore": 15350
+  },
+  "935acdde-d83a-4412-8efc-71607862211a": {
+    "authorScore": 48638,
+    "bronzeScore": 73000,
+    "goldScore": 52000,
+    "name": "Spring 2025 - 19",
+    "silverScore": 59000
+  },
+  "936ec2e4-e14c-4d91-9c93-3e3f5ac53491": {
+    "authorScore": 26903,
+    "bronzeScore": 41000,
+    "goldScore": 29000,
+    "name": "Winter 2024 - 08",
+    "silverScore": 33000
+  },
+  "9386156a-91a5-4df9-b6ae-90ba3d23f577": {
+    "authorScore": 19947,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "3 - Hidden island paths",
+    "silverScore": 24000
   },
   "93862e8e-b8be-4e55-af59-fe5935bf37db": {
     "authorScore": 20826,
@@ -328,12 +3954,33 @@
     "name": "Endlessly",
     "silverScore": 25000
   },
+  "93a90344-56cf-4cc6-8cff-266f79d22d66": {
+    "authorScore": 19308,
+    "bronzeScore": 29000,
+    "goldScore": 21000,
+    "name": "3 - Roads of Glory with classjan",
+    "silverScore": 24000
+  },
   "93cd9f9e-7075-4a55-8b08-e8a0db416d97": {
     "authorScore": 24911,
     "bronzeScore": 38000,
     "goldScore": 27000,
     "name": "Winter 2024 - 03",
     "silverScore": 30000
+  },
+  "9433694f-df47-4838-b982-602e8d617a9f": {
+    "authorScore": 44867,
+    "bronzeScore": 68000,
+    "goldScore": 48000,
+    "name": "Spring 2025 - 18",
+    "silverScore": 54000
+  },
+  "943ca1de-272f-4d7c-a353-d996ff10e4ef": {
+    "authorScore": 57001,
+    "bronzeScore": 86000,
+    "goldScore": 61000,
+    "name": "Summer 2023 - 25",
+    "silverScore": 69000
   },
   "95062c1c-e08c-420b-a548-333085b27962": {
     "authorScore": 17310,
@@ -342,12 +3989,222 @@
     "name": "Winter 2021 - 02",
     "silverScore": 21000
   },
+  "952051aa-cee7-44db-9f18-0269d0eb0625": {
+    "authorScore": 22077,
+    "bronzeScore": 34000,
+    "goldScore": 24000,
+    "name": "Curve",
+    "silverScore": 27000
+  },
+  "95c6d509-9a8b-4be5-b9ba-1eff760b2d35": {
+    "authorScore": 56652,
+    "bronzeScore": 85000,
+    "goldScore": 61000,
+    "name": "Winter 2022 - 19",
+    "silverScore": 68000
+  },
+  "95dda4a0-77af-4c37-a183-873eb69fc15d": {
+    "authorScore": 28442,
+    "bronzeScore": 43000,
+    "goldScore": 31000,
+    "name": "Fall 2022 - 08",
+    "silverScore": 35000
+  },
+  "95f545eb-7d62-40c0-9c42-514f91e88559": {
+    "authorScore": 277480,
+    "bronzeScore": 384580,
+    "goldScore": 292260,
+    "name": "E02-Endurance",
+    "silverScore": 307990
+  },
   "96386e9e-9942-4eb5-ba6b-08e3a66886c9": {
     "authorScore": 14898,
     "bronzeScore": 15640,
     "goldScore": 15140,
     "name": "Under 15 - 17",
     "silverScore": 15390
+  },
+  "963ba3f1-bcf2-4519-9922-3d58a255dc6e": {
+    "authorScore": 47700,
+    "bronzeScore": 72000,
+    "goldScore": 51000,
+    "name": "Vaporwave",
+    "silverScore": 58000
+  },
+  "968aef36-57ca-45c1-b25c-7ef38a031197": {
+    "authorScore": 19260,
+    "bronzeScore": 29000,
+    "goldScore": 21000,
+    "name": "CS - Morning routine by artroy666",
+    "silverScore": 24000
+  },
+  "96baa064-09b3-4660-8e8d-104fc7c4dae7": {
+    "authorScore": 21635,
+    "bronzeScore": 33000,
+    "goldScore": 23000,
+    "name": "Happy Birthday",
+    "silverScore": 26000
+  },
+  "97428d52-05bb-4b32-a5fb-b3e30e32eb75": {
+    "authorScore": 19374,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "2 - Turning Through Mountains",
+    "silverScore": 24000
+  },
+  "97706858-4e0e-49ff-9263-0065064dd85f": {
+    "authorScore": 33897,
+    "bronzeScore": 51000,
+    "goldScore": 36000,
+    "name": "Spring 2025 - 09",
+    "silverScore": 41000
+  },
+  "977259cd-1176-46e5-b8e6-6ac035a2c54f": {
+    "authorScore": 29385,
+    "bronzeScore": 45000,
+    "goldScore": 32000,
+    "name": "Winter 2026 - 06",
+    "silverScore": 36000
+  },
+  "9791d450-0543-46a6-9ed4-65dbf6548c65": {
+    "authorScore": 20850,
+    "bronzeScore": 32000,
+    "goldScore": 23000,
+    "name": "2 - John From The Bridge",
+    "silverScore": 26000
+  },
+  "97dfabaf-bc9d-4d07-b08e-6cbdab76354c": {
+    "authorScore": 37845,
+    "bronzeScore": 57000,
+    "goldScore": 41000,
+    "name": "Summer 2022 - 12",
+    "silverScore": 46000
+  },
+  "97f3f017-1068-4d4a-9e81-7acda708b66c": {
+    "authorScore": 35247,
+    "bronzeScore": 53000,
+    "goldScore": 38000,
+    "name": "Fall 2021 - 13",
+    "silverScore": 43000
+  },
+  "984ff40c-5b19-471f-8f70-ec6ccdadd034": {
+    "authorScore": 13715,
+    "bronzeScore": 21000,
+    "goldScore": 15000,
+    "name": "2 - Vitamin C 'n' Tiny Drifts",
+    "silverScore": 17000
+  },
+  "987671ea-6757-46d0-a177-2b5c58f0cc43": {
+    "authorScore": 51328,
+    "bronzeScore": 77000,
+    "goldScore": 56000,
+    "name": "Fall 2025 - 20",
+    "silverScore": 62000
+  },
+  "9887fc5c-4471-4df4-be47-46e6fa7bfc1e": {
+    "authorScore": 58402,
+    "bronzeScore": 88000,
+    "goldScore": 62000,
+    "name": "Summer 2025 - 22",
+    "silverScore": 71000
+  },
+  "98e5b935-9825-44e2-99f2-ebe7f5423966": {
+    "authorScore": 25371,
+    "bronzeScore": 39000,
+    "goldScore": 27000,
+    "name": "Summer 2021 - 02",
+    "silverScore": 31000
+  },
+  "99856698-5424-4c71-a4c3-6dc0e35d69db": {
+    "authorScore": 31775,
+    "bronzeScore": 48000,
+    "goldScore": 34000,
+    "name": "Fall 2023 - 07",
+    "silverScore": 39000
+  },
+  "9987ab95-b148-4bd2-bd3c-da520e78a6a8": {
+    "authorScore": 7120,
+    "bronzeScore": 11000,
+    "goldScore": 7300,
+    "name": "Training - 02",
+    "silverScore": 9090
+  },
+  "99b77925-3a45-4dc3-89a4-0f0574cfb1ac": {
+    "authorScore": 20142,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "Winter 2023 - 04",
+    "silverScore": 25000
+  },
+  "9a0d330e-f5b7-45b6-aab1-6736b0a992f2": {
+    "authorScore": 47902,
+    "bronzeScore": 72000,
+    "goldScore": 51000,
+    "name": "Spring 2022 - 15",
+    "silverScore": 58000
+  },
+  "9a312480-ea06-4903-8c09-c9d50dd4e249": {
+    "authorScore": 18863,
+    "bronzeScore": 29000,
+    "goldScore": 20000,
+    "name": "4 - Speedy Temple",
+    "silverScore": 23000
+  },
+  "9a536edb-3e05-4c82-9f32-499cf94ed637": {
+    "authorScore": 25318,
+    "bronzeScore": 38000,
+    "goldScore": 27000,
+    "name": "Tornado",
+    "silverScore": 31000
+  },
+  "9a76212e-b3c1-4450-8f4c-ba5966f3af1d": {
+    "authorScore": 30001,
+    "bronzeScore": 46000,
+    "goldScore": 32000,
+    "name": "Fall 2024 - 01",
+    "silverScore": 37000
+  },
+  "9a83fb6b-da7f-41d8-85e1-50ec561f6e29": {
+    "authorScore": 80371,
+    "bronzeScore": 121000,
+    "goldScore": 86000,
+    "name": "[MK8] Wii Moo Moo Meadows",
+    "silverScore": 97000
+  },
+  "9af4701c-e123-4c9b-af64-8c5780bcf973": {
+    "authorScore": 14061,
+    "bronzeScore": 22000,
+    "goldScore": 15000,
+    "name": "5 - Pinball",
+    "silverScore": 17000
+  },
+  "9b310085-25c4-42d3-a4e1-ec2a3628ff05": {
+    "authorScore": 19873,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "3 - Coiled City",
+    "silverScore": 24000
+  },
+  "9b622207-bbf5-46e7-87ab-18c87c9e57c9": {
+    "authorScore": 7528,
+    "bronzeScore": 14000,
+    "goldScore": 8000,
+    "name": "Training - 01",
+    "silverScore": 11000
+  },
+  "9ba89ae5-b560-4a94-8949-f80ef7e2d068": {
+    "authorScore": 24351,
+    "bronzeScore": 37000,
+    "goldScore": 26000,
+    "name": "Winter 2026 - 05",
+    "silverScore": 30000
+  },
+  "9bd4cb58-13fa-4ae7-b06f-da24bc503337": {
+    "authorScore": 22205,
+    "bronzeScore": 34000,
+    "goldScore": 24000,
+    "name": "Cascade",
+    "silverScore": 27000
   },
   "9bee9961-24da-43dd-8646-6d014acc69bc": {
     "authorScore": 33358,
@@ -363,12 +4220,96 @@
     "name": "1 - Quarterpipe Quest",
     "silverScore": 20000
   },
+  "9c5076fb-df3e-458a-b28d-88fe5e8b7550": {
+    "authorScore": 23398,
+    "bronzeScore": 36000,
+    "goldScore": 25000,
+    "name": "Winter 2022 - 04",
+    "silverScore": 29000
+  },
+  "9c5575cc-915a-4386-8595-67427a22eb09": {
+    "authorScore": 19453,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "2 - Snowrealis",
+    "silverScore": 24000
+  },
+  "9d6b1bc2-aa20-42d6-be7f-3f2bdb2541d7": {
+    "authorScore": 5053,
+    "bronzeScore": 8000,
+    "goldScore": 5150,
+    "name": "Training - 11",
+    "silverScore": 7000
+  },
+  "9d777bdb-805e-4c94-bca6-623abaad4a52": {
+    "authorScore": 18500,
+    "bronzeScore": 28000,
+    "goldScore": 20000,
+    "name": "3 - To Play",
+    "silverScore": 23000
+  },
+  "9da976dd-bc99-4343-b80d-c8d26bd452b5": {
+    "authorScore": 18609,
+    "bronzeScore": 28000,
+    "goldScore": 20000,
+    "name": "3 - Omnes Viae",
+    "silverScore": 23000
+  },
+  "9dd98ef9-8326-455e-b87c-d39a3fe4d524": {
+    "authorScore": 28505,
+    "bronzeScore": 43000,
+    "goldScore": 31000,
+    "name": "Summer 2022 - 05",
+    "silverScore": 35000
+  },
+  "9e1611e0-ad81-4e4f-904f-07f093b82b8a": {
+    "authorScore": 11750,
+    "bronzeScore": 18000,
+    "goldScore": 12050,
+    "name": "Training - 10",
+    "silverScore": 15000
+  },
+  "9e19e005-3583-4d6d-b4a1-cb21fd3b7ea0": {
+    "authorScore": 30058,
+    "bronzeScore": 46000,
+    "goldScore": 32000,
+    "name": "Fall 2022 - 04",
+    "silverScore": 37000
+  },
+  "9e747437-2973-4cec-be45-8304f22616bf": {
+    "authorScore": 30433,
+    "bronzeScore": 46000,
+    "goldScore": 33000,
+    "name": "Summer 2020 - 14",
+    "silverScore": 37000
+  },
+  "9e7ee9cb-a38d-454b-bd60-7d3dd42143db": {
+    "authorScore": 38970,
+    "bronzeScore": 59000,
+    "goldScore": 42000,
+    "name": "Summer 2022 - 14",
+    "silverScore": 47000
+  },
   "9e95d12c-2c4d-4b9c-85f1-e94288a005cb": {
     "authorScore": 31204,
     "bronzeScore": 47000,
     "goldScore": 34000,
     "name": "Fall 2022 - 10",
     "silverScore": 38000
+  },
+  "9eefd683-1e31-47ba-b315-89163fff159c": {
+    "authorScore": 30468,
+    "bronzeScore": 46000,
+    "goldScore": 33000,
+    "name": "AutoCross",
+    "silverScore": 37000
+  },
+  "9f877210-4869-4b99-96fe-108467c7eb4a": {
+    "authorScore": 29580,
+    "bronzeScore": 44410,
+    "goldScore": 31200,
+    "name": "C01-Race",
+    "silverScore": 35650
   },
   "9f9f61a7-c346-42fe-890c-4f3bae97c9dd": {
     "authorScore": 42233,
@@ -384,12 +4325,180 @@
     "name": "IceBraker",
     "silverScore": 29000
   },
+  "a019620a-7b53-4a79-8c2a-150f4145e252": {
+    "authorScore": 45351,
+    "bronzeScore": 69000,
+    "goldScore": 49000,
+    "name": "Fall 2023 - 20",
+    "silverScore": 55000
+  },
+  "a0832245-80f9-45df-a7ee-c0951ea2c16e": {
+    "authorScore": 21722,
+    "bronzeScore": 33000,
+    "goldScore": 24000,
+    "name": "Valentine's choice",
+    "silverScore": 27000
+  },
+  "a0959eab-866c-41e2-9844-0360c752b162": {
+    "authorScore": 19001,
+    "bronzeScore": 29000,
+    "goldScore": 21000,
+    "name": "Winter 2023 - 05",
+    "silverScore": 23000
+  },
   "a0b60066-5562-456a-842e-7ab20db73bc4": {
     "authorScore": 22665,
     "bronzeScore": 27000,
     "goldScore": 23200,
     "name": "Eat plastic",
     "silverScore": 25000
+  },
+  "a0d99310-89f7-4b22-a315-bde1ee499f78": {
+    "authorScore": 69224,
+    "bronzeScore": 104000,
+    "goldScore": 74000,
+    "name": "Fall 2024 - 19",
+    "silverScore": 84000
+  },
+  "a34d5d4d-ff2c-4b52-a8dd-538af182feca": {
+    "authorScore": 20389,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "Percolator",
+    "silverScore": 25000
+  },
+  "a35ba227-b68c-4a1e-bbff-9847782d9620": {
+    "authorScore": 19536,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "Summer 2022 - 08",
+    "silverScore": 24000
+  },
+  "a380aaa8-916f-42ba-b8e4-b32e1ead0d17": {
+    "authorScore": 19959,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "4 - Random Treks",
+    "silverScore": 24000
+  },
+  "a3943be7-7203-46e3-92dd-6b3f7e374023": {
+    "authorScore": 18680,
+    "bronzeScore": 29000,
+    "goldScore": 20000,
+    "name": "Winter 2023 - 02",
+    "silverScore": 23000
+  },
+  "a39ae701-5ef2-457b-a176-13f5deb0f497": {
+    "authorScore": 17802,
+    "bronzeScore": 27000,
+    "goldScore": 19000,
+    "name": "5 - GonoG",
+    "silverScore": 22000
+  },
+  "a3f8e9e7-c730-4ffe-940c-aaf6b27a50b2": {
+    "authorScore": 11340,
+    "bronzeScore": 16000,
+    "goldScore": 12500,
+    "name": "Training - 12",
+    "silverScore": 14000
+  },
+  "a3fe5484-7cac-40b1-a34a-adcefbf1dec7": {
+    "authorScore": 58243,
+    "bronzeScore": 88000,
+    "goldScore": 62000,
+    "name": "FASTER Rooftops",
+    "silverScore": 70000
+  },
+  "a4003c5f-a2c4-4a59-8add-ad3551341cf3": {
+    "authorScore": 312948,
+    "bronzeScore": 420000,
+    "goldScore": 330000,
+    "name": "[RPG] Blanc",
+    "silverScore": 360000
+  },
+  "a4018350-c9a7-4b53-a4a5-3657b75c88d1": {
+    "authorScore": 17409,
+    "bronzeScore": 27000,
+    "goldScore": 19000,
+    "name": "Kingarden",
+    "silverScore": 21000
+  },
+  "a4039054-aa75-45c7-8874-a17157d2c795": {
+    "authorScore": 9348,
+    "bronzeScore": 15000,
+    "goldScore": 10000,
+    "name": "Minigolf - 10",
+    "silverScore": 12000
+  },
+  "a4979eee-922d-46a8-a65f-55fde20e5e97": {
+    "authorScore": 409356,
+    "bronzeScore": 615000,
+    "goldScore": 434000,
+    "name": "Pleasant Park",
+    "silverScore": 492000
+  },
+  "a49f086c-7014-4419-ac80-4a4bc7618029": {
+    "authorScore": 29442,
+    "bronzeScore": 45000,
+    "goldScore": 32000,
+    "name": "Spring 2023 - 03",
+    "silverScore": 36000
+  },
+  "a4c9fe57-7a04-43d1-80f9-c711f475d2d2": {
+    "authorScore": 19698,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "4 - Fishy Mountain",
+    "silverScore": 24000
+  },
+  "a4d7c742-936e-4c53-a4dd-2391071dfac8": {
+    "authorScore": 64858,
+    "bronzeScore": 98000,
+    "goldScore": 72000,
+    "name": "Fall 2025 - 21",
+    "silverScore": 78000
+  },
+  "a5ca3607-8273-454a-96ff-1d007b734fed": {
+    "authorScore": 27154,
+    "bronzeScore": 41000,
+    "goldScore": 29000,
+    "name": "Winter 2022 - 06",
+    "silverScore": 33000
+  },
+  "a5d38926-32e3-41eb-b76d-c6e5493a6c36": {
+    "authorScore": 51644,
+    "bronzeScore": 78000,
+    "goldScore": 55000,
+    "name": "Fall 2024 - 16",
+    "silverScore": 62000
+  },
+  "a64b4565-f730-4389-93d1-c00f45fb3e75": {
+    "authorScore": 32514,
+    "bronzeScore": 49000,
+    "goldScore": 35000,
+    "name": "BonkCup - Okno",
+    "silverScore": 40000
+  },
+  "a727fe4e-12a1-4175-a441-8531bbe23895": {
+    "authorScore": 22995,
+    "bronzeScore": 35000,
+    "goldScore": 25000,
+    "name": "Winter 2021 - 04",
+    "silverScore": 28000
+  },
+  "a7d70585-0def-4243-9875-c47aa91c595f": {
+    "authorScore": 25000,
+    "bronzeScore": 38000,
+    "goldScore": 27000,
+    "name": "Short Laps",
+    "silverScore": 31000
+  },
+  "a890e44f-1112-48f7-8e1e-d128c789fec4": {
+    "authorScore": 14627,
+    "bronzeScore": 15370,
+    "goldScore": 14870,
+    "name": "Under 15 - 14",
+    "silverScore": 15120
   },
   "a8eb1c95-07b8-460c-aafb-cf883b50113a": {
     "authorScore": 35464,
@@ -405,12 +4514,75 @@
     "name": "Dumpster Diving",
     "silverScore": 14000
   },
+  "a93f902b-16a1-4448-ad34-65cf32d41425": {
+    "authorScore": 23997,
+    "bronzeScore": 36000,
+    "goldScore": 26000,
+    "name": "Summer 2023 - 01",
+    "silverScore": 29000
+  },
+  "a94099bb-9ae8-421c-8c02-89d953ef62c6": {
+    "authorScore": 14694,
+    "bronzeScore": 15440,
+    "goldScore": 14940,
+    "name": "Under 15 - 16",
+    "silverScore": 15190
+  },
+  "a96d96bc-36f5-4d4c-9888-38d3dd2581ea": {
+    "authorScore": 34847,
+    "bronzeScore": 53000,
+    "goldScore": 37000,
+    "name": "Fall 2025 - 13",
+    "silverScore": 42000
+  },
+  "a97cf564-39db-487b-9329-3389eeab3502": {
+    "authorScore": 20000,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "1 - Week of Shorts",
+    "silverScore": 25000
+  },
+  "a9cadab9-824c-4af6-9ff2-bb7571fbaa74": {
+    "authorScore": 28091,
+    "bronzeScore": 43000,
+    "goldScore": 30000,
+    "name": "Fall 2023 - 05",
+    "silverScore": 34000
+  },
+  "a9cd7e19-f067-4fd8-9313-3450fb607a9f": {
+    "authorScore": 17075,
+    "bronzeScore": 26000,
+    "goldScore": 19000,
+    "name": "2 - SkyDune",
+    "silverScore": 21000
+  },
+  "aa0d9c08-2856-4e6e-8154-c5fb4c511b8d": {
+    "authorScore": 44270,
+    "bronzeScore": 67000,
+    "goldScore": 47000,
+    "name": "Horizons 2025 - 19",
+    "silverScore": 54000
+  },
   "aa82df15-a608-4dab-9564-ca32b6a13dc9": {
     "authorScore": 25650,
     "bronzeScore": 38550,
     "goldScore": 27170,
     "name": "B13-Obstacle",
     "silverScore": 31150
+  },
+  "aa882d79-cae0-4733-8ae5-f80ede16e99e": {
+    "authorScore": 62997,
+    "bronzeScore": 95000,
+    "goldScore": 67000,
+    "name": "Spring 2022 - 21",
+    "silverScore": 76000
+  },
+  "ab512cb3-f415-4217-9d47-9344cece6461": {
+    "authorScore": 28808,
+    "bronzeScore": 44000,
+    "goldScore": 31000,
+    "name": "Summer 2024 - 08",
+    "silverScore": 35000
   },
   "ab5780cc-bf3c-444c-93fa-245e1244f86e": {
     "authorScore": 40935,
@@ -419,12 +4591,180 @@
     "name": "Unintended",
     "silverScore": 50000
   },
+  "ab5f1b7b-9646-44cd-be56-0c43e05db012": {
+    "authorScore": 39800,
+    "bronzeScore": 58460,
+    "goldScore": 41320,
+    "name": "C04-Race",
+    "silverScore": 46480
+  },
+  "ab8019ba-483a-412c-9d3a-c13f424fa766": {
+    "authorScore": 25847,
+    "bronzeScore": 39000,
+    "goldScore": 28000,
+    "name": "Summer 2023 - 05",
+    "silverScore": 32000
+  },
+  "ab9c3432-18a6-49f0-bfcc-fe95684d54d8": {
+    "authorScore": 33605,
+    "bronzeScore": 51000,
+    "goldScore": 36000,
+    "name": "Summer 2020 - 07",
+    "silverScore": 41000
+  },
+  "abca790b-a6e3-4222-9ddc-049472a0d5fb": {
+    "authorScore": 59468,
+    "bronzeScore": 90000,
+    "goldScore": 64000,
+    "name": "Summer 2023 - 23",
+    "silverScore": 72000
+  },
+  "abf1f2cf-9841-469d-889a-410e4800b8de": {
+    "authorScore": 26233,
+    "bronzeScore": 40000,
+    "goldScore": 28000,
+    "name": "Winter 2025 - 02",
+    "silverScore": 32000
+  },
+  "ac65ead6-f1cc-4aac-8f67-8cd6add3d433": {
+    "authorScore": 52860,
+    "bronzeScore": 78870,
+    "goldScore": 55690,
+    "name": "D04-Race",
+    "silverScore": 64280
+  },
+  "ac71f5e7-399e-458f-a570-3574755c69e3": {
+    "authorScore": 11204,
+    "bronzeScore": 17000,
+    "goldScore": 12000,
+    "name": "Cheesy",
+    "silverScore": 14000
+  },
+  "ac81d5de-4978-4aa8-a20c-080638fb2fe6": {
+    "authorScore": 37165,
+    "bronzeScore": 56000,
+    "goldScore": 40000,
+    "name": "Oink",
+    "silverScore": 45000
+  },
+  "aceeb01e-886e-417e-b793-6766f338b8a2": {
+    "authorScore": 33989,
+    "bronzeScore": 51000,
+    "goldScore": 37000,
+    "name": "Spring 2021 - 04",
+    "silverScore": 41000
+  },
+  "ad13c67e-47bc-4673-b899-2144d7897fd1": {
+    "authorScore": 18989,
+    "bronzeScore": 29000,
+    "goldScore": 21000,
+    "name": "Out Of Fuel",
+    "silverScore": 23000
+  },
+  "ae53eee5-a2b8-4838-b42d-7496b14709c6": {
+    "authorScore": 42790,
+    "bronzeScore": 64360,
+    "goldScore": 45670,
+    "name": "D12-Speed",
+    "silverScore": 51610
+  },
+  "ae78d32c-7ac1-4c74-a215-4137c5c83ede": {
+    "authorScore": 35561,
+    "bronzeScore": 54000,
+    "goldScore": 38000,
+    "name": "Fall 2025 - 14",
+    "silverScore": 43000
+  },
+  "ae7ef8cc-f5d1-47d6-99d9-2c42155c1089": {
+    "authorScore": 26500,
+    "bronzeScore": 40000,
+    "goldScore": 29000,
+    "name": "Summer 2025 - 09",
+    "silverScore": 32000
+  },
+  "aeafac04-400f-4fa1-8c4d-54a131e7cf91": {
+    "authorScore": 15030,
+    "bronzeScore": 22920,
+    "goldScore": 15820,
+    "name": "C10-Acrobatic",
+    "silverScore": 18510
+  },
+  "aee0376e-271e-4fed-9cd9-3d96e6b00600": {
+    "authorScore": 16585,
+    "bronzeScore": 25000,
+    "goldScore": 18000,
+    "name": "Down",
+    "silverScore": 20000
+  },
+  "af4063c3-c5ed-4ad6-b107-c3cf4ade78f4": {
+    "authorScore": 42662,
+    "bronzeScore": 64000,
+    "goldScore": 46000,
+    "name": "Dirty Blade",
+    "silverScore": 52000
+  },
+  "af52026b-bdb5-42db-8bac-dc5cab26cf69": {
+    "authorScore": 56000,
+    "bronzeScore": 85000,
+    "goldScore": 60000,
+    "name": "FASTER CIRCUIT",
+    "silverScore": 68000
+  },
+  "af7c068b-8bdd-4516-a0d6-f7c3470fd58a": {
+    "authorScore": 17720,
+    "bronzeScore": 27000,
+    "goldScore": 19000,
+    "name": "First (Dirt)",
+    "silverScore": 22000
+  },
+  "afbccddf-1960-489d-9652-c5aa66acd1d7": {
+    "authorScore": 18415,
+    "bronzeScore": 28000,
+    "goldScore": 20000,
+    "name": "5 - Launch Codes",
+    "silverScore": 23000
+  },
+  "afea4529-6c3d-492c-a89f-078bbb94b348": {
+    "authorScore": 184500,
+    "bronzeScore": 277000,
+    "goldScore": 196000,
+    "name": "[RPG]  Chantier",
+    "silverScore": 222000
+  },
+  "b0ae596b-0116-4c66-b403-7f6ee22b94c2": {
+    "authorScore": 33728,
+    "bronzeScore": 51000,
+    "goldScore": 36000,
+    "name": "Winter 2025 - 10",
+    "silverScore": 41000
+  },
+  "b10ab439-57bb-449c-97cd-a46502829694": {
+    "authorScore": 50040,
+    "bronzeScore": 74190,
+    "goldScore": 52890,
+    "name": "C11-Race",
+    "silverScore": 60240
+  },
   "b1976165-74cd-4422-a9f8-59d484a6f3d9": {
     "authorScore": 19669,
     "bronzeScore": 30000,
     "goldScore": 21000,
     "name": "5 - Summer Day",
     "silverScore": 24000
+  },
+  "b1b9df44-7080-4c4c-8aed-46bda58e56b1": {
+    "authorScore": 36744,
+    "bronzeScore": 56000,
+    "goldScore": 39000,
+    "name": "Spring 2024 - 02",
+    "silverScore": 45000
+  },
+  "b2303ca6-a866-41ad-b25b-fbaa95ef0d53": {
+    "authorScore": 14705,
+    "bronzeScore": 15450,
+    "goldScore": 14950,
+    "name": "Under 15 - 18",
+    "silverScore": 15200
   },
   "b25bd86d-9aed-4b94-a3e0-be85e0256618": {
     "authorScore": 19591,
@@ -433,12 +4773,75 @@
     "name": "CS - Quince by Osoguineapig",
     "silverScore": 24000
   },
+  "b26cbd89-090d-49f7-9213-9e5ed0a95787": {
+    "authorScore": 25000,
+    "bronzeScore": 38000,
+    "goldScore": 27000,
+    "name": "Summer 2025 - 03",
+    "silverScore": 31000
+  },
+  "b2dcde56-91b3-4c4f-b2f4-f44586093721": {
+    "authorScore": 45808,
+    "bronzeScore": 69000,
+    "goldScore": 49000,
+    "name": "Winter 2023 - 19",
+    "silverScore": 55000
+  },
+  "b33ea484-c1f5-454e-818f-13603d4f5d4b": {
+    "authorScore": 41882,
+    "bronzeScore": 63000,
+    "goldScore": 45000,
+    "name": "Fall 2022 - 15",
+    "silverScore": 51000
+  },
+  "b33f8620-397b-4ed8-8736-d34605d894cc": {
+    "authorScore": 65518,
+    "bronzeScore": 99000,
+    "goldScore": 70000,
+    "name": "Tubes",
+    "silverScore": 79000
+  },
   "b340c753-4c15-4717-a7b9-7758ef0ae7d3": {
     "authorScore": 61000,
     "bronzeScore": 92000,
     "goldScore": 65000,
     "name": "FASTER SHOWDOWN",
     "silverScore": 74000
+  },
+  "b38ed115-7feb-4660-936d-8c32324117c7": {
+    "authorScore": 53318,
+    "bronzeScore": 80000,
+    "goldScore": 57000,
+    "name": "Spring 2024 - 21",
+    "silverScore": 64000
+  },
+  "b3bd0652-b7ad-4880-852e-6b1d5cb2b317": {
+    "authorScore": 51829,
+    "bronzeScore": 78000,
+    "goldScore": 59000,
+    "name": "Summer 2025 - 19",
+    "silverScore": 63000
+  },
+  "b3e11f3d-a4f3-4c18-981b-c15ee9c4f00c": {
+    "authorScore": 70000,
+    "bronzeScore": 106000,
+    "goldScore": 75000,
+    "name": "Shallow Dip \u2014 Floor 1 Practice (No CPs)",
+    "silverScore": 85000
+  },
+  "b412f535-b9ca-49d5-9516-bd95c682e8ae": {
+    "authorScore": 16136,
+    "bronzeScore": 25000,
+    "goldScore": 18000,
+    "name": "2 - sand slide",
+    "silverScore": 20000
+  },
+  "b43d7cdf-cbe7-4ad6-864c-b92e040071cf": {
+    "authorScore": 26142,
+    "bronzeScore": 40000,
+    "goldScore": 28000,
+    "name": "This cat loves you",
+    "silverScore": 32000
   },
   "b4a49bdd-7e5e-4d56-b24d-347ba5e83962": {
     "authorScore": 22826,
@@ -447,12 +4850,131 @@
     "name": "4 - Red Rock Rookie",
     "silverScore": 28000
   },
+  "b50b31bb-47d5-4784-815a-edf977a1824f": {
+    "authorScore": 25330,
+    "bronzeScore": 37490,
+    "goldScore": 26960,
+    "name": "A15-Speed",
+    "silverScore": 30490
+  },
+  "b51b5dc3-5c1d-4fe6-8bc8-1ab95d5aab4e": {
+    "authorScore": 19979,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "GAZON",
+    "silverScore": 24000
+  },
+  "b573c243-fd57-47ed-ad06-83dfaee0e7bc": {
+    "authorScore": 65112,
+    "bronzeScore": 98000,
+    "goldScore": 70000,
+    "name": "[MK8] N64 Toad's Turnpike",
+    "silverScore": 79000
+  },
+  "b5f86b7c-14d0-4a21-ab3b-b5ec908a34da": {
+    "authorScore": 20000,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "Turns",
+    "silverScore": 25000
+  },
+  "b610c0bd-1738-4723-bef5-627a09d66a99": {
+    "authorScore": 19970,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "5 - HIDE BOOST",
+    "silverScore": 24000
+  },
+  "b6c6ce5d-e2cc-4730-a68f-535c26f6e0f4": {
+    "authorScore": 72187,
+    "bronzeScore": 109000,
+    "goldScore": 77000,
+    "name": "Fall 2023 - 25",
+    "silverScore": 87000
+  },
+  "b6f2e38d-a16e-4204-98d3-73a51c6de7a5": {
+    "authorScore": 60706,
+    "bronzeScore": 92000,
+    "goldScore": 65000,
+    "name": "Spring 2024 - 22",
+    "silverScore": 73000
+  },
+  "b70e2969-6d5c-4d8d-8e35-91d5bb44353d": {
+    "authorScore": 20736,
+    "bronzeScore": 32000,
+    "goldScore": 22000,
+    "name": "1 - Whiteline",
+    "silverScore": 25000
+  },
+  "b7187308-05a4-4094-a828-77224ac77713": {
+    "authorScore": 124662,
+    "bronzeScore": 187000,
+    "goldScore": 133000,
+    "name": "Winter 2026 - 20",
+    "silverScore": 150000
+  },
+  "b7283ffd-d741-4b30-8b69-1c2d9b505276": {
+    "authorScore": 26000,
+    "bronzeScore": 40000,
+    "goldScore": 28000,
+    "name": "Fall 2025 - 05",
+    "silverScore": 32000
+  },
+  "b73fbc07-4645-463d-9b1b-2d287293efa1": {
+    "authorScore": 36999,
+    "bronzeScore": 56000,
+    "goldScore": 40000,
+    "name": "Spring 2023 - 10",
+    "silverScore": 45000
+  },
   "b77e5ecc-cad3-428f-9db7-7287ac942fad": {
     "authorScore": 64480,
     "bronzeScore": 95920,
     "goldScore": 68380,
     "name": "A08-Endurance",
     "silverScore": 77130
+  },
+  "b7e9c722-6c96-46a3-aff4-f1d3e48e6fbf": {
+    "authorScore": 7513,
+    "bronzeScore": 10500,
+    "goldScore": 8750,
+    "name": "Training - 04",
+    "silverScore": 9500
+  },
+  "b8120603-5f6b-425b-94a8-b2ce926d64b3": {
+    "authorScore": 27110,
+    "bronzeScore": 40170,
+    "goldScore": 28790,
+    "name": "B03-Race",
+    "silverScore": 32470
+  },
+  "b8299236-6b79-4243-8915-59b5c67b1c37": {
+    "authorScore": 81572,
+    "bronzeScore": 123000,
+    "goldScore": 87000,
+    "name": "Shallow Dip \u2014 Floor 2 Practice (4 CPs)",
+    "silverScore": 98000
+  },
+  "b8377a95-950b-4bb9-895e-01ac9df6f3e2": {
+    "authorScore": 17872,
+    "bronzeScore": 27000,
+    "goldScore": 19000,
+    "name": "Skibonky Toilet",
+    "silverScore": 22000
+  },
+  "b874dc19-13fc-43c5-b535-a57d0e96f727": {
+    "authorScore": 57395,
+    "bronzeScore": 87000,
+    "goldScore": 61000,
+    "name": "Gozumi ft' Xefas & JakeRay",
+    "silverScore": 69000
+  },
+  "b8c3a63f-2e0a-4dd0-8e56-083f78678f22": {
+    "authorScore": 27965,
+    "bronzeScore": 42000,
+    "goldScore": 30000,
+    "name": "Fall 2020 - 04",
+    "silverScore": 34000
   },
   "b90f90e2-e7fb-4628-83b2-d8d723974884": {
     "authorScore": 30988,
@@ -461,12 +4983,159 @@
     "name": "Fall 2021 - 07",
     "silverScore": 38000
   },
+  "b93b4462-0d8a-42b2-a497-dc79c5373fbc": {
+    "authorScore": 28595,
+    "bronzeScore": 43000,
+    "goldScore": 31000,
+    "name": "Summer 2024 - 05",
+    "silverScore": 35000
+  },
+  "b9acb03f-31c5-4593-808b-274efffc270f": {
+    "authorScore": 329780,
+    "bronzeScore": 437720,
+    "goldScore": 348290,
+    "name": "E03-Endurance",
+    "silverScore": 381450
+  },
   "b9d8e0fb-59f0-40a4-a757-7d1f3e6c0437": {
     "authorScore": 33883,
     "bronzeScore": 51000,
     "goldScore": 36000,
     "name": "Fall 2020 - 07",
     "silverScore": 41000
+  },
+  "b9d9ad53-a005-44e9-83ed-05aeb009977b": {
+    "authorScore": 37614,
+    "bronzeScore": 57000,
+    "goldScore": 40000,
+    "name": "Summer 2021 - 05",
+    "silverScore": 46000
+  },
+  "b9e609bc-6c36-4ec9-b0e9-88a3576da1db": {
+    "authorScore": 43992,
+    "bronzeScore": 66000,
+    "goldScore": 47000,
+    "name": "\u03c4orr\u0454\u0493ac\u0442\u03b9\u0473\u0438",
+    "silverScore": 53000
+  },
+  "b9fc7f36-4802-4c82-95e1-0e047c196f2c": {
+    "authorScore": 66000,
+    "bronzeScore": 100000,
+    "goldScore": 70000,
+    "name": "Shallow Dip \u2014 Floor 0 Practice (No CPs)",
+    "silverScore": 80000
+  },
+  "ba0a5af2-eecc-4dd6-bbdd-154315dccbfd": {
+    "authorScore": 25578,
+    "bronzeScore": 39000,
+    "goldScore": 28000,
+    "name": "Summer 2021 - 07",
+    "silverScore": 31000
+  },
+  "ba3dffbd-9a0a-48f3-b2c1-ca0062896275": {
+    "authorScore": 26481,
+    "bronzeScore": 40000,
+    "goldScore": 29000,
+    "name": "Winter 2026 - 03",
+    "silverScore": 32000
+  },
+  "baca8043-aef3-4851-b7f6-eebf99a8e59b": {
+    "authorScore": 14974,
+    "bronzeScore": 15720,
+    "goldScore": 15220,
+    "name": "Under 15 - 09",
+    "silverScore": 15470
+  },
+  "bb179b91-ed69-48e1-87c2-196f25b11976": {
+    "authorScore": 30281,
+    "bronzeScore": 46000,
+    "goldScore": 33000,
+    "name": "Spring 2021 - 05",
+    "silverScore": 37000
+  },
+  "bb56431f-1127-426d-8a13-903877deb0f1": {
+    "authorScore": 19586,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "3 - way too many paths",
+    "silverScore": 24000
+  },
+  "bb5ed92d-f2af-462e-a912-7aeb686ff90c": {
+    "authorScore": 16594,
+    "bronzeScore": 30000,
+    "goldScore": 20000,
+    "name": "Summer 2020 - 08",
+    "silverScore": 22000
+  },
+  "bb917bdb-5958-495a-adfb-70a886f6bd1b": {
+    "authorScore": 40196,
+    "bronzeScore": 61000,
+    "goldScore": 43000,
+    "name": "Summer 2022 - 13",
+    "silverScore": 49000
+  },
+  "bb920e06-4fab-4d1f-b6f0-763168ff96d9": {
+    "authorScore": 31957,
+    "bronzeScore": 48000,
+    "goldScore": 34000,
+    "name": "Fall 2024 - 06",
+    "silverScore": 39000
+  },
+  "bb97a468-ac98-4273-aef3-9d6631c17976": {
+    "authorScore": 38863,
+    "bronzeScore": 59000,
+    "goldScore": 42000,
+    "name": "Summer 2022 - 15",
+    "silverScore": 47000
+  },
+  "bbc1ea5d-e4d3-42d4-8da8-35c67737ea06": {
+    "authorScore": 14880,
+    "bronzeScore": 15630,
+    "goldScore": 15130,
+    "name": "Under 15 - 02",
+    "silverScore": 15380
+  },
+  "bc496a48-9205-43e8-9152-7cf1206ab13b": {
+    "authorScore": 69000,
+    "bronzeScore": 104000,
+    "goldScore": 74000,
+    "name": "FASTER SKATE",
+    "silverScore": 83000
+  },
+  "bca14f3f-b4f9-428a-b267-81aef1f5f0cf": {
+    "authorScore": 50092,
+    "bronzeScore": 76000,
+    "goldScore": 54000,
+    "name": "Winter 2025 - 20",
+    "silverScore": 61000
+  },
+  "bd7f66c9-039d-4a02-972d-011cbb000526": {
+    "authorScore": 47925,
+    "bronzeScore": 72000,
+    "goldScore": 51000,
+    "name": "MUSPELHEIM",
+    "silverScore": 58000
+  },
+  "be4acd7d-1ddc-48a8-875a-dbbe1ff0996e": {
+    "authorScore": 27195,
+    "bronzeScore": 41000,
+    "goldScore": 29000,
+    "name": "Winter 2024 - 01",
+    "silverScore": 33000
+  },
+  "beb5eadb-b8ae-4abe-b616-48648f02ad88": {
+    "authorScore": 19090,
+    "bronzeScore": 27890,
+    "goldScore": 20070,
+    "name": "A12-Speed",
+    "silverScore": 22930
+  },
+  "bf01c5f2-0539-476d-9406-17e213570eb8": {
+    "authorScore": 69489,
+    "bronzeScore": 105000,
+    "goldScore": 74000,
+    "name": "Spring 2022 - 25",
+    "silverScore": 84000
   },
   "bf7e990f-860e-4e2a-8dbb-5fa376184fe1": {
     "authorScore": 32663,
@@ -475,6 +5144,118 @@
     "name": "Spring 2024 - 09",
     "silverScore": 40000
   },
+  "bf9ed03d-689f-4c9c-b64f-4fca8a9a824b": {
+    "authorScore": 46470,
+    "bronzeScore": 68480,
+    "goldScore": 48670,
+    "name": "D09-Obstacle",
+    "silverScore": 55940
+  },
+  "bfe81708-021b-4f66-8f92-841ba1eb3dac": {
+    "authorScore": 37288,
+    "bronzeScore": 56000,
+    "goldScore": 40000,
+    "name": "Spring 2025 - 11",
+    "silverScore": 45000
+  },
+  "bfea3435-bad7-46c3-b833-29610d36c4a6": {
+    "authorScore": 18542,
+    "bronzeScore": 28000,
+    "goldScore": 20000,
+    "name": "Training - 22",
+    "silverScore": 23000
+  },
+  "bff0eb8e-8c15-4343-82c0-2368fbf0781c": {
+    "authorScore": 39780,
+    "bronzeScore": 60000,
+    "goldScore": 43000,
+    "name": "Spring 2021 - 10",
+    "silverScore": 48000
+  },
+  "bffae6d8-368b-4800-88d4-9d2ed406ff4b": {
+    "authorScore": 45532,
+    "bronzeScore": 69000,
+    "goldScore": 49000,
+    "name": "Ignis Solaris ft' mime",
+    "silverScore": 55000
+  },
+  "c034aa43-0f53-4265-a188-1ccd0813c998": {
+    "authorScore": 42927,
+    "bronzeScore": 65000,
+    "goldScore": 46000,
+    "name": "Spring 2025 - 16",
+    "silverScore": 52000
+  },
+  "c03892e5-154c-4afe-ac4b-6e8c6aec2aa6": {
+    "authorScore": 36571,
+    "bronzeScore": 55000,
+    "goldScore": 39000,
+    "name": "Fall 2020 - 13",
+    "silverScore": 44000
+  },
+  "c07cc03b-6536-44dd-85ec-54212023f4a0": {
+    "authorScore": 49822,
+    "bronzeScore": 75000,
+    "goldScore": 53000,
+    "name": "Winter 2023 - 16",
+    "silverScore": 60000
+  },
+  "c0a88ff9-63ab-466e-8293-41d855920519": {
+    "authorScore": 30868,
+    "bronzeScore": 47000,
+    "goldScore": 33000,
+    "name": "Spring 2021 - 06",
+    "silverScore": 38000
+  },
+  "c11a5635-88e7-4817-918b-54e73ebf052a": {
+    "authorScore": 31979,
+    "bronzeScore": 48000,
+    "goldScore": 34000,
+    "name": "CS - R4ig's Weekly Shorts 1 by R4igekon",
+    "silverScore": 39000
+  },
+  "c1510106-6be4-4b29-8180-67c27317b0b2": {
+    "authorScore": 53291,
+    "bronzeScore": 80000,
+    "goldScore": 56000,
+    "name": "Summer 2020 - 24",
+    "silverScore": 64000
+  },
+  "c1bee63a-e3d9-47b4-b3cc-7ab46a298141": {
+    "authorScore": 19947,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "5 - WonderRoads feat skidtz",
+    "silverScore": 24000
+  },
+  "c216f0ed-f6de-4a57-9e63-07d50446795e": {
+    "authorScore": 42254,
+    "bronzeScore": 64000,
+    "goldScore": 45000,
+    "name": "Winter 2022 - 14",
+    "silverScore": 51000
+  },
+  "c294be67-fbc1-4f01-b2ca-d30e777d9ff6": {
+    "authorScore": 19914,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "4 - Quick Quip",
+    "silverScore": 24000
+  },
+  "c3040c46-1fc6-403c-a655-173b87bb6956": {
+    "authorScore": 19714,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "1 - Wide Jumps",
+    "silverScore": 24000
+  },
+  "c38a5541-3c3e-4e5a-ac20-a740a8d21fa6": {
+    "authorScore": 51622,
+    "bronzeScore": 78000,
+    "goldScore": 55000,
+    "name": "Fall 2024 - 24",
+    "silverScore": 62000
+  },
   "c3a20e85-52ef-41eb-843c-905b695b7839": {
     "authorScore": 60400,
     "bronzeScore": 91000,
@@ -482,11 +5263,123 @@
     "name": "FASTER SPLASH",
     "silverScore": 73000
   },
+  "c3dee982-dbd5-40c8-8d38-8d0a01c2b6dc": {
+    "authorScore": 25475,
+    "bronzeScore": 39000,
+    "goldScore": 28000,
+    "name": "Spring 2026 - 09",
+    "silverScore": 31000
+  },
+  "c3f421db-3a7a-4c27-8ba6-d153d770d0c3": {
+    "authorScore": 36511,
+    "bronzeScore": 55000,
+    "goldScore": 39000,
+    "name": "Summer 2024 - 12",
+    "silverScore": 44000
+  },
+  "c5179472-0ae2-4846-b7cc-f12f8cec68dd": {
+    "authorScore": 53024,
+    "bronzeScore": 80000,
+    "goldScore": 57000,
+    "name": "Spring 2025 - 17",
+    "silverScore": 64000
+  },
+  "c55b9176-23e6-4649-ad0c-6423be984911": {
+    "authorScore": 11307,
+    "bronzeScore": 16000,
+    "goldScore": 12300,
+    "name": "Training - 06",
+    "silverScore": 14000
+  },
+  "c568ef10-e6a6-410f-8191-918fc1d15f4e": {
+    "authorScore": 17563,
+    "bronzeScore": 27000,
+    "goldScore": 19000,
+    "name": "2 - Overgrown Tech",
+    "silverScore": 22000
+  },
+  "c5851269-f29b-4df7-a40e-8edd2c907334": {
+    "authorScore": 16304,
+    "bronzeScore": 25000,
+    "goldScore": 17000,
+    "name": "Training - 18",
+    "silverScore": 20000
+  },
+  "c59359ba-f033-420d-9f18-17b0c5fe8d8b": {
+    "authorScore": 24452,
+    "bronzeScore": 37000,
+    "goldScore": 26000,
+    "name": "Fall 2023 - 01",
+    "silverScore": 30000
+  },
+  "c66ceb43-21eb-4461-afcd-69fec826cd87": {
+    "authorScore": 18203,
+    "bronzeScore": 30000,
+    "goldScore": 19000,
+    "name": "4 - ALTAROCK SPEED",
+    "silverScore": 23000
+  },
+  "c7e60ef0-3421-400d-abf6-e12612d8accb": {
+    "authorScore": 44721,
+    "bronzeScore": 68000,
+    "goldScore": 48000,
+    "name": "Fall 2022 - 16",
+    "silverScore": 54000
+  },
+  "c7f17e22-e146-46aa-a403-9bd359dd1a4c": {
+    "authorScore": 388898,
+    "bronzeScore": 584000,
+    "goldScore": 413000,
+    "name": "Debesys",
+    "silverScore": 467000
+  },
+  "c80a291d-4b03-4ac1-818b-4968af63f8a0": {
+    "authorScore": 19269,
+    "bronzeScore": 29000,
+    "goldScore": 21000,
+    "name": "2 - Yuki",
+    "silverScore": 24000
+  },
   "c8c226c2-3001-4d81-ac1c-92ada18a2563": {
     "authorScore": 20128,
     "bronzeScore": 31000,
     "goldScore": 22000,
     "name": "1 - Tunnel Vision",
+    "silverScore": 25000
+  },
+  "c8c50f95-07e6-4b9d-962a-3043aa4807e7": {
+    "authorScore": 82000,
+    "bronzeScore": 124000,
+    "goldScore": 87000,
+    "name": "Shallow Dip \u2014 Floor 2 Practice (No CPs)",
+    "silverScore": 99000
+  },
+  "c8c6d134-ec15-4bb1-bee6-6303eb88fc12": {
+    "authorScore": 19291,
+    "bronzeScore": 29000,
+    "goldScore": 21000,
+    "name": "Fall 2020 - 01",
+    "silverScore": 24000
+  },
+  "c93c5094-c9e5-4eaf-b5ac-b6b2de5a6a97": {
+    "authorScore": 45655,
+    "bronzeScore": 72000,
+    "goldScore": 50000,
+    "name": "Ruby Reaches",
+    "silverScore": 58000
+  },
+  "c9e5b539-bd86-4b9a-9c41-69811e0af440": {
+    "authorScore": 43101,
+    "bronzeScore": 65000,
+    "goldScore": 46000,
+    "name": "Fall 2023 - 24",
+    "silverScore": 52000
+  },
+  "ca2b572a-191e-4b16-a886-456af28939d2": {
+    "authorScore": 20000,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "2 - Nostalgia Dirt ft' Chraz",
     "silverScore": 25000
   },
   "ca9fb42d-88fb-4baf-a1d6-5e796ee7ce2f": {
@@ -496,12 +5389,40 @@
     "name": "Winter 2022 - 20",
     "silverScore": 58000
   },
+  "cad8769d-bd0d-4c7c-8de0-5b625433e560": {
+    "authorScore": 37226,
+    "bronzeScore": 56000,
+    "goldScore": 40000,
+    "name": "Winter 2021 - 08",
+    "silverScore": 45000
+  },
+  "caf25ea4-20bb-400b-b19f-7142c4bcc8a7": {
+    "authorScore": 25000,
+    "bronzeScore": 38000,
+    "goldScore": 27000,
+    "name": "Summer 2025 - 04",
+    "silverScore": 31000
+  },
   "caf672ed-9920-41ac-86fb-7999c66f8040": {
     "authorScore": 35598,
     "bronzeScore": 54000,
     "goldScore": 38000,
     "name": "Summer 2022 - 06",
     "silverScore": 43000
+  },
+  "cba3df0c-3f03-4901-ae1f-3ece3adc86e3": {
+    "authorScore": 26200,
+    "bronzeScore": 39680,
+    "goldScore": 27800,
+    "name": "B01-Race",
+    "silverScore": 31620
+  },
+  "cc30138c-b25e-409f-81d4-05f7edcce68f": {
+    "authorScore": 14650,
+    "bronzeScore": 22310,
+    "goldScore": 15630,
+    "name": "D11-Acrobatic",
+    "silverScore": 18090
   },
   "cc3ea5f4-053b-4af0-9828-6552282b43d3": {
     "authorScore": 65119,
@@ -510,12 +5431,33 @@
     "name": "Fall 2025 - 25",
     "silverScore": 79000
   },
+  "cc97d70a-1a39-41d9-88be-6aca174c9f52": {
+    "authorScore": 33823,
+    "bronzeScore": 51000,
+    "goldScore": 36000,
+    "name": "Fall 2023 - 11",
+    "silverScore": 41000
+  },
   "cd219c4e-c9cf-407d-addd-1a0910563369": {
     "authorScore": 28375,
     "bronzeScore": 43000,
     "goldScore": 31000,
     "name": "Spring 2026 - 05",
     "silverScore": 35000
+  },
+  "cd9369a6-2a22-4f5a-8084-955a8ca2d5e0": {
+    "authorScore": 32922,
+    "bronzeScore": 50000,
+    "goldScore": 35000,
+    "name": "Spring 2024 - 05",
+    "silverScore": 40000
+  },
+  "cd9c2370-346c-436e-8526-82b81e5105d8": {
+    "authorScore": 63925,
+    "bronzeScore": 96000,
+    "goldScore": 68000,
+    "name": "Summer 2025 - 24",
+    "silverScore": 77000
   },
   "cdb67192-3ef2-48b8-bb02-7a1324fd9fd1": {
     "authorScore": 26846,
@@ -524,12 +5466,54 @@
     "name": "Summer 2020 - 11",
     "silverScore": 34000
   },
+  "cde3e11a-59e8-4334-8633-c8e68e34438c": {
+    "authorScore": 20000,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "4 - Pine Ridge",
+    "silverScore": 25000
+  },
   "cde6d615-5afb-46ba-a019-79e70adcc4b1": {
     "authorScore": 28952,
     "bronzeScore": 44000,
     "goldScore": 31000,
     "name": "Bees Bath",
     "silverScore": 35000
+  },
+  "cde98348-323c-47fb-8841-f7229ba2eee5": {
+    "authorScore": 30279,
+    "bronzeScore": 46000,
+    "goldScore": 35000,
+    "name": "Summer 2025 - 13",
+    "silverScore": 40000
+  },
+  "ce0a0bd3-fb32-4da7-a8f8-ffc8186e437f": {
+    "authorScore": 65928,
+    "bronzeScore": 99000,
+    "goldScore": 70000,
+    "name": "USA 2026",
+    "silverScore": 80000
+  },
+  "ce583a45-840d-495c-ab04-e5cc25571898": {
+    "authorScore": 47188,
+    "bronzeScore": 71000,
+    "goldScore": 51000,
+    "name": "Winter 2024 - 19",
+    "silverScore": 57000
+  },
+  "d063fb1c-ddf2-4e1c-9bb4-badd6ef09767": {
+    "authorScore": 52630,
+    "bronzeScore": 70650,
+    "goldScore": 56860,
+    "name": "D02-Race",
+    "silverScore": 63550
+  },
+  "d15b2245-d73e-44a3-b890-83f3a33f8f06": {
+    "authorScore": 42933,
+    "bronzeScore": 85000,
+    "goldScore": 58000,
+    "name": "Summer 2020 - 16",
+    "silverScore": 65000
   },
   "d1c00d8e-b632-4023-8dde-b1e1ca36147f": {
     "authorScore": 48478,
@@ -545,12 +5529,306 @@
     "name": "Azure Cascade",
     "silverScore": 52000
   },
+  "d241f3eb-4381-4c33-a4e0-ebf8fb9a7318": {
+    "authorScore": 34750,
+    "bronzeScore": 53000,
+    "goldScore": 37000,
+    "name": "Fall 2025 - 08",
+    "silverScore": 42000
+  },
+  "d2b8a048-209d-4cfa-b5a4-bc3e3cab3566": {
+    "authorScore": 29089,
+    "bronzeScore": 44000,
+    "goldScore": 31000,
+    "name": "Spring 2024 - 01",
+    "silverScore": 35000
+  },
+  "d36f47d7-255a-46a0-abac-6d42953c637d": {
+    "authorScore": 48939,
+    "bronzeScore": 74000,
+    "goldScore": 52000,
+    "name": "Fall 2024 - 21",
+    "silverScore": 59000
+  },
+  "d38f8ca7-1c4e-49ba-9fdc-f7277b6f0997": {
+    "authorScore": 53701,
+    "bronzeScore": 81000,
+    "goldScore": 57000,
+    "name": "Spring 2025 - 20",
+    "silverScore": 65000
+  },
+  "d39584d7-eeee-49de-ad1e-703e955bd1f5": {
+    "authorScore": 14783,
+    "bronzeScore": 15530,
+    "goldScore": 15030,
+    "name": "Under 15 - 11",
+    "silverScore": 15280
+  },
+  "d3fb3eaa-5928-407b-ab10-cc4e9840fad2": {
+    "authorScore": 31158,
+    "bronzeScore": 47000,
+    "goldScore": 34000,
+    "name": "Winter 2021 - 06",
+    "silverScore": 38000
+  },
+  "d4102b54-47d6-4400-a210-59c4043df499": {
+    "authorScore": 49322,
+    "bronzeScore": 74000,
+    "goldScore": 53000,
+    "name": "Summer 2024 - 16",
+    "silverScore": 60000
+  },
+  "d432f05c-7352-4956-9226-c3107e85ac12": {
+    "authorScore": 36016,
+    "bronzeScore": 55000,
+    "goldScore": 39000,
+    "name": "Fall 2023 - 12",
+    "silverScore": 44000
+  },
+  "d45e05d6-9e2f-4fd1-b844-6d8512294ff1": {
+    "authorScore": 21418,
+    "bronzeScore": 33000,
+    "goldScore": 23000,
+    "name": "Marble",
+    "silverScore": 26000
+  },
+  "d47905f3-d6e1-451e-a687-f8fc3df31820": {
+    "authorScore": 53319,
+    "bronzeScore": 80000,
+    "goldScore": 57000,
+    "name": "Spring 2025 - 24",
+    "silverScore": 64000
+  },
+  "d4972bc5-73af-438f-b02a-b4de8dc2e5f2": {
+    "authorScore": 65678,
+    "bronzeScore": 99000,
+    "goldScore": 70000,
+    "name": "Winter 2022 - 23",
+    "silverScore": 79000
+  },
+  "d5a77217-a2d7-4888-b829-2681c9aaec92": {
+    "authorScore": 27472,
+    "bronzeScore": 42000,
+    "goldScore": 30000,
+    "name": "Spring 2025 - 06",
+    "silverScore": 33000
+  },
+  "d5aa441f-ccd9-4b73-865d-d9b36ed57330": {
+    "authorScore": 19989,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "2 - Pinewood Path",
+    "silverScore": 24000
+  },
+  "d5efa099-a9b0-4615-bb3a-95a85b99bb53": {
+    "authorScore": 35206,
+    "bronzeScore": 53000,
+    "goldScore": 38000,
+    "name": "Spring 2023 - 14",
+    "silverScore": 43000
+  },
+  "d7086b25-9d94-4d0f-84fb-b11a99c0de99": {
+    "authorScore": 26727,
+    "bronzeScore": 41000,
+    "goldScore": 29000,
+    "name": "Winter 2024 - 05",
+    "silverScore": 33000
+  },
+  "d72495fa-9a0a-44a9-8b61-110afee26d4c": {
+    "authorScore": 19805,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "4- Checkered Up",
+    "silverScore": 24000
+  },
+  "d731a452-1d98-4bc1-872f-94eb51166024": {
+    "authorScore": 15945,
+    "bronzeScore": 24000,
+    "goldScore": 17000,
+    "name": "5 - Flipmaster 25",
+    "silverScore": 20000
+  },
+  "d762706a-20dd-4aee-a2f1-239d7448d56d": {
+    "authorScore": 17024,
+    "bronzeScore": 26000,
+    "goldScore": 19000,
+    "name": "5 - Super Splashout",
+    "silverScore": 21000
+  },
+  "d7eac6da-9e42-4a4d-92a9-e197a177b549": {
+    "authorScore": 28661,
+    "bronzeScore": 43000,
+    "goldScore": 31000,
+    "name": "Winter 2025 - 06",
+    "silverScore": 35000
+  },
+  "d84154b3-f5d3-4cd7-ac55-789815058483": {
+    "authorScore": 26211,
+    "bronzeScore": 40000,
+    "goldScore": 28000,
+    "name": "Spring 2026 - 04",
+    "silverScore": 32000
+  },
+  "d86d708d-2930-4006-abe7-5904654ecb90": {
+    "authorScore": 51962,
+    "bronzeScore": 78000,
+    "goldScore": 56000,
+    "name": "Fall 2025 - 19",
+    "silverScore": 63000
+  },
+  "d8a07371-48c6-4194-99a4-3dc060538046": {
+    "authorScore": 30999,
+    "bronzeScore": 47000,
+    "goldScore": 33000,
+    "name": "Winter 2023 - 11",
+    "silverScore": 38000
+  },
+  "d8ba9da8-17aa-40f1-8673-a249e8f9969f": {
+    "authorScore": 30528,
+    "bronzeScore": 46000,
+    "goldScore": 33000,
+    "name": "Spring 2025 - 02",
+    "silverScore": 37000
+  },
+  "d90022c2-4a5e-44e4-b1da-534d82ea9ee4": {
+    "authorScore": 48718,
+    "bronzeScore": 74000,
+    "goldScore": 52000,
+    "name": "Summer 2024 - 17",
+    "silverScore": 59000
+  },
+  "d94e9bba-528d-48d6-83c6-e9bfe3755ad9": {
+    "authorScore": 30438,
+    "bronzeScore": 46000,
+    "goldScore": 33000,
+    "name": "Summer 2024 - 03",
+    "silverScore": 37000
+  },
+  "d972b028-ac67-4e62-b852-27ecba99d480": {
+    "authorScore": 177090,
+    "bronzeScore": 244600,
+    "goldScore": 186540,
+    "name": "D14-Endurance",
+    "silverScore": 209960
+  },
+  "d9a05ee9-c06d-4d1d-bfd1-5602634daacc": {
+    "authorScore": 95636,
+    "bronzeScore": 144000,
+    "goldScore": 102000,
+    "name": "Winter 2026 - 15",
+    "silverScore": 115000
+  },
+  "d9a3c5ad-cdbf-45fc-a8ad-a234aa005ac6": {
+    "authorScore": 15855,
+    "bronzeScore": 24000,
+    "goldScore": 17000,
+    "name": "Daily Shorts #28",
+    "silverScore": 20000
+  },
+  "d9f85015-dce0-40d8-85ee-2f4e4ba0f110": {
+    "authorScore": 15954,
+    "bronzeScore": 20000,
+    "goldScore": 16500,
+    "name": "Training - 16",
+    "silverScore": 18000
+  },
+  "da892fb1-402a-472b-b95d-bd8cfed96e50": {
+    "authorScore": 26715,
+    "bronzeScore": 41000,
+    "goldScore": 29000,
+    "name": "Fall 2021 - 03",
+    "silverScore": 33000
+  },
+  "db092647-f28f-41ab-b64e-86867d9d21e2": {
+    "authorScore": 39822,
+    "bronzeScore": 60000,
+    "goldScore": 43000,
+    "name": "Fall 2024 - 12",
+    "silverScore": 48000
+  },
+  "db2bc794-77fb-4581-ad57-7ad116d7d721": {
+    "authorScore": 38581,
+    "bronzeScore": 58000,
+    "goldScore": 41000,
+    "name": "Fall 2021 - 15",
+    "silverScore": 47000
+  },
+  "db46ffae-918a-423e-be6a-c2ae98ddfa9d": {
+    "authorScore": 24001,
+    "bronzeScore": 37000,
+    "goldScore": 26000,
+    "name": "snowo car map for nycoguy uwu #2",
+    "silverScore": 29000
+  },
+  "db5775a4-278e-45c9-a610-9dd257d7856c": {
+    "authorScore": 32117,
+    "bronzeScore": 49000,
+    "goldScore": 35000,
+    "name": "HylisCore",
+    "silverScore": 39000
+  },
+  "db589f15-ef00-4de4-b3ee-9383f1a1eecf": {
+    "authorScore": 20086,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "Spring 2022 - 02",
+    "silverScore": 25000
+  },
   "dbfa5125-b4ba-4711-95a0-791627354c22": {
     "authorScore": 47259,
     "bronzeScore": 71000,
     "goldScore": 51000,
     "name": "Summer 2020 - 23",
     "silverScore": 57000
+  },
+  "dc100875-ebfc-4157-afe1-ca0e5c266fc9": {
+    "authorScore": 28085,
+    "bronzeScore": 43000,
+    "goldScore": 30000,
+    "name": "Fall 2023 - 03",
+    "silverScore": 34000
+  },
+  "dc29ea37-31a0-4b02-bf53-08f864149720": {
+    "authorScore": 71378,
+    "bronzeScore": 108000,
+    "goldScore": 76000,
+    "name": "France 2026",
+    "silverScore": 86000
+  },
+  "dca2c9ac-0b14-4b4e-83cb-72241905289b": {
+    "authorScore": 16669,
+    "bronzeScore": 26000,
+    "goldScore": 18000,
+    "name": "CS - Divergence by Svitman",
+    "silverScore": 21000
+  },
+  "dd2710e6-b000-4650-9520-1f88ed5034a8": {
+    "authorScore": 21706,
+    "bronzeScore": 33000,
+    "goldScore": 24000,
+    "name": "ducks are cool",
+    "silverScore": 27000
+  },
+  "dd3a9edb-b91e-4d66-adc1-c2bef679d1a2": {
+    "authorScore": 34901,
+    "bronzeScore": 53000,
+    "goldScore": 37000,
+    "name": "Winter 2026 - 12",
+    "silverScore": 42000
+  },
+  "dd6f23ad-601f-4007-b247-f1a75c2913c7": {
+    "authorScore": 35901,
+    "bronzeScore": 54000,
+    "goldScore": 39000,
+    "name": "Winter 2025 - 14",
+    "silverScore": 44000
+  },
+  "ddbceda1-2ca2-4079-8675-63cc324fa7a6": {
+    "authorScore": 36981,
+    "bronzeScore": 56000,
+    "goldScore": 40000,
+    "name": "Fall 2023 - 14",
+    "silverScore": 45000
   },
   "ddec9912-f45a-4ff3-bdb3-fef87b4ce1a5": {
     "authorScore": 43936,
@@ -559,12 +5837,138 @@
     "name": "Summer 2020 - 12",
     "silverScore": 53000
   },
+  "df6da762-689c-4781-9e13-c5d85b48c3f9": {
+    "authorScore": 47153,
+    "bronzeScore": 75000,
+    "goldScore": 52000,
+    "name": "Summer 2020 - 22",
+    "silverScore": 60000
+  },
+  "df781bdb-6f9a-4efc-855b-dbef446e1b8a": {
+    "authorScore": 24302,
+    "bronzeScore": 37000,
+    "goldScore": 26000,
+    "name": "Spring 2022 - 01",
+    "silverScore": 30000
+  },
+  "df8f7ab1-522b-4c62-a456-478f32f53456": {
+    "authorScore": 68261,
+    "bronzeScore": 120000,
+    "goldScore": 78000,
+    "name": "Summer 2020 - 25",
+    "silverScore": 90000
+  },
+  "e02396d7-1a19-4e04-b7ec-a9a05f62c94d": {
+    "authorScore": 40182,
+    "bronzeScore": 61000,
+    "goldScore": 43000,
+    "name": "Fall 2024 - 11",
+    "silverScore": 49000
+  },
+  "e0cf439d-7994-46ff-9c48-65650516e578": {
+    "authorScore": 31208,
+    "bronzeScore": 47000,
+    "goldScore": 34000,
+    "name": "Winter 2025 - 07",
+    "silverScore": 38000
+  },
   "e0f5b6aa-c2c5-4b19-b393-480f23b1b76c": {
     "authorScore": 102500,
     "bronzeScore": 153670,
     "goldScore": 107960,
     "name": "B08-Endurance",
     "silverScore": 122440
+  },
+  "e122334c-6488-4e6a-9560-afee241e6a22": {
+    "authorScore": 31250,
+    "bronzeScore": 47000,
+    "goldScore": 34000,
+    "name": "Fall 2025 - 07",
+    "silverScore": 38000
+  },
+  "e13d3f64-6440-4b5d-a5c3-fbf5b4bb163e": {
+    "authorScore": 25008,
+    "bronzeScore": 38000,
+    "goldScore": 27000,
+    "name": "VirtualRacer",
+    "silverScore": 31000
+  },
+  "e1566153-df51-43ca-992f-364d50eb5a43": {
+    "authorScore": 34144,
+    "bronzeScore": 52000,
+    "goldScore": 37000,
+    "name": "Winter 2024 - 12",
+    "silverScore": 41000
+  },
+  "e16a4f3a-518d-4eff-81eb-7e3c02d8d944": {
+    "authorScore": 24092,
+    "bronzeScore": 37000,
+    "goldScore": 26000,
+    "name": "Spring 2025 - 08",
+    "silverScore": 29000
+  },
+  "e191d74f-a2ee-4725-b8c4-ec5e6aabbf95": {
+    "authorScore": 37065,
+    "bronzeScore": 56000,
+    "goldScore": 40000,
+    "name": "Spring 2022 - 07",
+    "silverScore": 45000
+  },
+  "e1c1d447-edd4-4f8d-9408-9746bd483e51": {
+    "authorScore": 16760,
+    "bronzeScore": 26000,
+    "goldScore": 18000,
+    "name": "4 - Grassy Slides",
+    "silverScore": 21000
+  },
+  "e1cfc447-1c79-4e6a-8afe-5290ffa0c67f": {
+    "authorScore": 32314,
+    "bronzeScore": 49000,
+    "goldScore": 35000,
+    "name": "Spring 2022 - 10",
+    "silverScore": 39000
+  },
+  "e1f60c7c-1381-4251-a9a1-21fdf961be3d": {
+    "authorScore": 49589,
+    "bronzeScore": 75000,
+    "goldScore": 53000,
+    "name": "Winter 2024 - 21",
+    "silverScore": 60000
+  },
+  "e2a51e6c-9314-441d-b81c-6f2aca87fa6a": {
+    "authorScore": 50251,
+    "bronzeScore": 76000,
+    "goldScore": 54000,
+    "name": "Spring 2024 - 18",
+    "silverScore": 61000
+  },
+  "e331ad4e-78c4-49f2-949c-9a1325fd8900": {
+    "authorScore": 31700,
+    "bronzeScore": 48000,
+    "goldScore": 34000,
+    "name": "Spring 2025 - 13",
+    "silverScore": 39000
+  },
+  "e34970c5-5ec4-4cd7-9812-62d83f79b9cc": {
+    "authorScore": 36402,
+    "bronzeScore": 55000,
+    "goldScore": 39000,
+    "name": "Summer 2022 - 09",
+    "silverScore": 44000
+  },
+  "e4090910-0ce5-4150-8d8e-b1fcbb3aef48": {
+    "authorScore": 17401,
+    "bronzeScore": 27000,
+    "goldScore": 19000,
+    "name": "Summer 2023 - 04",
+    "silverScore": 21000
+  },
+  "e418e65f-2020-4d47-bbef-b4252e00eccf": {
+    "authorScore": 470660,
+    "bronzeScore": 650760,
+    "goldScore": 498250,
+    "name": "D15-Endurance",
+    "silverScore": 557550
   },
   "e424be40-5b82-422c-a651-25d2243bf3bb": {
     "authorScore": 24230,
@@ -573,12 +5977,61 @@
     "name": "Forest",
     "silverScore": 30000
   },
+  "e43cf2bd-629c-4bc1-88e8-3ae956586011": {
+    "authorScore": 71111,
+    "bronzeScore": 107000,
+    "goldScore": 76000,
+    "name": "Spring 2024 - 25",
+    "silverScore": 86000
+  },
+  "e4936734-b835-4a28-afb4-d79446a7acdc": {
+    "authorScore": 23858,
+    "bronzeScore": 36000,
+    "goldScore": 26000,
+    "name": "CS - The Short Tower by Qiraj_TM",
+    "silverScore": 29000
+  },
+  "e4a4348e-e70a-4071-8083-312e4291dc43": {
+    "authorScore": 10546,
+    "bronzeScore": 11200,
+    "goldScore": 10700,
+    "name": "Training - 05",
+    "silverScore": 10800
+  },
+  "e4cad687-ab1e-41d5-bff2-68bf8fd26be5": {
+    "authorScore": 19545,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "Fall 2022 - 01",
+    "silverScore": 24000
+  },
   "e4df8476-8354-4606-b192-c44e7a02354c": {
     "authorScore": 23668,
     "bronzeScore": 36000,
     "goldScore": 26000,
     "name": "BOnk52",
     "silverScore": 29000
+  },
+  "e4f362b4-9628-48da-966f-49eb584f878d": {
+    "authorScore": 24396,
+    "bronzeScore": 37000,
+    "goldScore": 26000,
+    "name": "Winter 2022 - 03",
+    "silverScore": 30000
+  },
+  "e54f5860-58f7-44c9-b79f-844ebf2a4bae": {
+    "authorScore": 30360,
+    "bronzeScore": 45690,
+    "goldScore": 32190,
+    "name": "B07-Race",
+    "silverScore": 36460
+  },
+  "e555da33-6f89-4746-aeca-a5a113968dc7": {
+    "authorScore": 74228,
+    "bronzeScore": 112000,
+    "goldScore": 79000,
+    "name": "Fall 2024 - 22",
+    "silverScore": 90000
   },
   "e57b23a7-162c-4c0f-8855-d2b6d51a8e2a": {
     "authorScore": 15592,
@@ -587,12 +6040,40 @@
     "name": "CS - Crimson Cascade by PajChamp",
     "silverScore": 19000
   },
+  "e588d9d7-ce75-418a-9a23-2ea4de583dd0": {
+    "authorScore": 19320,
+    "bronzeScore": 28430,
+    "goldScore": 20450,
+    "name": "A11-Race",
+    "silverScore": 23110
+  },
+  "e5b11cdd-51c1-4c16-86d0-58315e410177": {
+    "authorScore": 30832,
+    "bronzeScore": 47000,
+    "goldScore": 33000,
+    "name": "Winter 2026 - 04",
+    "silverScore": 37000
+  },
   "e5b89a3d-81de-4834-a9f2-3c3f0430ea4c": {
     "authorScore": 44714,
     "bronzeScore": 68000,
     "goldScore": 48000,
     "name": "Highland Swamp ft SiriusTtm",
     "silverScore": 54000
+  },
+  "e5d357ca-40f5-4a2e-9dad-43b5df7a6339": {
+    "authorScore": 18750,
+    "bronzeScore": 28610,
+    "goldScore": 19840,
+    "name": "A03-Race",
+    "silverScore": 22290
+  },
+  "e6901f1a-d976-43eb-8fde-e86caf745e47": {
+    "authorScore": 26598,
+    "bronzeScore": 40000,
+    "goldScore": 29000,
+    "name": "Spring 2022 - 08",
+    "silverScore": 32000
   },
   "e6c3851d-0f92-4520-b997-92fa432ee81d": {
     "authorScore": 17433,
@@ -601,12 +6082,75 @@
     "name": "1 - Fun Valley",
     "silverScore": 21000
   },
+  "e6c951b5-85b1-4f55-9e36-8a8a3bb69482": {
+    "authorScore": 14693,
+    "bronzeScore": 15440,
+    "goldScore": 14940,
+    "name": "Under 15 - 25",
+    "silverScore": 15190
+  },
+  "e71ef85a-c1f9-4a19-87cd-2abd6b2642be": {
+    "authorScore": 38382,
+    "bronzeScore": 58000,
+    "goldScore": 41000,
+    "name": "Fall 2024 - 18",
+    "silverScore": 47000
+  },
+  "e797272e-c2a5-47ca-a14a-70178973cd3c": {
+    "authorScore": 34560,
+    "bronzeScore": 52000,
+    "goldScore": 37000,
+    "name": "Spring 2025 - 07",
+    "silverScore": 42000
+  },
+  "e7a71aeb-8661-4d3e-8149-d082ef55e178": {
+    "authorScore": 19593,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "1 - Blossom",
+    "silverScore": 24000
+  },
+  "e7e70ce1-ce6a-4cfe-958f-3b42c494814b": {
+    "authorScore": 114052,
+    "bronzeScore": 172000,
+    "goldScore": 121000,
+    "name": "Shallow Dip \u2014 Floor 3 Practice (7 CPs)",
+    "silverScore": 137000
+  },
   "e82af8c0-7991-47e2-a45f-9584572af5d0": {
     "authorScore": 23541,
     "bronzeScore": 36000,
     "goldScore": 25000,
     "name": "Fall 2024 - 08",
     "silverScore": 29000
+  },
+  "e83d6c6c-f338-4f27-ace6-1486651fd4d7": {
+    "authorScore": 27254,
+    "bronzeScore": 41000,
+    "goldScore": 29000,
+    "name": "Spring 2023 - 02",
+    "silverScore": 33000
+  },
+  "e8a02ba9-f418-463d-8a83-ac5fc465ca8a": {
+    "authorScore": 24997,
+    "bronzeScore": 38000,
+    "goldScore": 27000,
+    "name": "Winter 2026 - 02",
+    "silverScore": 30000
+  },
+  "e8c575e8-ae2c-4060-b712-68f434e1aaf8": {
+    "authorScore": 30000,
+    "bronzeScore": 46000,
+    "goldScore": 32000,
+    "name": "Summer 2025 - 05",
+    "silverScore": 37000
+  },
+  "e8fe0309-f410-404b-aea3-0f6fe9058ad4": {
+    "authorScore": 12217,
+    "bronzeScore": 16000,
+    "goldScore": 12400,
+    "name": "Training - 09",
+    "silverScore": 14500
   },
   "e9349dfa-c8bd-4c8e-88d3-daad158763ae": {
     "authorScore": 40412,
@@ -615,12 +6159,187 @@
     "name": "Spring 2022 - 12",
     "silverScore": 49000
   },
+  "e95d64a2-2770-46dc-a449-ef8f10c6a29c": {
+    "authorScore": 17882,
+    "bronzeScore": 27000,
+    "goldScore": 19000,
+    "name": "4 - Jackdaw's Hills",
+    "silverScore": 22000
+  },
+  "e9aab047-593e-4e1c-9cab-9822d6ff1dde": {
+    "authorScore": 22353,
+    "bronzeScore": 34000,
+    "goldScore": 24000,
+    "name": "greenplanet",
+    "silverScore": 27000
+  },
+  "e9b3e583-c4e0-48af-be35-c15315209982": {
+    "authorScore": 37417,
+    "bronzeScore": 57000,
+    "goldScore": 40000,
+    "name": "K\u00f6ktem",
+    "silverScore": 45000
+  },
+  "ea3bb2f5-a546-45b4-8231-c53377280389": {
+    "authorScore": 24658,
+    "bronzeScore": 37000,
+    "goldScore": 27000,
+    "name": "Spring 2022 - 04",
+    "silverScore": 30000
+  },
+  "ea817010-835b-471e-9938-baede91faeba": {
+    "authorScore": 57620,
+    "bronzeScore": 86630,
+    "goldScore": 59610,
+    "name": "D10-Race",
+    "silverScore": 71470
+  },
+  "ea9582c6-c879-45a9-bf1f-6edbd11877e2": {
+    "authorScore": 48448,
+    "bronzeScore": 73000,
+    "goldScore": 52000,
+    "name": "Summer 2024 - 22",
+    "silverScore": 59000
+  },
+  "eaacb8bd-0377-466c-bafd-88c144806581": {
+    "authorScore": 39097,
+    "bronzeScore": 59000,
+    "goldScore": 42000,
+    "name": "Fall 2020 - 12",
+    "silverScore": 47000
+  },
+  "ead12a23-4ed9-4e15-8a33-2f74c76637f6": {
+    "authorScore": 19750,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "1 - futur village",
+    "silverScore": 24000
+  },
+  "eaeed0f4-a5b8-4d4c-a260-5275c3fd45fd": {
+    "authorScore": 43301,
+    "bronzeScore": 65000,
+    "goldScore": 46000,
+    "name": "Winter 2022 - 11",
+    "silverScore": 52000
+  },
+  "eb3dde30-0a77-4de9-8ee6-4bd746154a4a": {
+    "authorScore": 61650,
+    "bronzeScore": 93000,
+    "goldScore": 66000,
+    "name": "FASTER ALPINE",
+    "silverScore": 74000
+  },
+  "ebc72d7b-437e-4254-b698-0463ba8683a0": {
+    "authorScore": 28808,
+    "bronzeScore": 44000,
+    "goldScore": 31000,
+    "name": "Fall 2022 - 07",
+    "silverScore": 35000
+  },
+  "ebfad46f-bffb-416b-97be-5cc5508f42f3": {
+    "authorScore": 28887,
+    "bronzeScore": 44000,
+    "goldScore": 31000,
+    "name": "Summer 2020 - 06",
+    "silverScore": 35000
+  },
+  "ec21ecf3-8fb8-4b2f-8a22-4ee008450892": {
+    "authorScore": 40275,
+    "bronzeScore": 61000,
+    "goldScore": 43000,
+    "name": "Fall 2024 - 15",
+    "silverScore": 49000
+  },
+  "ec36f72f-92eb-4ac1-a863-4c94c848015b": {
+    "authorScore": 16017,
+    "bronzeScore": 25000,
+    "goldScore": 17000,
+    "name": "2 - Green Lane",
+    "silverScore": 20000
+  },
+  "ec9fb5e9-204c-4329-8128-e0e5d12083a5": {
+    "authorScore": 300000,
+    "bronzeScore": 451000,
+    "goldScore": 319000,
+    "name": "Summer 2025 - 25",
+    "silverScore": 361000
+  },
+  "ecc26d2f-c997-4a77-9129-fed90f6a6b14": {
+    "authorScore": 47699,
+    "bronzeScore": 72000,
+    "goldScore": 51000,
+    "name": "Summer 2023 - 22",
+    "silverScore": 58000
+  },
   "ed17ea6c-bedc-4a1b-a53c-d1470dc86cec": {
     "authorScore": 31656,
     "bronzeScore": 48000,
     "goldScore": 34000,
     "name": "NightRace",
     "silverScore": 38000
+  },
+  "ed1bf03e-18af-432c-b6fb-bbe76db7c0a6": {
+    "authorScore": 46294,
+    "bronzeScore": 70000,
+    "goldScore": 50000,
+    "name": "Winter 2022 - 17",
+    "silverScore": 56000
+  },
+  "ed1daeb0-2f01-4cd1-8c4d-6177a903f3b8": {
+    "authorScore": 19527,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "5 - Off Piste ft' classJan",
+    "silverScore": 24000
+  },
+  "ed485fd1-4c5d-4699-a72d-36d97f3226d1": {
+    "authorScore": 41190,
+    "bronzeScore": 62010,
+    "goldScore": 43840,
+    "name": "B15-Race",
+    "silverScore": 49420
+  },
+  "ed53486f-a80d-419b-b073-54bb8944d502": {
+    "authorScore": 25000,
+    "bronzeScore": 38000,
+    "goldScore": 27000,
+    "name": "Winter 2026 - 01",
+    "silverScore": 31000
+  },
+  "eda424ab-da66-4c9b-97c9-b756d16d974c": {
+    "authorScore": 49631,
+    "bronzeScore": 75000,
+    "goldScore": 53000,
+    "name": "Fall 2020 - 16",
+    "silverScore": 60000
+  },
+  "edce7907-b01a-405e-a140-98e2ce0b0db8": {
+    "authorScore": 21842,
+    "bronzeScore": 27990,
+    "goldScore": 22690,
+    "name": "better days",
+    "silverScore": 23990
+  },
+  "ede5d5a1-a6f0-4144-85cd-80dda99a029c": {
+    "authorScore": 27803,
+    "bronzeScore": 42000,
+    "goldScore": 30000,
+    "name": "Summer 2023 - 09",
+    "silverScore": 34000
+  },
+  "ee21a2a0-010e-4190-8703-5241897d1544": {
+    "authorScore": 21730,
+    "bronzeScore": 33000,
+    "goldScore": 24000,
+    "name": "Clearly Short #001",
+    "silverScore": 27000
+  },
+  "ee40b439-5dd2-4c5c-ae54-8c6540f8c617": {
+    "authorScore": 14598,
+    "bronzeScore": 15340,
+    "goldScore": 14840,
+    "name": "Under 15 - 04",
+    "silverScore": 15090
   },
   "eea9b037-e695-4528-bb53-70dd7eb72c43": {
     "authorScore": 26532,
@@ -636,12 +6355,47 @@
     "name": "Fall 2022 - 20",
     "silverScore": 60000
   },
+  "ef280093-5e4e-4040-a8c1-d955bf32f174": {
+    "authorScore": 47470,
+    "bronzeScore": 72000,
+    "goldScore": 51000,
+    "name": "Leaf Links",
+    "silverScore": 57000
+  },
   "ef350c64-06d0-4e31-8d6d-9cd7c20d6616": {
     "authorScore": 64321,
     "bronzeScore": 97000,
     "goldScore": 69000,
     "name": "Fall 2022 - 22",
     "silverScore": 78000
+  },
+  "f000c3f9-2dd3-470c-94b1-bca40ac72777": {
+    "authorScore": 32980,
+    "bronzeScore": 49930,
+    "goldScore": 35190,
+    "name": "B14-Speed",
+    "silverScore": 40290
+  },
+  "f0123035-4a44-4991-9863-122057b5ca9d": {
+    "authorScore": 39531,
+    "bronzeScore": 60000,
+    "goldScore": 42000,
+    "name": "Kedai",
+    "silverScore": 48000
+  },
+  "f0191d90-e802-4929-8c9a-989e246dd47d": {
+    "authorScore": 54558,
+    "bronzeScore": 82000,
+    "goldScore": 58000,
+    "name": "Winter 2023 - 08",
+    "silverScore": 66000
+  },
+  "f03847cb-99cb-4acb-a10a-18f446b1227c": {
+    "authorScore": 19275,
+    "bronzeScore": 29000,
+    "goldScore": 21000,
+    "name": "5 - MountBound with antiGeodesic",
+    "silverScore": 24000
   },
   "f043416e-420f-4cb6-87c6-29392ebce0de": {
     "authorScore": 29618,
@@ -650,12 +6404,145 @@
     "name": "Winter 2023 - 13",
     "silverScore": 36000
   },
+  "f11e5895-5a56-4f70-a776-3b4720efd370": {
+    "authorScore": 26482,
+    "bronzeScore": 40000,
+    "goldScore": 29000,
+    "name": "Spring 2026 - 03",
+    "silverScore": 32000
+  },
+  "f120ad9b-b781-49c4-bf79-c2d33d61fa9c": {
+    "authorScore": 19145,
+    "bronzeScore": 29000,
+    "goldScore": 21000,
+    "name": "5 - Party at the Bounce House",
+    "silverScore": 23000
+  },
+  "f17570c1-56c3-41f0-83ec-78f00247c882": {
+    "authorScore": 15195,
+    "bronzeScore": 23000,
+    "goldScore": 17000,
+    "name": "Symmetry - Ice",
+    "silverScore": 19000
+  },
+  "f1a5034d-13c9-43a7-91db-16305f13203b": {
+    "authorScore": 38016,
+    "bronzeScore": 58000,
+    "goldScore": 41000,
+    "name": "Spring 2026 - 12",
+    "silverScore": 46000
+  },
   "f2037c2c-2e95-4793-b03e-bee8ba1a8496": {
     "authorScore": 45348,
     "bronzeScore": 69000,
     "goldScore": 49000,
     "name": "Ruins of  Resolve",
     "silverScore": 55000
+  },
+  "f203f521-73ee-4b9b-b6f1-6b958c322faf": {
+    "authorScore": 17724,
+    "bronzeScore": 27000,
+    "goldScore": 19000,
+    "name": "Ice",
+    "silverScore": 22000
+  },
+  "f21b820f-b843-4276-aa58-48a266c4711e": {
+    "authorScore": 29303,
+    "bronzeScore": 44000,
+    "goldScore": 32000,
+    "name": "-RoGa Bonka-020",
+    "silverScore": 36000
+  },
+  "f252cdfe-7738-4649-b819-056008caaf81": {
+    "authorScore": 17006,
+    "bronzeScore": 26000,
+    "goldScore": 19000,
+    "name": "Pine Cliffs",
+    "silverScore": 21000
+  },
+  "f25fe7f4-36dd-4063-812c-3b942bd1c8b8": {
+    "authorScore": 19896,
+    "bronzeScore": 50000,
+    "goldScore": 24690,
+    "name": "5- Marble Fever",
+    "silverScore": 34200
+  },
+  "f2c237a0-c455-45ba-b6e8-c4f917b997e4": {
+    "authorScore": 92993,
+    "bronzeScore": 140000,
+    "goldScore": 99000,
+    "name": "Fall 2024 - 25",
+    "silverScore": 112000
+  },
+  "f2e70ecb-e8c5-49ed-a71c-ca5766ea98a8": {
+    "authorScore": 59497,
+    "bronzeScore": 90000,
+    "goldScore": 64000,
+    "name": "Winter 2022 - 22",
+    "silverScore": 72000
+  },
+  "f30b09d0-b29a-4632-a67b-e202b1f63df8": {
+    "authorScore": 30206,
+    "bronzeScore": 46000,
+    "goldScore": 33000,
+    "name": "Winter 2023 - 09",
+    "silverScore": 37000
+  },
+  "f3521c0d-ecd0-4e22-94a3-d2432e971616": {
+    "authorScore": 27735,
+    "bronzeScore": 42000,
+    "goldScore": 30000,
+    "name": "Spring 2026 - 02",
+    "silverScore": 34000
+  },
+  "f3766897-8e14-46ab-a3b4-9d43889a9b3d": {
+    "authorScore": 44978,
+    "bronzeScore": 68000,
+    "goldScore": 48000,
+    "name": "Spring 2024 - 16",
+    "silverScore": 54000
+  },
+  "f405ea1f-e805-4364-9277-d0eb746f0783": {
+    "authorScore": 46655,
+    "bronzeScore": 70000,
+    "goldScore": 50000,
+    "name": "Spring 2024 - 15",
+    "silverScore": 56000
+  },
+  "f429cb25-3c67-4c6f-a2b9-1cc1e346743f": {
+    "authorScore": 25462,
+    "bronzeScore": 39000,
+    "goldScore": 27000,
+    "name": "Summer 2023 - 06",
+    "silverScore": 31000
+  },
+  "f433c91b-95f2-4a17-bb50-3db75694f0e6": {
+    "authorScore": 19830,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "1 - Penland",
+    "silverScore": 24000
+  },
+  "f4a353fb-5cc6-431a-96dc-e2b6369a9a76": {
+    "authorScore": 19263,
+    "bronzeScore": 29000,
+    "goldScore": 21000,
+    "name": "2 - Scubadiving",
+    "silverScore": 24000
+  },
+  "f4a8adef-dc5f-4f12-bb61-da0fbe636c3e": {
+    "authorScore": 53828,
+    "bronzeScore": 81000,
+    "goldScore": 58000,
+    "name": "Fall 2022 - 17",
+    "silverScore": 65000
+  },
+  "f4c58563-9d2f-4505-9b3b-a43a87e89b7d": {
+    "authorScore": 56120,
+    "bronzeScore": 85000,
+    "goldScore": 60000,
+    "name": "Fall 2022 - 19",
+    "silverScore": 68000
   },
   "f5b8cb6a-6f00-4bea-b046-bdd9cc7d7bce": {
     "authorScore": 34509,
@@ -664,12 +6551,61 @@
     "name": "Spring 2023 - 15",
     "silverScore": 42000
   },
+  "f5dced31-0fd2-4bc9-91ab-0f02c150b21d": {
+    "authorScore": 62858,
+    "bronzeScore": 95000,
+    "goldScore": 67000,
+    "name": "Winter 2022 - 21",
+    "silverScore": 76000
+  },
+  "f5df6536-fce2-46f5-b999-038a5c049660": {
+    "authorScore": 40365,
+    "bronzeScore": 60000,
+    "goldScore": 45000,
+    "name": "Asmarelo - Ft KrisTM",
+    "silverScore": 50000
+  },
+  "f6080ba2-9060-404d-925a-07cfc119d123": {
+    "authorScore": 21574,
+    "bronzeScore": 33000,
+    "goldScore": 23000,
+    "name": "CS - The Nest by Thanatoros96",
+    "silverScore": 26000
+  },
+  "f6245396-03d9-46c3-ae0f-9850fd2a7dd3": {
+    "authorScore": 27000,
+    "bronzeScore": 41000,
+    "goldScore": 29000,
+    "name": "-RoGa Bonka-023",
+    "silverScore": 33000
+  },
+  "f626bb59-ef59-453d-96c4-66e9b96d2b9b": {
+    "authorScore": 34789,
+    "bronzeScore": 53000,
+    "goldScore": 37000,
+    "name": "Summer 2024 - 09",
+    "silverScore": 42000
+  },
+  "f65020f1-d483-4ff5-955a-255ad5b8ff75": {
+    "authorScore": 262322,
+    "bronzeScore": 900000,
+    "goldScore": 420000,
+    "name": "1,2,3 RPG",
+    "silverScore": 600000
+  },
   "f66c1fa9-216d-4064-877f-5136f6f751d9": {
     "authorScore": 42000,
     "bronzeScore": 64000,
     "goldScore": 45000,
     "name": "Before",
     "silverScore": 51000
+  },
+  "f6d8b00e-c407-4863-900d-55ac9d6d4d93": {
+    "authorScore": 34250,
+    "bronzeScore": 52000,
+    "goldScore": 37000,
+    "name": "Summer 2023 - 12",
+    "silverScore": 42000
   },
   "f7317420-386a-4de2-bec5-14e9bddef61c": {
     "authorScore": 23500,
@@ -678,12 +6614,180 @@
     "name": "Fall 2025 - 02",
     "silverScore": 29000
   },
+  "f733208a-9f3b-4165-8bf1-3392690bf3b8": {
+    "authorScore": 40340,
+    "bronzeScore": 60530,
+    "goldScore": 41980,
+    "name": "C07-Race",
+    "silverScore": 48720
+  },
+  "f794e9c5-7028-48c8-b73c-a1a81c482586": {
+    "authorScore": 19796,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "1 - Throwback",
+    "silverScore": 24000
+  },
+  "f7a8a683-c738-43fb-b7f1-6353ac0c0fe5": {
+    "authorScore": 40011,
+    "bronzeScore": 61000,
+    "goldScore": 43000,
+    "name": "Child's Play",
+    "silverScore": 49000
+  },
+  "f89d717d-6360-499d-9c69-b0a2c2cabf12": {
+    "authorScore": 31000,
+    "bronzeScore": 47000,
+    "goldScore": 33000,
+    "name": "Summer 2025 - 08",
+    "silverScore": 38000
+  },
+  "f8b823ae-e46d-428a-a31b-860f4a0d8a55": {
+    "authorScore": 16914,
+    "bronzeScore": 26000,
+    "goldScore": 18000,
+    "name": "5 - Pluto",
+    "silverScore": 21000
+  },
+  "f908aa03-7f5a-4e47-a209-d417f889c684": {
+    "authorScore": 19999,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "2 - Orange Sands",
+    "silverScore": 24000
+  },
+  "f9674000-e3ad-42ad-b585-ff5cba3ecad2": {
+    "authorScore": 58243,
+    "bronzeScore": 88000,
+    "goldScore": 62000,
+    "name": "FASTER Rooftops",
+    "silverScore": 70000
+  },
+  "f9994f3f-eae1-4162-84b5-7a4221866238": {
+    "authorScore": 42470,
+    "bronzeScore": 63690,
+    "goldScore": 44880,
+    "name": "C02-Race",
+    "silverScore": 51450
+  },
+  "f9a276b6-64d6-461a-8180-1bfade71e53c": {
+    "authorScore": 46227,
+    "bronzeScore": 70000,
+    "goldScore": 50000,
+    "name": "Fall 2020 - 17",
+    "silverScore": 56000
+  },
+  "f9d912ab-3b84-444c-81e6-4af486a721bc": {
+    "authorScore": 44364,
+    "bronzeScore": 67000,
+    "goldScore": 48000,
+    "name": "Winter 2022 - 13",
+    "silverScore": 54000
+  },
+  "f9ec5774-d2f4-4217-87dc-5d74dad02586": {
+    "authorScore": 31096,
+    "bronzeScore": 47000,
+    "goldScore": 33000,
+    "name": "Spring 2022 - 09",
+    "silverScore": 38000
+  },
+  "fa71f468-45f7-45b9-9100-ba655a961424": {
+    "authorScore": 26728,
+    "bronzeScore": 41000,
+    "goldScore": 29000,
+    "name": "Spring 2025 - 03",
+    "silverScore": 33000
+  },
+  "fa89f55f-3d6d-451e-868a-4012ae84da39": {
+    "authorScore": 19501,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "4 - Cove Gardens",
+    "silverScore": 24000
+  },
+  "fb4f41fc-33ec-499a-8a5b-610f36f96c19": {
+    "authorScore": 20000,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "2 - Frozen B",
+    "silverScore": 25000
+  },
+  "fb80cc6c-2cfb-4599-b534-6454f7c2c7d9": {
+    "authorScore": 257005,
+    "bronzeScore": 386000,
+    "goldScore": 273000,
+    "name": "[RPG] A Sunny Day",
+    "silverScore": 309000
+  },
+  "fc2bd10c-d6ac-4d41-b815-af751feccf13": {
+    "authorScore": 46002,
+    "bronzeScore": 70000,
+    "goldScore": 49000,
+    "name": "Summer 2024 - 18",
+    "silverScore": 56000
+  },
+  "fca72624-6bf8-47e1-8bb7-a7f8f3e4a4b2": {
+    "authorScore": 50324,
+    "bronzeScore": 76000,
+    "goldScore": 54000,
+    "name": "Summer 2020 - 17",
+    "silverScore": 61000
+  },
+  "fcae0248-db4b-475c-bfc2-bc1ff0a17e12": {
+    "authorScore": 45646,
+    "bronzeScore": 69000,
+    "goldScore": 49000,
+    "name": "Summer 2023 - 16",
+    "silverScore": 55000
+  },
   "fcce1dfa-4459-456d-ac06-216548dd4427": {
     "authorScore": 24101,
     "bronzeScore": 37000,
     "goldScore": 26000,
     "name": "Flight",
     "silverScore": 29000
+  },
+  "fd44cd5d-2495-4ca0-acfd-d328d8ea2fb1": {
+    "authorScore": 38367,
+    "bronzeScore": 58000,
+    "goldScore": 41000,
+    "name": "Fall 2022 - 13",
+    "silverScore": 47000
+  },
+  "fd9c51b8-9e3f-404a-9927-83a2cffc002c": {
+    "authorScore": 19439,
+    "bronzeScore": 35000,
+    "goldScore": 26000,
+    "name": "5 - $19WA$18M$17P$16Y",
+    "silverScore": 29000
+  },
+  "fdd9ee73-c306-4cfb-9643-99d7432bd49a": {
+    "authorScore": 59581,
+    "bronzeScore": 90000,
+    "goldScore": 65000,
+    "name": "Summer 2020 - 19",
+    "silverScore": 72000
+  },
+  "fe1e4903-f547-4933-be9f-a8a14d44c031": {
+    "authorScore": 27725,
+    "bronzeScore": 42000,
+    "goldScore": 30000,
+    "name": "DID YOU ORDER SOME BONK ?",
+    "silverScore": 34000
+  },
+  "fe20f719-7ed3-4b89-8259-8001e87c3245": {
+    "authorScore": 19915,
+    "bronzeScore": 30000,
+    "goldScore": 22000,
+    "name": "Summer 2022 - 03",
+    "silverScore": 24000
+  },
+  "fe4fc37e-f6b4-43b2-b2f7-0f31ff483d43": {
+    "authorScore": 29140,
+    "bronzeScore": 43240,
+    "goldScore": 30970,
+    "name": "A07-Race",
+    "silverScore": 35150
   },
   "fe7b0fdd-f0b4-4360-b000-c9d445c6480e": {
     "authorScore": 31735,
@@ -692,11 +6796,60 @@
     "name": "Winter 2021 - 11",
     "silverScore": 39000
   },
+  "fe85bb56-211f-482b-b8e6-fc374e53e2c2": {
+    "authorScore": 29500,
+    "bronzeScore": 45000,
+    "goldScore": 32000,
+    "name": "Fall 2025 - 10",
+    "silverScore": 36000
+  },
   "feb1d15d-4dee-4680-bbe5-2170263e0000": {
     "authorScore": 52252,
     "bronzeScore": 79000,
     "goldScore": 56000,
     "name": "Fall 2023 - 23",
     "silverScore": 63000
+  },
+  "feb4c9f2-a0dd-408d-9aa4-f19dc5187bb8": {
+    "authorScore": 37291,
+    "bronzeScore": 56000,
+    "goldScore": 40000,
+    "name": "Spring 2024 - 13",
+    "silverScore": 45000
+  },
+  "ff48e69f-943d-41a3-afa7-69f624bf29b3": {
+    "authorScore": 29402,
+    "bronzeScore": 45000,
+    "goldScore": 32000,
+    "name": "Hike",
+    "silverScore": 36000
+  },
+  "ff7ba5a3-a097-4ec1-8f89-0690773d7484": {
+    "authorScore": 28251,
+    "bronzeScore": 43000,
+    "goldScore": 30000,
+    "name": "Spring 2023 - 07",
+    "silverScore": 34000
+  },
+  "ff888666-4f08-4098-a5a0-e8b683de6a57": {
+    "authorScore": 34549,
+    "bronzeScore": 52000,
+    "goldScore": 37000,
+    "name": "frick u lars",
+    "silverScore": 42000
+  },
+  "ff9daa53-6ae8-4708-8bc8-ec0c1c1912bb": {
+    "authorScore": 47158,
+    "bronzeScore": 71000,
+    "goldScore": 50000,
+    "name": "Fall 2020 - 15",
+    "silverScore": 57000
+  },
+  "fff543f2-1acf-4eb1-b158-ed6918b27cff": {
+    "authorScore": 17245,
+    "bronzeScore": 26000,
+    "goldScore": 19000,
+    "name": "Remember week one?",
+    "silverScore": 21000
   }
 }

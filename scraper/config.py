@@ -10,4 +10,4 @@ PIERRE_ID = "d0fbaef3-fbce-440f-9c26-5a62694feb62"
 CORE_BASE = "https://prod.trackmania.core.nadeo.online"
 LIVE_BASE = "https://live-services.trackmania.nadeo.live"
 
-PIERRE_RECORDS_LIMIT = 100
+PIERRE_RECORDS_LIMIT = 1000
