@@ -13,7 +13,7 @@ DEFAULT_UA = "trackmania-april / https://github.com/brospi/trackmania-april"
 def main() -> int:
     login = os.environ["NADEO_DEDI_LOGIN"]
     password = os.environ["NADEO_DEDI_PASSWORD"]
-    user_agent = os.environ.get("NADEO_USER_AGENT", DEFAULT_UA)
+    user_agent = os.environ.get("NADEO_USER_AGENT") or DEFAULT_UA
 
     headers = {"User-Agent": user_agent}
     with httpx.Client(timeout=30.0, headers=headers) as http:
