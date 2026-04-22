@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Club 115307 — Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Club Bermuda · Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body data-page="dashboard">
@@ -12,10 +16,15 @@
     <a href="leaderboard.html">Leaderboard</a>
   </nav>
   <main>
-    <h1>Dashboard</h1>
-    <section id="summary"></section>
+    <h1>Club Bermuda</h1>
+    <p class="subtitle">Head-to-head performance tracker for Thibault and Pierre.</p>
+
+    <section id="summary" class="stat-grid"></section>
+
     <h2>Recent changes</h2>
-    <table id="recent"></table>
+    <div class="table-wrap">
+      <table id="recent"></table>
+    </div>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="app.js"></script>
