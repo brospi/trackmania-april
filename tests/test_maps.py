@@ -62,12 +62,62 @@ def test_resolve_unions_and_prefers_name(monkeypatch, tmp_path):
         m, "from_club_campaigns", lambda c: {"shared": "", "club-only": "ClubName"}
     )
     monkeypatch.setattr(m, "from_pierre_records", lambda c: {"pierre-only": ""})
+    monkeypatch.setattr(m, "from_official_campaigns", lambda c: {"official-only": ""})
     out = m.resolve_tracked_maps(client=None)
     assert out == {
         "shared": "FromExtra",
         "pierre-only": "",
         "club-only": "ClubName",
+        "official-only": "",
     }
+
+
+def test_official_campaigns_paginates_and_resolves_ids(client, respx_mock):
+    respx_mock.post(f"{CORE_BASE}/v2/authentication/token/basic").mock(
+        return_value=basic_response()
+    )
+    page1 = {
+        "campaignList": [
+            {"playlist": [{"mapUid": f"uid{i}"} for i in range(10)]}
+            for _ in range(30)
+        ]
+    }
+    page2 = {"campaignList": []}
+    respx_mock.route(
+        method="GET",
+        url__startswith=f"{LIVE_BASE}/api/token/campaign/official",
+    ).mock(
+        side_effect=[
+            httpx.Response(200, json=page1),
+            httpx.Response(200, json=page2),
+        ]
+    )
+    respx_mock.route(
+        method="GET", url__startswith=f"{CORE_BASE}/maps/"
+    ).mock(
+        side_effect=lambda request: httpx.Response(
+            200,
+            json=[
+                {"mapUid": u, "mapId": f"id-{u}"}
+                for u in request.url.params["mapUidList"].split(",")
+            ],
+        )
+    )
+    out = m.from_official_campaigns(client)
+    assert len(out) == 10
+    assert all(k.startswith("id-uid") for k in out)
+    assert all(v == "" for v in out.values())
+
+
+def test_official_campaigns_empty(client, respx_mock):
+    respx_mock.post(f"{CORE_BASE}/v2/authentication/token/basic").mock(
+        return_value=basic_response()
+    )
+    respx_mock.route(
+        method="GET",
+        url__startswith=f"{LIVE_BASE}/api/token/campaign/official",
+    ).mock(return_value=httpx.Response(200, json={"campaignList": []}))
+    assert m.from_official_campaigns(client) == {}
 
 
 def test_pierre_records(client, respx_mock):

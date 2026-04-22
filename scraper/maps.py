@@ -52,6 +52,45 @@ def from_club_campaigns(client: NadeoClient) -> dict[str, str]:
     return out
 
 
+def _mapuids_to_mapids(client: NadeoClient, uids: list[str]) -> set[str]:
+    out: set[str] = set()
+    for i in range(0, len(uids), NAME_BATCH):
+        batch = uids[i : i + NAME_BATCH]
+        r = client.get(
+            f"{CORE_BASE}/maps/?mapUidList={','.join(batch)}",
+            audience="NadeoServices",
+        )
+        for entry in r.json():
+            mid = entry.get("mapId")
+            if mid:
+                out.add(mid)
+    return out
+
+
+def from_official_campaigns(client: NadeoClient) -> dict[str, str]:
+    uids: set[str] = set()
+    offset, page = 0, 30
+    while True:
+        r = client.get(
+            f"{LIVE_BASE}/api/token/campaign/official",
+            audience="NadeoLiveServices",
+            params={"length": page, "offset": offset},
+        )
+        body = r.json()
+        items = body.get("campaignList", []) or []
+        for c in items:
+            for m in c.get("playlist", []) or []:
+                uid = m.get("mapUid")
+                if uid:
+                    uids.add(uid)
+        if len(items) < page:
+            break
+        offset += page
+    if not uids:
+        return {}
+    return {mid: "" for mid in _mapuids_to_mapids(client, list(uids))}
+
+
 def from_pierre_records(client: NadeoClient) -> dict[str, str]:
     r = client.get(
         f"{CORE_BASE}/v2/accounts/{PIERRE_ID}/mapRecords/",
@@ -74,6 +113,7 @@ def resolve_tracked_maps(client: NadeoClient) -> dict[str, str]:
         from_extras(),
         from_pierre_records(client),
         from_club_campaigns(client),
+        from_official_campaigns(client),
     ):
         for uid, name in src.items():
             if uid not in merged or (not merged[uid] and name):
