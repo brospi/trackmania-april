@@ -1,3 +1,5 @@
+import json
+import re
 from pathlib import Path
 
 import yaml
@@ -12,6 +14,17 @@ from .config import (
 )
 
 EXTRA_MAPS_PATH = Path(__file__).parent.parent / "config" / "extra_maps.yml"
+MAPS_PATH = Path(__file__).parent.parent / "data" / "maps.json"
+NAME_BATCH = 50
+
+TM_FMT_RE = re.compile(r"\$(?:\$|[0-9a-fA-F]{3}|[lLhHpP]\[[^\]]*\]|[a-zA-Z])")
+
+
+def clean_tm_name(raw: str) -> str:
+    def _repl(m):
+        return "$" if m.group() == "$$" else ""
+
+    return TM_FMT_RE.sub(_repl, raw).strip()
 
 
 def from_club_campaigns(client: NadeoClient) -> dict[str, str]:
@@ -30,8 +43,9 @@ def from_club_campaigns(client: NadeoClient) -> dict[str, str]:
             for m in playlist:
                 uid = m.get("mapUid") or m.get("uid")
                 if uid:
-                    if uid not in out or (not out[uid] and m.get("name")):
-                        out[uid] = m.get("name") or ""
+                    name = clean_tm_name(m.get("name") or "")
+                    if uid not in out or (not out[uid] and name):
+                        out[uid] = name
         if len(items) < page:
             break
         offset += page
@@ -65,3 +79,38 @@ def resolve_tracked_maps(client: NadeoClient) -> dict[str, str]:
             if uid not in merged or (not merged[uid] and name):
                 merged[uid] = name
     return merged
+
+
+def load_cached_maps() -> dict[str, str]:
+    if not MAPS_PATH.exists():
+        return {}
+    try:
+        return json.loads(MAPS_PATH.read_text())
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+
+def enrich_names(
+    client: NadeoClient,
+    maps: dict[str, str],
+    cached: dict[str, str],
+) -> None:
+    unresolved: list[str] = []
+    for uid in maps:
+        if not maps[uid]:
+            if cached.get(uid):
+                maps[uid] = cached[uid]
+            else:
+                unresolved.append(uid)
+
+    for i in range(0, len(unresolved), NAME_BATCH):
+        batch = unresolved[i : i + NAME_BATCH]
+        r = client.get(
+            f"{CORE_BASE}/maps/?mapIdList={','.join(batch)}",
+            audience="NadeoServices",
+        )
+        for entry in r.json():
+            mid = entry.get("mapId")
+            raw = entry.get("name") or ""
+            if mid and raw:
+                maps[mid] = clean_tm_name(raw)

@@ -83,6 +83,60 @@ def test_pierre_records(client, respx_mock):
     assert m.from_pierre_records(client) == {"uid1": "", "uid2": ""}
 
 
+def test_clean_tm_name_strips_format_codes():
+    assert m.clean_tm_name("$s$i$o$58DVoyag$CA3e") == "Voyage"
+    assert m.clean_tm_name("$fffPlain Map") == "Plain Map"
+    assert m.clean_tm_name("Price: $$5") == "Price: $5"
+    assert m.clean_tm_name("$l[http://foo]click$l") == "click"
+    assert m.clean_tm_name("") == ""
+    assert m.clean_tm_name("   trimmed   ") == "trimmed"
+
+
+def test_enrich_names_uses_cache_before_api(client, respx_mock):
+    maps = {"uid-cached": "", "uid-known": "Already", "uid-fetch": ""}
+    cached = {"uid-cached": "FromCache"}
+    respx_mock.post(f"{CORE_BASE}/v2/authentication/token/basic").mock(
+        return_value=basic_response()
+    )
+    maps_route = respx_mock.route(
+        method="GET", url__startswith=f"{CORE_BASE}/maps/"
+    ).mock(
+        return_value=httpx.Response(
+            200,
+            json=[{"mapId": "uid-fetch", "name": "$fffFetched"}],
+        )
+    )
+    m.enrich_names(client, maps, cached)
+    assert maps == {
+        "uid-cached": "FromCache",
+        "uid-known": "Already",
+        "uid-fetch": "Fetched",
+    }
+    assert maps_route.call_count == 1
+
+
+def test_enrich_names_batches(client, respx_mock, monkeypatch):
+    monkeypatch.setattr("scraper.maps.NAME_BATCH", 2)
+    respx_mock.post(f"{CORE_BASE}/v2/authentication/token/basic").mock(
+        return_value=basic_response()
+    )
+    maps_route = respx_mock.route(
+        method="GET", url__startswith=f"{CORE_BASE}/maps/"
+    ).mock(
+        side_effect=[
+            httpx.Response(
+                200,
+                json=[{"mapId": "a", "name": "A"}, {"mapId": "b", "name": "B"}],
+            ),
+            httpx.Response(200, json=[{"mapId": "c", "name": "C"}]),
+        ]
+    )
+    maps = {"a": "", "b": "", "c": ""}
+    m.enrich_names(client, maps, cached={})
+    assert maps == {"a": "A", "b": "B", "c": "C"}
+    assert maps_route.call_count == 2
+
+
 def test_pierre_records_caps_at_limit(client, respx_mock, monkeypatch):
     monkeypatch.setattr("scraper.maps.PIERRE_RECORDS_LIMIT", 3)
     respx_mock.post(f"{CORE_BASE}/v2/authentication/token/basic").mock(
