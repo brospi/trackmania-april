@@ -92,9 +92,19 @@ def test_clean_tm_name_strips_format_codes():
     assert m.clean_tm_name("   trimmed   ") == "trimmed"
 
 
-def test_enrich_names_uses_cache_before_api(client, respx_mock):
-    maps = {"uid-cached": "", "uid-known": "Already", "uid-fetch": ""}
-    cached = {"uid-cached": "FromCache"}
+def _complete(name, author=1000, gold=1200, silver=1500, bronze=2000):
+    return {
+        "name": name,
+        "authorScore": author,
+        "goldScore": gold,
+        "silverScore": silver,
+        "bronzeScore": bronze,
+    }
+
+
+def test_enrich_maps_uses_cache_before_api(client, respx_mock):
+    tracked = {"uid-cached": "", "uid-fetch": ""}
+    cached = {"uid-cached": _complete("FromCache")}
     respx_mock.post(f"{CORE_BASE}/v2/authentication/token/basic").mock(
         return_value=basic_response()
     )
@@ -103,19 +113,54 @@ def test_enrich_names_uses_cache_before_api(client, respx_mock):
     ).mock(
         return_value=httpx.Response(
             200,
-            json=[{"mapId": "uid-fetch", "name": "$fffFetched"}],
+            json=[
+                {
+                    "mapId": "uid-fetch",
+                    "name": "$fffFetched",
+                    "authorScore": 10,
+                    "goldScore": 20,
+                    "silverScore": 30,
+                    "bronzeScore": 40,
+                }
+            ],
         )
     )
-    m.enrich_names(client, maps, cached)
-    assert maps == {
-        "uid-cached": "FromCache",
-        "uid-known": "Already",
-        "uid-fetch": "Fetched",
-    }
+    out = m.enrich_maps(client, tracked, cached)
+    assert out["uid-cached"] == cached["uid-cached"]
+    assert out["uid-fetch"]["name"] == "Fetched"
+    assert out["uid-fetch"]["goldScore"] == 20
     assert maps_route.call_count == 1
 
 
-def test_enrich_names_batches(client, respx_mock, monkeypatch):
+def test_enrich_maps_ignores_stale_cache_schema(client, respx_mock):
+    tracked = {"uid1": ""}
+    cached = {"uid1": "OldStringName"}  # pre-medals schema
+    respx_mock.post(f"{CORE_BASE}/v2/authentication/token/basic").mock(
+        return_value=basic_response()
+    )
+    respx_mock.route(
+        method="GET", url__startswith=f"{CORE_BASE}/maps/"
+    ).mock(
+        return_value=httpx.Response(
+            200,
+            json=[
+                {
+                    "mapId": "uid1",
+                    "name": "Fresh",
+                    "authorScore": 1,
+                    "goldScore": 2,
+                    "silverScore": 3,
+                    "bronzeScore": 4,
+                }
+            ],
+        )
+    )
+    out = m.enrich_maps(client, tracked, cached)
+    assert out["uid1"]["name"] == "Fresh"
+    assert out["uid1"]["authorScore"] == 1
+
+
+def test_enrich_maps_batches(client, respx_mock, monkeypatch):
     monkeypatch.setattr("scraper.maps.NAME_BATCH", 2)
     respx_mock.post(f"{CORE_BASE}/v2/authentication/token/basic").mock(
         return_value=basic_response()
@@ -126,14 +171,23 @@ def test_enrich_names_batches(client, respx_mock, monkeypatch):
         side_effect=[
             httpx.Response(
                 200,
-                json=[{"mapId": "a", "name": "A"}, {"mapId": "b", "name": "B"}],
+                json=[
+                    {"mapId": "a", "name": "A", "authorScore": 1,
+                     "goldScore": 2, "silverScore": 3, "bronzeScore": 4},
+                    {"mapId": "b", "name": "B", "authorScore": 1,
+                     "goldScore": 2, "silverScore": 3, "bronzeScore": 4},
+                ],
             ),
-            httpx.Response(200, json=[{"mapId": "c", "name": "C"}]),
+            httpx.Response(
+                200,
+                json=[{"mapId": "c", "name": "C", "authorScore": 1,
+                       "goldScore": 2, "silverScore": 3, "bronzeScore": 4}],
+            ),
         ]
     )
-    maps = {"a": "", "b": "", "c": ""}
-    m.enrich_names(client, maps, cached={})
-    assert maps == {"a": "A", "b": "B", "c": "C"}
+    tracked = {"a": "", "b": "", "c": ""}
+    out = m.enrich_maps(client, tracked, cached={})
+    assert {k: v["name"] for k, v in out.items()} == {"a": "A", "b": "B", "c": "C"}
     assert maps_route.call_count == 2
 
 

@@ -81,7 +81,7 @@ def resolve_tracked_maps(client: NadeoClient) -> dict[str, str]:
     return merged
 
 
-def load_cached_maps() -> dict[str, str]:
+def load_cached_maps() -> dict:
     if not MAPS_PATH.exists():
         return {}
     try:
@@ -90,18 +90,32 @@ def load_cached_maps() -> dict[str, str]:
         return {}
 
 
-def enrich_names(
+def _is_complete(entry: object) -> bool:
+    return (
+        isinstance(entry, dict)
+        and bool(entry.get("name"))
+        and "authorScore" in entry
+    )
+
+
+def enrich_maps(
     client: NadeoClient,
-    maps: dict[str, str],
-    cached: dict[str, str],
-) -> None:
+    tracked: dict[str, str],
+    cached: dict,
+) -> dict[str, dict]:
+    """Return {uid: {name, authorScore, goldScore, silverScore, bronzeScore}}.
+
+    `tracked` is the uid→name-from-source dict from resolve_tracked_maps.
+    Cached entries are reused when complete; everything else is fetched.
+    """
+    result: dict[str, dict] = {}
     unresolved: list[str] = []
-    for uid in maps:
-        if not maps[uid]:
-            if cached.get(uid):
-                maps[uid] = cached[uid]
-            else:
-                unresolved.append(uid)
+    for uid in tracked:
+        entry = cached.get(uid)
+        if _is_complete(entry):
+            result[uid] = entry
+        else:
+            unresolved.append(uid)
 
     for i in range(0, len(unresolved), NAME_BATCH):
         batch = unresolved[i : i + NAME_BATCH]
@@ -111,6 +125,20 @@ def enrich_names(
         )
         for entry in r.json():
             mid = entry.get("mapId")
-            raw = entry.get("name") or ""
-            if mid and raw:
-                maps[mid] = clean_tm_name(raw)
+            if not mid:
+                continue
+            result[mid] = {
+                "name": clean_tm_name(entry.get("name") or ""),
+                "authorScore": entry.get("authorScore"),
+                "goldScore": entry.get("goldScore"),
+                "silverScore": entry.get("silverScore"),
+                "bronzeScore": entry.get("bronzeScore"),
+            }
+
+    for uid, src_name in tracked.items():
+        if uid not in result:
+            result[uid] = {"name": src_name}
+        elif not result[uid].get("name") and src_name:
+            result[uid]["name"] = src_name
+
+    return result

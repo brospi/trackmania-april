@@ -4,7 +4,7 @@ import sys
 import httpx
 
 from .auth import NadeoClient
-from .maps import enrich_names, load_cached_maps, resolve_tracked_maps
+from .maps import enrich_maps, load_cached_maps, resolve_tracked_maps
 from .snapshot import snapshot
 
 DEFAULT_UA = "trackmania-april / https://github.com/brospi/trackmania-april"
@@ -19,8 +19,8 @@ def main() -> int:
     with httpx.Client(timeout=30.0, headers=headers) as http:
         client = NadeoClient(http, login, password)
         cached = load_cached_maps()
-        maps = resolve_tracked_maps(client)
-        enrich_names(client, maps, cached)
+        tracked = resolve_tracked_maps(client)
+        maps = enrich_maps(client, tracked, cached)
         changed = snapshot(client, maps)
 
     print(f"tracked={len(maps)} changed={changed}")

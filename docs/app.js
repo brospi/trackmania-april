@@ -10,6 +10,8 @@ const COLORS = {
   "ffbe6f24-3880-482a-a469-cdbf08eb9372": "#ef4444",
   "d0fbaef3-fbce-440f-9c26-5a62694feb62": "#3b82f6",
 };
+const PID_T = "ffbe6f24-3880-482a-a469-cdbf08eb9372";
+const PID_P = "d0fbaef3-fbce-440f-9c26-5a62694feb62";
 
 if (window.Chart) {
   Chart.defaults.color = "#8891a4";
@@ -38,6 +40,26 @@ function fmtDate(iso) {
   return iso.replace("T", " ").replace(/\+.*$/, "").replace(/:\d\d$/, "");
 }
 
+function mapName(entry, uid) {
+  if (entry && typeof entry === "object" && entry.name) return entry.name;
+  if (typeof entry === "string" && entry) return entry;
+  return uid.slice(0, 8);
+}
+
+function medalOf(ms, map) {
+  if (ms == null || !map) return null;
+  if (map.authorScore != null && ms <= map.authorScore) return "author";
+  if (map.goldScore != null && ms <= map.goldScore) return "gold";
+  if (map.silverScore != null && ms <= map.silverScore) return "silver";
+  if (map.bronzeScore != null && ms <= map.bronzeScore) return "bronze";
+  return "none";
+}
+
+function medalDot(medal) {
+  if (!medal) return "";
+  return `<span class="medal-dot ${medal}" title="${medal}"></span>`;
+}
+
 function playerPBs(snapshots) {
   const pb = {};
   for (const s of snapshots) {
@@ -51,65 +73,151 @@ function playerPBs(snapshots) {
   return pb;
 }
 
-function mapDisplay(uid, name) {
-  return name || uid.slice(0, 8);
+function computeLeads(pb, uids) {
+  let t = 0, p = 0, tied = 0, compared = 0;
+  for (const uid of uids) {
+    const x = pb[uid] || {};
+    const tt = x[PID_T], pp = x[PID_P];
+    if (tt == null || pp == null) continue;
+    compared++;
+    if (tt < pp) t++;
+    else if (pp < tt) p++;
+    else tied++;
+  }
+  return { t, p, tied, compared, total: uids.length };
+}
+
+function medalCounts(pb, uids, maps) {
+  const counts = {
+    [PID_T]: { author: 0, gold: 0, silver: 0, bronze: 0 },
+    [PID_P]: { author: 0, gold: 0, silver: 0, bronze: 0 },
+  };
+  for (const uid of uids) {
+    const times = pb[uid] || {};
+    for (const pid of [PID_T, PID_P]) {
+      const med = medalOf(times[pid], maps[uid]);
+      if (med && med !== "none") counts[pid][med]++;
+    }
+  }
+  return counts;
+}
+
+function parseCampaign(name) {
+  const m = /^(.+?)\s*-\s*(\d+)$/.exec(name || "");
+  if (!m) return { campaign: "Other", index: null };
+  return { campaign: m[1].trim(), index: parseInt(m[2], 10) };
+}
+
+function groupByCampaign(maps) {
+  const groups = {};
+  for (const [uid, entry] of Object.entries(maps)) {
+    const { campaign, index } = parseCampaign(mapName(entry, uid));
+    groups[campaign] ??= { name: campaign, uids: [] };
+    groups[campaign].uids.push({ uid, index });
+  }
+  for (const g of Object.values(groups)) {
+    g.uids.sort((a, b) => {
+      if (a.index != null && b.index != null) return a.index - b.index;
+      return 0;
+    });
+  }
+  return groups;
 }
 
 function sortedUids(maps) {
   return Object.keys(maps).sort((a, b) =>
-    mapDisplay(a, maps[a]).localeCompare(mapDisplay(b, maps[b]), undefined, {
+    mapName(maps[a], a).localeCompare(mapName(maps[b], b), undefined, {
       numeric: true,
     }),
   );
 }
 
+function h2hBar(lead, compact = false) {
+  const total = lead.t + lead.tied + lead.p || 1;
+  const tPct = (lead.t / total) * 100;
+  const tiedPct = (lead.tied / total) * 100;
+  const pPct = (lead.p / total) * 100;
+  const label = compact
+    ? ""
+    : `<div class="legend"><span class="t">Thibault ${lead.t}</span><span>Tied ${lead.tied}</span><span class="p">Pierre ${lead.p}</span></div>`;
+  if (compact) {
+    return `
+      <div class="h2h">
+        <div class="seg thibault" style="flex: ${tPct || 0.001}">${lead.t ? `Thibault · ${lead.t}` : ""}</div>
+        <div class="seg tied" style="flex: ${tiedPct || 0.001}">${lead.tied ? `Tied · ${lead.tied}` : ""}</div>
+        <div class="seg pierre" style="flex: ${pPct || 0.001}">${lead.p ? `Pierre · ${lead.p}` : ""}</div>
+      </div>`;
+  }
+  return `
+    <div class="h2h">
+      <div class="seg thibault" style="flex: ${tPct || 0.001}">${lead.t ? `Thibault · ${lead.t}` : ""}</div>
+      <div class="seg tied" style="flex: ${tiedPct || 0.001}">${lead.tied ? `Tied · ${lead.tied}` : ""}</div>
+      <div class="seg pierre" style="flex: ${pPct || 0.001}">${lead.p ? `Pierre · ${lead.p}` : ""}</div>
+    </div>`;
+}
+
+function medalsBar(counts, pid) {
+  const c = counts[pid];
+  return `
+    <div class="medals-bar">
+      <span class="medal-chip"><span class="medal-dot author"></span>${c.author}</span>
+      <span class="medal-chip"><span class="medal-dot gold"></span>${c.gold}</span>
+      <span class="medal-chip"><span class="medal-dot silver"></span>${c.silver}</span>
+      <span class="medal-chip"><span class="medal-dot bronze"></span>${c.bronze}</span>
+    </div>`;
+}
+
 function renderDashboard({ snapshots, maps }) {
   const pb = playerPBs(snapshots);
-  const counts = Object.fromEntries(Object.keys(PLAYERS).map((p) => [p, 0]));
-  for (const times of Object.values(pb)) {
-    for (const pid of Object.keys(PLAYERS)) if (times[pid] != null) counts[pid]++;
+  const uids = Object.keys(maps);
+  const lead = computeLeads(pb, uids);
+  const medals = medalCounts(pb, uids, maps);
+  const counts = { [PID_T]: 0, [PID_P]: 0 };
+  for (const t of Object.values(pb)) {
+    for (const pid of [PID_T, PID_P]) if (t[pid] != null) counts[pid]++;
   }
 
-  const summary = document.getElementById("summary");
-  summary.innerHTML = `
+  document.getElementById("summary").innerHTML = `
     <div class="stat-card">
       <div class="label">Maps tracked</div>
-      <div class="value">${Object.keys(maps).length}</div>
+      <div class="value">${uids.length}</div>
     </div>
     <div class="stat-card">
       <div class="label">Change events</div>
       <div class="value">${snapshots.length}</div>
     </div>
-    ${Object.entries(PLAYERS)
-      .map(
-        ([pid, name]) => `
-      <div class="stat-card ${SLUG[pid]}">
-        <div class="label">${name} · PBs</div>
-        <div class="value">${counts[pid]}</div>
-      </div>`,
-      )
-      .join("")}
+    <div class="stat-card thibault">
+      <div class="label">Thibault · PBs</div>
+      <div class="value">${counts[PID_T]}</div>
+      ${medalsBar(medals, PID_T)}
+    </div>
+    <div class="stat-card pierre">
+      <div class="label">Pierre · PBs</div>
+      <div class="value">${counts[PID_P]}</div>
+      ${medalsBar(medals, PID_P)}
+    </div>
   `;
+
+  const h2hHost = document.getElementById("h2h");
+  if (h2hHost) h2hHost.innerHTML = h2hBar(lead);
 
   const recent = snapshots.slice(-10).reverse();
   const head = `
     <thead><tr>
       <th>When</th>
       <th>Map</th>
-      ${Object.values(PLAYERS)
-        .map((n) => `<th class="time">${n}</th>`)
-        .join("")}
+      ${[PID_T, PID_P].map((p) => `<th class="time">${PLAYERS[p]}</th>`).join("")}
     </tr></thead>`;
   const body = recent.length
     ? recent
         .map(
           (s) => `<tr>
             <td class="muted">${fmtDate(s.ts)}</td>
-            <td><span class="map-name">${mapDisplay(s.map_uid, maps[s.map_uid])}</span></td>
-            ${Object.keys(PLAYERS)
+            <td><span class="map-name">${mapName(maps[s.map_uid], s.map_uid)}</span></td>
+            ${[PID_T, PID_P]
               .map(
                 (pid) =>
-                  `<td class="time player-${SLUG[pid]}">${fmtTime(s.times[pid])}</td>`,
+                  `<td class="time player-${SLUG[pid]}">${medalDot(medalOf(s.times[pid], maps[s.map_uid]))}${fmtTime(s.times[pid])}</td>`,
               )
               .join("")}
           </tr>`,
@@ -126,7 +234,8 @@ function renderMap({ snapshots, maps }) {
   const uids = sortedUids(maps);
   picker.innerHTML = uids
     .map(
-      (uid) => `<option value="${uid}">${mapDisplay(uid, maps[uid])}</option>`,
+      (uid) =>
+        `<option value="${uid}">${mapName(maps[uid], uid)}</option>`,
     )
     .join("");
 
@@ -135,8 +244,8 @@ function renderMap({ snapshots, maps }) {
   function draw(uid) {
     const entries = snapshots.filter((s) => s.map_uid === uid);
     const labels = entries.map((s) => fmtDate(s.ts));
-    const datasets = Object.entries(PLAYERS).map(([pid, name]) => ({
-      label: name,
+    const datasets = [PID_T, PID_P].map((pid) => ({
+      label: PLAYERS[pid],
       borderColor: COLORS[pid],
       backgroundColor: COLORS[pid] + "33",
       pointBackgroundColor: COLORS[pid],
@@ -188,75 +297,165 @@ function renderMap({ snapshots, maps }) {
       },
     });
 
+    const map = maps[uid] || {};
     const current = entries.length ? entries[entries.length - 1] : null;
     const pb = playerPBs(snapshots)[uid] || {};
+    const threshold = (kind, score) =>
+      score != null
+        ? `<span class="medal-chip"><span class="medal-dot ${kind}"></span>${fmtTime(score)}</span>`
+        : "";
+
     meta.innerHTML = `
       <div class="field"><span class="label">Snapshots</span><span class="value">${entries.length}</span></div>
       <div class="field"><span class="label">Last update</span><span class="value">${current ? fmtDate(current.ts) : "—"}</span></div>
-      ${Object.entries(PLAYERS)
+      ${[PID_T, PID_P]
         .map(
-          ([pid, name]) =>
-            `<div class="field"><span class="label">${name} · PB</span><span class="value player-${SLUG[pid]}">${fmtTime(pb[pid])}</span></div>`,
+          (pid) =>
+            `<div class="field"><span class="label">${PLAYERS[pid]} · PB</span><span class="value player-${SLUG[pid]}">${medalDot(medalOf(pb[pid], map))}${fmtTime(pb[pid])}</span></div>`,
         )
         .join("")}
+      <div class="field" style="flex: 1">
+        <span class="label">Medal thresholds</span>
+        <span class="value">
+          <div class="medals-bar">
+            ${threshold("author", map.authorScore)}
+            ${threshold("gold", map.goldScore)}
+            ${threshold("silver", map.silverScore)}
+            ${threshold("bronze", map.bronzeScore)}
+          </div>
+        </span>
+      </div>
       <div class="field"><span class="label">UID</span><span class="value uid">${uid}</span></div>
     `;
   }
 
   picker.addEventListener("change", () => draw(picker.value));
   if (uids.length) draw(uids[0]);
-  else
-    meta.innerHTML = `<div class="empty">No maps tracked yet.</div>`;
+  else meta.innerHTML = `<div class="empty">No maps tracked yet.</div>`;
 }
 
-function renderLeaderboard({ snapshots, maps }) {
+function renderLeaderboardInto(hostId, snapshots, maps, uids, { filterable = true } = {}) {
   const pb = playerPBs(snapshots);
-  const pids = Object.keys(PLAYERS);
+  const lead = computeLeads(pb, uids);
+  const host = document.getElementById(hostId);
+
+  const h2h = document.getElementById("h2h");
+  if (h2h) h2h.innerHTML = h2hBar(lead);
+
   const head = `
     <thead><tr>
       <th>Map</th>
-      ${pids.map((p) => `<th class="time">${PLAYERS[p]}</th>`).join("")}
+      ${[PID_T, PID_P].map((p) => `<th class="time">${PLAYERS[p]}</th>`).join("")}
       <th class="time">Δ</th>
     </tr></thead>`;
 
-  const rows = sortedUids(maps).map((uid) => {
-    const t = pids.map((p) => pb[uid]?.[p] ?? null);
+  const rows = uids.map((uid) => {
+    const map = maps[uid] || {};
+    const t = [PID_T, PID_P].map((pid) => (pb[uid] || {})[pid] ?? null);
     const deltaRaw = t[0] != null && t[1] != null ? Math.abs(t[0] - t[1]) : null;
     const delta = deltaRaw != null ? fmtTime(deltaRaw) : "—";
-    const winnerIdx =
-      t[0] != null && t[1] != null ? (t[0] < t[1] ? 0 : 1) : -1;
-    return `<tr data-name="${(maps[uid] || uid).toLowerCase()}">
-      <td><span class="map-name">${mapDisplay(uid, maps[uid])}</span></td>
+    const winnerIdx = t[0] != null && t[1] != null ? (t[0] < t[1] ? 0 : 1) : -1;
+    const pids = [PID_T, PID_P];
+    return `<tr data-name="${(mapName(map, uid) || uid).toLowerCase()}">
+      <td><span class="map-name">${mapName(map, uid)}</span></td>
       ${t
         .map((x, i) => {
           const cls =
             i === winnerIdx
               ? `time winner ${SLUG[pids[i]]}`
               : `time player-${SLUG[pids[i]]}`;
-          return `<td class="${cls}">${fmtTime(x)}</td>`;
+          return `<td class="${cls}">${medalDot(medalOf(x, map))}${fmtTime(x)}</td>`;
         })
         .join("")}
       <td class="time muted">${delta}</td>
     </tr>`;
   });
 
-  document.getElementById("leaderboard").innerHTML =
-    head + `<tbody>${rows.join("")}</tbody>`;
+  host.innerHTML = head + `<tbody>${rows.join("")}</tbody>`;
 
-  const filter = document.getElementById("filter");
-  filter?.addEventListener("input", () => {
-    const q = filter.value.toLowerCase().trim();
-    document.querySelectorAll("#leaderboard tbody tr").forEach((tr) => {
-      tr.style.display =
-        !q || tr.dataset.name.includes(q) ? "" : "none";
+  if (filterable) {
+    const filter = document.getElementById("filter");
+    filter?.addEventListener("input", () => {
+      const q = filter.value.toLowerCase().trim();
+      host.querySelectorAll("tbody tr").forEach((tr) => {
+        tr.style.display = !q || tr.dataset.name.includes(q) ? "" : "none";
+      });
     });
+  }
+}
+
+function renderLeaderboard({ snapshots, maps }) {
+  renderLeaderboardInto("leaderboard", snapshots, maps, sortedUids(maps));
+}
+
+function renderCampaigns({ snapshots, maps }) {
+  const pb = playerPBs(snapshots);
+  const groups = groupByCampaign(maps);
+  const sorted = Object.values(groups).sort((a, b) =>
+    a.name.localeCompare(b.name, undefined, { numeric: true }),
+  );
+
+  const host = document.getElementById("campaigns");
+  host.innerHTML = sorted
+    .map((g) => {
+      const uids = g.uids.map((x) => x.uid);
+      const lead = computeLeads(pb, uids);
+      const total = lead.t + lead.tied + lead.p || 1;
+      const tPct = (lead.t / total) * 100;
+      const tiedPct = (lead.tied / total) * 100;
+      const pPct = (lead.p / total) * 100;
+      return `
+        <a class="campaign-card" href="campaign.html?name=${encodeURIComponent(g.name)}">
+          <div class="name">${g.name}</div>
+          <div class="count">${uids.length} map${uids.length === 1 ? "" : "s"} · ${lead.compared} head-to-head</div>
+          <div class="bar">
+            <span class="t" style="width:${tPct}%"></span>
+            <span class="tied" style="width:${tiedPct}%"></span>
+            <span class="p" style="width:${pPct}%"></span>
+          </div>
+          <div class="legend">
+            <span class="t">Thibault ${lead.t}</span>
+            <span>Tied ${lead.tied}</span>
+            <span class="p">Pierre ${lead.p}</span>
+          </div>
+        </a>`;
+    })
+    .join("");
+}
+
+function renderCampaignDetail({ snapshots, maps }) {
+  const params = new URLSearchParams(location.search);
+  const name = params.get("name") || "Other";
+  const groups = groupByCampaign(maps);
+  const group = groups[name];
+  document.getElementById("campaign-name").textContent = name;
+
+  if (!group) {
+    document.getElementById("leaderboard").innerHTML =
+      `<tbody><tr><td><div class="empty">Campaign "${name}" not found.</div></td></tr></tbody>`;
+    return;
+  }
+
+  const uids = group.uids.map((x) => x.uid);
+  renderLeaderboardInto("leaderboard", snapshots, maps, uids, {
+    filterable: false,
   });
+
+  const pb = playerPBs(snapshots);
+  const medals = medalCounts(pb, uids, maps);
+  document.getElementById("campaign-medals").innerHTML = `
+    <div class="field"><span class="label">Maps</span><span class="value">${uids.length}</span></div>
+    <div class="field"><span class="label">Thibault medals</span><span class="value">${medalsBar(medals, PID_T)}</span></div>
+    <div class="field"><span class="label">Pierre medals</span><span class="value">${medalsBar(medals, PID_P)}</span></div>
+  `;
 }
 
 const RENDERERS = {
   dashboard: renderDashboard,
   map: renderMap,
   leaderboard: renderLeaderboard,
+  campaigns: renderCampaigns,
+  campaign: renderCampaignDetail,
 };
 
 loadData().then((data) => {

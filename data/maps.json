@@ -1,102 +1,702 @@
 {
-  "03147ac8-d61e-4a5d-917f-c92c257d8f51": "Under 15 - 03",
-  "0638b603-0e8d-440f-a11c-64d9007e8a0e": "Summer 2024 - 15",
-  "071c0a0e-e84d-414e-95ae-ab7572b68085": "Spring 2026 - 11",
-  "0bfb3f3e-aa72-401b-a392-a2e3d84ec60c": "Voyage",
-  "0fb348f9-1dbf-41b4-b0be-3009d064612c": "Under 15 - 21",
-  "11022b79-a442-42f9-8463-c557779ec500": "Fall 2021 - 11",
-  "12d4be83-0235-4381-a23c-5f776e0826f4": "Summer 2023 - 20",
-  "13666040-051c-4377-a52d-6c652c4346bb": "Winter 2026 - 14",
-  "1789af58-d494-4cb0-8f2d-dcaa2a0b8c00": "Winter 2022 - 16",
-  "22cb73e3-e95c-46a5-81e9-d8011624735a": "Summer 2020 - 21",
-  "25d27bb9-a648-4161-bc1c-e371b28a8f93": "Summer 2023 - 13",
-  "29f84e57-71bb-4cea-880d-787b7c3601d7": "Summer 2025 - 16",
-  "2af5afe7-7257-4b2f-a0fa-03834e381a4a": "Winter 2025 - 11",
-  "2d316793-5506-4dc3-9620-989f7e81cb5e": "Training - 21",
-  "313bc422-8ba4-4882-9095-ee88e0a9fb2a": "Fall 2022 - 24",
-  "325f854a-d958-41c8-b431-0c21b784a212": "Minigolf - 07",
-  "3787cd90-d59b-4ea1-a058-e3fa3eafb240": "Summer 2025 - 20",
-  "3b93842e-e883-49c7-9629-9bcb3b8e2ebc": "4 - Small Hops",
-  "3e9e985d-6765-45ba-b142-94c5b1bd3083": "1 - Grassy Arena",
-  "427dc6f8-8c87-4064-b292-42722fe1726e": "500 Speed SSD",
-  "43ad34e9-0b56-42f5-8978-81315dc99469": "CS - Cube by Yumi",
-  "4dae3aaf-1304-4410-80ca-0e3bfc689435": "CS - Frolic by PajChamp",
-  "503a8e45-de46-461b-a401-feb0e4a68dfb": "5 - Van Go Go Go",
-  "515d9e49-2474-4a08-9643-c1a429d0190d": "Spring 2023 - 01",
-  "5546883f-b1ed-49e0-9397-55fc46f1d00c": "SnowIsBack",
-  "56405da5-e03a-4eea-a654-c3f8d5f4fe8b": "[RPG] La Berra",
-  "5815a0a1-220d-4f77-b13a-ec3696338468": "5 - Eden's Slide ft' Heravan",
-  "59130908-aba2-41c8-81d5-ce1a9fccd101": "Winter 2022 - 12",
-  "596729f9-3e3e-4964-bb99-53a7e6becd3c": "Summer 2025 - 14",
-  "59baaabe-7914-493b-9659-437b6ad024bf": "Summer 2021 - 03",
-  "66be7390-9f2c-4929-b38d-44103fcd1943": "Unfairly Basic 001",
-  "6c19a351-96f8-41e5-8404-5384cd2281c9": "[RPG]  Nuclear Central",
-  "6f8762a2-13bc-4821-9845-f901883d9f70": "Spring 2021 - 07",
-  "6fbfefc2-e5ba-4622-950f-168157421eaa": "Growth's Embrace  [CE]",
-  "6fdc9bfa-6ff9-4916-ae0c-90e083a7bb19": "Summer 2021 - 01",
-  "70b7d881-7396-4b23-8c01-5d43d8a686c5": "Fall 2023 - 08",
-  "71006534-1350-49d4-bf8b-2b29121e573f": "E01-Obstacle",
-  "71bfb59d-0fa2-431a-93ee-183ff42df783": "1 - Spinning on Ice Ft' Mosqido",
-  "73c1654e-5682-4455-a653-ed835bbf8679": "\u0421\u0430\u043a\u0443\u0440\u0430",
-  "74f3e5fa-9c92-4b8a-9ae8-e31b86b3c3d2": "Fall 2022 - 09",
-  "768fb752-c6e6-4f25-b0dd-2af7231b2b17": "D07-Race",
-  "77f987dc-8448-409f-a969-ee89adca6ac8": "Summer 2022 - 19",
-  "815a2a8e-e299-4e93-8097-5285d6036240": "Spring 2021 - 09",
-  "8b0078bf-5d2d-4834-b6f1-4f00d230e08c": "Winter 2025 - 16",
-  "8bca3d04-3819-4998-ab0b-c17cc3f4cd71": "Winter 2025 - 04",
-  "8ca2f431-78dc-4be3-8763-bb8489d30f24": "Summer 2023 - 07",
-  "93862e8e-b8be-4e55-af59-fe5935bf37db": "Endlessly",
-  "93cd9f9e-7075-4a55-8b08-e8a0db416d97": "Winter 2024 - 03",
-  "95062c1c-e08c-420b-a548-333085b27962": "Winter 2021 - 02",
-  "96386e9e-9942-4eb5-ba6b-08e3a66886c9": "Under 15 - 17",
-  "9bee9961-24da-43dd-8646-6d014acc69bc": "Winter 2023 - 14",
-  "9c03ccda-6244-408c-bbda-d826194059fd": "1 - Quarterpipe Quest",
-  "9e95d12c-2c4d-4b9c-85f1-e94288a005cb": "Fall 2022 - 10",
-  "9f9f61a7-c346-42fe-890c-4f3bae97c9dd": "Fall 2025 - 15",
-  "9fccc6d3-b874-4f87-98d2-1baca2ecba8b": "IceBraker",
-  "a0b60066-5562-456a-842e-7ab20db73bc4": "Eat plastic",
-  "a8eb1c95-07b8-460c-aafb-cf883b50113a": "Winter 2024 - 14",
-  "a935590c-000a-4011-abf7-000747172431": "Dumpster Diving",
-  "aa82df15-a608-4dab-9564-ca32b6a13dc9": "B13-Obstacle",
-  "ab5780cc-bf3c-444c-93fa-245e1244f86e": "Unintended",
-  "b1976165-74cd-4422-a9f8-59d484a6f3d9": "5 - Summer Day",
-  "b25bd86d-9aed-4b94-a3e0-be85e0256618": "CS - Quince by Osoguineapig",
-  "b340c753-4c15-4717-a7b9-7758ef0ae7d3": "FASTER SHOWDOWN",
-  "b4a49bdd-7e5e-4d56-b24d-347ba5e83962": "4 - Red Rock Rookie",
-  "b77e5ecc-cad3-428f-9db7-7287ac942fad": "A08-Endurance",
-  "b90f90e2-e7fb-4628-83b2-d8d723974884": "Fall 2021 - 07",
-  "b9d8e0fb-59f0-40a4-a757-7d1f3e6c0437": "Fall 2020 - 07",
-  "bf7e990f-860e-4e2a-8dbb-5fa376184fe1": "Spring 2024 - 09",
-  "c3a20e85-52ef-41eb-843c-905b695b7839": "FASTER SPLASH",
-  "c8c226c2-3001-4d81-ac1c-92ada18a2563": "1 - Tunnel Vision",
-  "ca9fb42d-88fb-4baf-a1d6-5e796ee7ce2f": "Winter 2022 - 20",
-  "caf672ed-9920-41ac-86fb-7999c66f8040": "Summer 2022 - 06",
-  "cc3ea5f4-053b-4af0-9828-6552282b43d3": "Fall 2025 - 25",
-  "cd219c4e-c9cf-407d-addd-1a0910563369": "Spring 2026 - 05",
-  "cdb67192-3ef2-48b8-bb02-7a1324fd9fd1": "Summer 2020 - 11",
-  "cde6d615-5afb-46ba-a019-79e70adcc4b1": "Bees Bath",
-  "d1c00d8e-b632-4023-8dde-b1e1ca36147f": "Summer 2023 - 19",
-  "d1cab08e-434e-41f0-a7fd-3b607276ede0": "Azure Cascade",
-  "dbfa5125-b4ba-4711-95a0-791627354c22": "Summer 2020 - 23",
-  "ddec9912-f45a-4ff3-bdb3-fef87b4ce1a5": "Summer 2020 - 12",
-  "e0f5b6aa-c2c5-4b19-b393-480f23b1b76c": "B08-Endurance",
-  "e424be40-5b82-422c-a651-25d2243bf3bb": "Forest",
-  "e4df8476-8354-4606-b192-c44e7a02354c": "BOnk52",
-  "e57b23a7-162c-4c0f-8855-d2b6d51a8e2a": "CS - Crimson Cascade by PajChamp",
-  "e5b89a3d-81de-4834-a9f2-3c3f0430ea4c": "Highland Swamp ft SiriusTtm",
-  "e6c3851d-0f92-4520-b997-92fa432ee81d": "1 - Fun Valley",
-  "e82af8c0-7991-47e2-a45f-9584572af5d0": "Fall 2024 - 08",
-  "e9349dfa-c8bd-4c8e-88d3-daad158763ae": "Spring 2022 - 12",
-  "ed17ea6c-bedc-4a1b-a53c-d1470dc86cec": "NightRace",
-  "eea9b037-e695-4528-bb53-70dd7eb72c43": "car no worky worky",
-  "ef223b47-ba73-4527-b742-f0f2457243ba": "Fall 2022 - 20",
-  "ef350c64-06d0-4e31-8d6d-9cd7c20d6616": "Fall 2022 - 22",
-  "f043416e-420f-4cb6-87c6-29392ebce0de": "Winter 2023 - 13",
-  "f2037c2c-2e95-4793-b03e-bee8ba1a8496": "Ruins of  Resolve",
-  "f5b8cb6a-6f00-4bea-b046-bdd9cc7d7bce": "Spring 2023 - 15",
-  "f66c1fa9-216d-4064-877f-5136f6f751d9": "Before",
-  "f7317420-386a-4de2-bec5-14e9bddef61c": "Fall 2025 - 02",
-  "fcce1dfa-4459-456d-ac06-216548dd4427": "Flight",
-  "fe7b0fdd-f0b4-4360-b000-c9d445c6480e": "Winter 2021 - 11",
-  "feb1d15d-4dee-4680-bbe5-2170263e0000": "Fall 2023 - 23"
+  "03147ac8-d61e-4a5d-917f-c92c257d8f51": {
+    "authorScore": 14575,
+    "bronzeScore": 15320,
+    "goldScore": 14820,
+    "name": "Under 15 - 03",
+    "silverScore": 15070
+  },
+  "0638b603-0e8d-440f-a11c-64d9007e8a0e": {
+    "authorScore": 37224,
+    "bronzeScore": 56000,
+    "goldScore": 40000,
+    "name": "Summer 2024 - 15",
+    "silverScore": 45000
+  },
+  "071c0a0e-e84d-414e-95ae-ab7572b68085": {
+    "authorScore": 71871,
+    "bronzeScore": 108000,
+    "goldScore": 77000,
+    "name": "Spring 2026 - 11",
+    "silverScore": 87000
+  },
+  "0bfb3f3e-aa72-401b-a392-a2e3d84ec60c": {
+    "authorScore": 52643,
+    "bronzeScore": 79000,
+    "goldScore": 57000,
+    "name": "Voyage",
+    "silverScore": 64000
+  },
+  "0fb348f9-1dbf-41b4-b0be-3009d064612c": {
+    "authorScore": 14765,
+    "bronzeScore": 15510,
+    "goldScore": 15010,
+    "name": "Under 15 - 21",
+    "silverScore": 15260
+  },
+  "11022b79-a442-42f9-8463-c557779ec500": {
+    "authorScore": 39412,
+    "bronzeScore": 60000,
+    "goldScore": 42000,
+    "name": "Fall 2021 - 11",
+    "silverScore": 48000
+  },
+  "12d4be83-0235-4381-a23c-5f776e0826f4": {
+    "authorScore": 36823,
+    "bronzeScore": 56000,
+    "goldScore": 40000,
+    "name": "Summer 2023 - 20",
+    "silverScore": 45000
+  },
+  "13666040-051c-4377-a52d-6c652c4346bb": {
+    "authorScore": 36992,
+    "bronzeScore": 56000,
+    "goldScore": 40000,
+    "name": "Winter 2026 - 14",
+    "silverScore": 45000
+  },
+  "1789af58-d494-4cb0-8f2d-dcaa2a0b8c00": {
+    "authorScore": 46628,
+    "bronzeScore": 70000,
+    "goldScore": 50000,
+    "name": "Winter 2022 - 16",
+    "silverScore": 56000
+  },
+  "22cb73e3-e95c-46a5-81e9-d8011624735a": {
+    "authorScore": 46637,
+    "bronzeScore": 70000,
+    "goldScore": 50000,
+    "name": "Summer 2020 - 21",
+    "silverScore": 56000
+  },
+  "25d27bb9-a648-4161-bc1c-e371b28a8f93": {
+    "authorScore": 31573,
+    "bronzeScore": 48000,
+    "goldScore": 34000,
+    "name": "Summer 2023 - 13",
+    "silverScore": 38000
+  },
+  "29f84e57-71bb-4cea-880d-787b7c3601d7": {
+    "authorScore": 51402,
+    "bronzeScore": 78000,
+    "goldScore": 58000,
+    "name": "Summer 2025 - 16",
+    "silverScore": 62000
+  },
+  "2af5afe7-7257-4b2f-a0fa-03834e381a4a": {
+    "authorScore": 41902,
+    "bronzeScore": 63000,
+    "goldScore": 45000,
+    "name": "Winter 2025 - 11",
+    "silverScore": 51000
+  },
+  "2d316793-5506-4dc3-9620-989f7e81cb5e": {
+    "authorScore": 16677,
+    "bronzeScore": 26000,
+    "goldScore": 18000,
+    "name": "Training - 21",
+    "silverScore": 21000
+  },
+  "313bc422-8ba4-4882-9095-ee88e0a9fb2a": {
+    "authorScore": 62851,
+    "bronzeScore": 95000,
+    "goldScore": 67000,
+    "name": "Fall 2022 - 24",
+    "silverScore": 76000
+  },
+  "325f854a-d958-41c8-b431-0c21b784a212": {
+    "authorScore": 6419,
+    "bronzeScore": 10000,
+    "goldScore": 7000,
+    "name": "Minigolf - 07",
+    "silverScore": 8000
+  },
+  "3787cd90-d59b-4ea1-a058-e3fa3eafb240": {
+    "authorScore": 46622,
+    "bronzeScore": 70000,
+    "goldScore": 52000,
+    "name": "Summer 2025 - 20",
+    "silverScore": 56000
+  },
+  "3b93842e-e883-49c7-9629-9bcb3b8e2ebc": {
+    "authorScore": 18887,
+    "bronzeScore": 29000,
+    "goldScore": 21000,
+    "name": "4 - Small Hops",
+    "silverScore": 23000
+  },
+  "3e9e985d-6765-45ba-b142-94c5b1bd3083": {
+    "authorScore": 19448,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "1 - Grassy Arena",
+    "silverScore": 24000
+  },
+  "427dc6f8-8c87-4064-b292-42722fe1726e": {
+    "authorScore": 11715,
+    "bronzeScore": 18000,
+    "goldScore": 13000,
+    "name": "500 Speed SSD",
+    "silverScore": 15000
+  },
+  "43ad34e9-0b56-42f5-8978-81315dc99469": {
+    "authorScore": 30000,
+    "bronzeScore": 45000,
+    "goldScore": 35000,
+    "name": "CS - Cube by Yumi",
+    "silverScore": 40000
+  },
+  "4dae3aaf-1304-4410-80ca-0e3bfc689435": {
+    "authorScore": 16701,
+    "bronzeScore": 26000,
+    "goldScore": 18000,
+    "name": "CS - Frolic by PajChamp",
+    "silverScore": 21000
+  },
+  "503a8e45-de46-461b-a401-feb0e4a68dfb": {
+    "authorScore": 16150,
+    "bronzeScore": 25000,
+    "goldScore": 18000,
+    "name": "5 - Van Go Go Go",
+    "silverScore": 20000
+  },
+  "515d9e49-2474-4a08-9643-c1a429d0190d": {
+    "authorScore": 28610,
+    "bronzeScore": 43000,
+    "goldScore": 31000,
+    "name": "Spring 2023 - 01",
+    "silverScore": 35000
+  },
+  "5546883f-b1ed-49e0-9397-55fc46f1d00c": {
+    "authorScore": 26972,
+    "bronzeScore": 41000,
+    "goldScore": 29000,
+    "name": "SnowIsBack",
+    "silverScore": 33000
+  },
+  "56405da5-e03a-4eea-a654-c3f8d5f4fe8b": {
+    "authorScore": 243890,
+    "bronzeScore": 366000,
+    "goldScore": 259000,
+    "name": "[RPG] La Berra",
+    "silverScore": 293000
+  },
+  "5815a0a1-220d-4f77-b13a-ec3696338468": {
+    "authorScore": 19494,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "5 - Eden's Slide ft' Heravan",
+    "silverScore": 24000
+  },
+  "59130908-aba2-41c8-81d5-ce1a9fccd101": {
+    "authorScore": 33502,
+    "bronzeScore": 51000,
+    "goldScore": 36000,
+    "name": "Winter 2022 - 12",
+    "silverScore": 41000
+  },
+  "596729f9-3e3e-4964-bb99-53a7e6becd3c": {
+    "authorScore": 38218,
+    "bronzeScore": 58000,
+    "goldScore": 44000,
+    "name": "Summer 2025 - 14",
+    "silverScore": 50000
+  },
+  "59baaabe-7914-493b-9659-437b6ad024bf": {
+    "authorScore": 22201,
+    "bronzeScore": 34000,
+    "goldScore": 24000,
+    "name": "Summer 2021 - 03",
+    "silverScore": 27000
+  },
+  "66be7390-9f2c-4929-b38d-44103fcd1943": {
+    "authorScore": 21488,
+    "bronzeScore": 33000,
+    "goldScore": 23000,
+    "name": "Unfairly Basic 001",
+    "silverScore": 26000
+  },
+  "6c19a351-96f8-41e5-8404-5384cd2281c9": {
+    "authorScore": 144398,
+    "bronzeScore": 217000,
+    "goldScore": 154000,
+    "name": "[RPG]  Nuclear Central",
+    "silverScore": 174000
+  },
+  "6f8762a2-13bc-4821-9845-f901883d9f70": {
+    "authorScore": 32456,
+    "bronzeScore": 49000,
+    "goldScore": 35000,
+    "name": "Spring 2021 - 07",
+    "silverScore": 39000
+  },
+  "6fbfefc2-e5ba-4622-950f-168157421eaa": {
+    "authorScore": 47000,
+    "bronzeScore": 71000,
+    "goldScore": 50000,
+    "name": "Growth's Embrace  [CE]",
+    "silverScore": 57000
+  },
+  "6fdc9bfa-6ff9-4916-ae0c-90e083a7bb19": {
+    "authorScore": 21024,
+    "bronzeScore": 32000,
+    "goldScore": 23000,
+    "name": "Summer 2021 - 01",
+    "silverScore": 26000
+  },
+  "70b7d881-7396-4b23-8c01-5d43d8a686c5": {
+    "authorScore": 21004,
+    "bronzeScore": 32000,
+    "goldScore": 23000,
+    "name": "Fall 2023 - 08",
+    "silverScore": 26000
+  },
+  "71006534-1350-49d4-bf8b-2b29121e573f": {
+    "authorScore": 45560,
+    "bronzeScore": 51180,
+    "goldScore": 47070,
+    "name": "E01-Obstacle",
+    "silverScore": 48740
+  },
+  "71bfb59d-0fa2-431a-93ee-183ff42df783": {
+    "authorScore": 20104,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "1 - Spinning on Ice Ft' Mosqido",
+    "silverScore": 25000
+  },
+  "73c1654e-5682-4455-a653-ed835bbf8679": {
+    "authorScore": 45868,
+    "bronzeScore": 69000,
+    "goldScore": 49000,
+    "name": "\u0421\u0430\u043a\u0443\u0440\u0430",
+    "silverScore": 56000
+  },
+  "74f3e5fa-9c92-4b8a-9ae8-e31b86b3c3d2": {
+    "authorScore": 28891,
+    "bronzeScore": 44000,
+    "goldScore": 31000,
+    "name": "Fall 2022 - 09",
+    "silverScore": 35000
+  },
+  "768fb752-c6e6-4f25-b0dd-2af7231b2b17": {
+    "authorScore": 60370,
+    "bronzeScore": 90520,
+    "goldScore": 64550,
+    "name": "D07-Race",
+    "silverScore": 72150
+  },
+  "77f987dc-8448-409f-a969-ee89adca6ac8": {
+    "authorScore": 44892,
+    "bronzeScore": 68000,
+    "goldScore": 48000,
+    "name": "Summer 2022 - 19",
+    "silverScore": 54000
+  },
+  "815a2a8e-e299-4e93-8097-5285d6036240": {
+    "authorScore": 39572,
+    "bronzeScore": 60000,
+    "goldScore": 42000,
+    "name": "Spring 2021 - 09",
+    "silverScore": 48000
+  },
+  "8b0078bf-5d2d-4834-b6f1-4f00d230e08c": {
+    "authorScore": 43290,
+    "bronzeScore": 65000,
+    "goldScore": 46000,
+    "name": "Winter 2025 - 16",
+    "silverScore": 52000
+  },
+  "8bca3d04-3819-4998-ab0b-c17cc3f4cd71": {
+    "authorScore": 21823,
+    "bronzeScore": 33000,
+    "goldScore": 24000,
+    "name": "Winter 2025 - 04",
+    "silverScore": 27000
+  },
+  "8ca2f431-78dc-4be3-8763-bb8489d30f24": {
+    "authorScore": 31382,
+    "bronzeScore": 48000,
+    "goldScore": 34000,
+    "name": "Summer 2023 - 07",
+    "silverScore": 38000
+  },
+  "93862e8e-b8be-4e55-af59-fe5935bf37db": {
+    "authorScore": 20826,
+    "bronzeScore": 32000,
+    "goldScore": 23000,
+    "name": "Endlessly",
+    "silverScore": 25000
+  },
+  "93cd9f9e-7075-4a55-8b08-e8a0db416d97": {
+    "authorScore": 24911,
+    "bronzeScore": 38000,
+    "goldScore": 27000,
+    "name": "Winter 2024 - 03",
+    "silverScore": 30000
+  },
+  "95062c1c-e08c-420b-a548-333085b27962": {
+    "authorScore": 17310,
+    "bronzeScore": 26000,
+    "goldScore": 19000,
+    "name": "Winter 2021 - 02",
+    "silverScore": 21000
+  },
+  "96386e9e-9942-4eb5-ba6b-08e3a66886c9": {
+    "authorScore": 14898,
+    "bronzeScore": 15640,
+    "goldScore": 15140,
+    "name": "Under 15 - 17",
+    "silverScore": 15390
+  },
+  "9bee9961-24da-43dd-8646-6d014acc69bc": {
+    "authorScore": 33358,
+    "bronzeScore": 51000,
+    "goldScore": 36000,
+    "name": "Winter 2023 - 14",
+    "silverScore": 41000
+  },
+  "9c03ccda-6244-408c-bbda-d826194059fd": {
+    "authorScore": 16107,
+    "bronzeScore": 25000,
+    "goldScore": 18000,
+    "name": "1 - Quarterpipe Quest",
+    "silverScore": 20000
+  },
+  "9e95d12c-2c4d-4b9c-85f1-e94288a005cb": {
+    "authorScore": 31204,
+    "bronzeScore": 47000,
+    "goldScore": 34000,
+    "name": "Fall 2022 - 10",
+    "silverScore": 38000
+  },
+  "9f9f61a7-c346-42fe-890c-4f3bae97c9dd": {
+    "authorScore": 42233,
+    "bronzeScore": 64000,
+    "goldScore": 45000,
+    "name": "Fall 2025 - 15",
+    "silverScore": 51000
+  },
+  "9fccc6d3-b874-4f87-98d2-1baca2ecba8b": {
+    "authorScore": 23626,
+    "bronzeScore": 36000,
+    "goldScore": 26000,
+    "name": "IceBraker",
+    "silverScore": 29000
+  },
+  "a0b60066-5562-456a-842e-7ab20db73bc4": {
+    "authorScore": 22665,
+    "bronzeScore": 27000,
+    "goldScore": 23200,
+    "name": "Eat plastic",
+    "silverScore": 25000
+  },
+  "a8eb1c95-07b8-460c-aafb-cf883b50113a": {
+    "authorScore": 35464,
+    "bronzeScore": 54000,
+    "goldScore": 38000,
+    "name": "Winter 2024 - 14",
+    "silverScore": 43000
+  },
+  "a935590c-000a-4011-abf7-000747172431": {
+    "authorScore": 11403,
+    "bronzeScore": 18000,
+    "goldScore": 13000,
+    "name": "Dumpster Diving",
+    "silverScore": 14000
+  },
+  "aa82df15-a608-4dab-9564-ca32b6a13dc9": {
+    "authorScore": 25650,
+    "bronzeScore": 38550,
+    "goldScore": 27170,
+    "name": "B13-Obstacle",
+    "silverScore": 31150
+  },
+  "ab5780cc-bf3c-444c-93fa-245e1244f86e": {
+    "authorScore": 40935,
+    "bronzeScore": 62000,
+    "goldScore": 44000,
+    "name": "Unintended",
+    "silverScore": 50000
+  },
+  "b1976165-74cd-4422-a9f8-59d484a6f3d9": {
+    "authorScore": 19669,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "5 - Summer Day",
+    "silverScore": 24000
+  },
+  "b25bd86d-9aed-4b94-a3e0-be85e0256618": {
+    "authorScore": 19591,
+    "bronzeScore": 30000,
+    "goldScore": 21000,
+    "name": "CS - Quince by Osoguineapig",
+    "silverScore": 24000
+  },
+  "b340c753-4c15-4717-a7b9-7758ef0ae7d3": {
+    "authorScore": 61000,
+    "bronzeScore": 92000,
+    "goldScore": 65000,
+    "name": "FASTER SHOWDOWN",
+    "silverScore": 74000
+  },
+  "b4a49bdd-7e5e-4d56-b24d-347ba5e83962": {
+    "authorScore": 22826,
+    "bronzeScore": 35000,
+    "goldScore": 25000,
+    "name": "4 - Red Rock Rookie",
+    "silverScore": 28000
+  },
+  "b77e5ecc-cad3-428f-9db7-7287ac942fad": {
+    "authorScore": 64480,
+    "bronzeScore": 95920,
+    "goldScore": 68380,
+    "name": "A08-Endurance",
+    "silverScore": 77130
+  },
+  "b90f90e2-e7fb-4628-83b2-d8d723974884": {
+    "authorScore": 30988,
+    "bronzeScore": 47000,
+    "goldScore": 33000,
+    "name": "Fall 2021 - 07",
+    "silverScore": 38000
+  },
+  "b9d8e0fb-59f0-40a4-a757-7d1f3e6c0437": {
+    "authorScore": 33883,
+    "bronzeScore": 51000,
+    "goldScore": 36000,
+    "name": "Fall 2020 - 07",
+    "silverScore": 41000
+  },
+  "bf7e990f-860e-4e2a-8dbb-5fa376184fe1": {
+    "authorScore": 32663,
+    "bronzeScore": 49000,
+    "goldScore": 35000,
+    "name": "Spring 2024 - 09",
+    "silverScore": 40000
+  },
+  "c3a20e85-52ef-41eb-843c-905b695b7839": {
+    "authorScore": 60400,
+    "bronzeScore": 91000,
+    "goldScore": 65000,
+    "name": "FASTER SPLASH",
+    "silverScore": 73000
+  },
+  "c8c226c2-3001-4d81-ac1c-92ada18a2563": {
+    "authorScore": 20128,
+    "bronzeScore": 31000,
+    "goldScore": 22000,
+    "name": "1 - Tunnel Vision",
+    "silverScore": 25000
+  },
+  "ca9fb42d-88fb-4baf-a1d6-5e796ee7ce2f": {
+    "authorScore": 47999,
+    "bronzeScore": 72000,
+    "goldScore": 51000,
+    "name": "Winter 2022 - 20",
+    "silverScore": 58000
+  },
+  "caf672ed-9920-41ac-86fb-7999c66f8040": {
+    "authorScore": 35598,
+    "bronzeScore": 54000,
+    "goldScore": 38000,
+    "name": "Summer 2022 - 06",
+    "silverScore": 43000
+  },
+  "cc3ea5f4-053b-4af0-9828-6552282b43d3": {
+    "authorScore": 65119,
+    "bronzeScore": 98000,
+    "goldScore": 73000,
+    "name": "Fall 2025 - 25",
+    "silverScore": 79000
+  },
+  "cd219c4e-c9cf-407d-addd-1a0910563369": {
+    "authorScore": 28375,
+    "bronzeScore": 43000,
+    "goldScore": 31000,
+    "name": "Spring 2026 - 05",
+    "silverScore": 35000
+  },
+  "cdb67192-3ef2-48b8-bb02-7a1324fd9fd1": {
+    "authorScore": 26846,
+    "bronzeScore": 41000,
+    "goldScore": 30000,
+    "name": "Summer 2020 - 11",
+    "silverScore": 34000
+  },
+  "cde6d615-5afb-46ba-a019-79e70adcc4b1": {
+    "authorScore": 28952,
+    "bronzeScore": 44000,
+    "goldScore": 31000,
+    "name": "Bees Bath",
+    "silverScore": 35000
+  },
+  "d1c00d8e-b632-4023-8dde-b1e1ca36147f": {
+    "authorScore": 48478,
+    "bronzeScore": 73000,
+    "goldScore": 52000,
+    "name": "Summer 2023 - 19",
+    "silverScore": 59000
+  },
+  "d1cab08e-434e-41f0-a7fd-3b607276ede0": {
+    "authorScore": 42851,
+    "bronzeScore": 65000,
+    "goldScore": 46000,
+    "name": "Azure Cascade",
+    "silverScore": 52000
+  },
+  "dbfa5125-b4ba-4711-95a0-791627354c22": {
+    "authorScore": 47259,
+    "bronzeScore": 71000,
+    "goldScore": 51000,
+    "name": "Summer 2020 - 23",
+    "silverScore": 57000
+  },
+  "ddec9912-f45a-4ff3-bdb3-fef87b4ce1a5": {
+    "authorScore": 43936,
+    "bronzeScore": 66000,
+    "goldScore": 47000,
+    "name": "Summer 2020 - 12",
+    "silverScore": 53000
+  },
+  "e0f5b6aa-c2c5-4b19-b393-480f23b1b76c": {
+    "authorScore": 102500,
+    "bronzeScore": 153670,
+    "goldScore": 107960,
+    "name": "B08-Endurance",
+    "silverScore": 122440
+  },
+  "e424be40-5b82-422c-a651-25d2243bf3bb": {
+    "authorScore": 24230,
+    "bronzeScore": 37000,
+    "goldScore": 26000,
+    "name": "Forest",
+    "silverScore": 30000
+  },
+  "e4df8476-8354-4606-b192-c44e7a02354c": {
+    "authorScore": 23668,
+    "bronzeScore": 36000,
+    "goldScore": 26000,
+    "name": "BOnk52",
+    "silverScore": 29000
+  },
+  "e57b23a7-162c-4c0f-8855-d2b6d51a8e2a": {
+    "authorScore": 15592,
+    "bronzeScore": 24000,
+    "goldScore": 17000,
+    "name": "CS - Crimson Cascade by PajChamp",
+    "silverScore": 19000
+  },
+  "e5b89a3d-81de-4834-a9f2-3c3f0430ea4c": {
+    "authorScore": 44714,
+    "bronzeScore": 68000,
+    "goldScore": 48000,
+    "name": "Highland Swamp ft SiriusTtm",
+    "silverScore": 54000
+  },
+  "e6c3851d-0f92-4520-b997-92fa432ee81d": {
+    "authorScore": 17433,
+    "bronzeScore": 27000,
+    "goldScore": 19000,
+    "name": "1 - Fun Valley",
+    "silverScore": 21000
+  },
+  "e82af8c0-7991-47e2-a45f-9584572af5d0": {
+    "authorScore": 23541,
+    "bronzeScore": 36000,
+    "goldScore": 25000,
+    "name": "Fall 2024 - 08",
+    "silverScore": 29000
+  },
+  "e9349dfa-c8bd-4c8e-88d3-daad158763ae": {
+    "authorScore": 40412,
+    "bronzeScore": 61000,
+    "goldScore": 43000,
+    "name": "Spring 2022 - 12",
+    "silverScore": 49000
+  },
+  "ed17ea6c-bedc-4a1b-a53c-d1470dc86cec": {
+    "authorScore": 31656,
+    "bronzeScore": 48000,
+    "goldScore": 34000,
+    "name": "NightRace",
+    "silverScore": 38000
+  },
+  "eea9b037-e695-4528-bb53-70dd7eb72c43": {
+    "authorScore": 26532,
+    "bronzeScore": 40000,
+    "goldScore": 29000,
+    "name": "car no worky worky",
+    "silverScore": 32000
+  },
+  "ef223b47-ba73-4527-b742-f0f2457243ba": {
+    "authorScore": 49374,
+    "bronzeScore": 75000,
+    "goldScore": 53000,
+    "name": "Fall 2022 - 20",
+    "silverScore": 60000
+  },
+  "ef350c64-06d0-4e31-8d6d-9cd7c20d6616": {
+    "authorScore": 64321,
+    "bronzeScore": 97000,
+    "goldScore": 69000,
+    "name": "Fall 2022 - 22",
+    "silverScore": 78000
+  },
+  "f043416e-420f-4cb6-87c6-29392ebce0de": {
+    "authorScore": 29618,
+    "bronzeScore": 45000,
+    "goldScore": 32000,
+    "name": "Winter 2023 - 13",
+    "silverScore": 36000
+  },
+  "f2037c2c-2e95-4793-b03e-bee8ba1a8496": {
+    "authorScore": 45348,
+    "bronzeScore": 69000,
+    "goldScore": 49000,
+    "name": "Ruins of  Resolve",
+    "silverScore": 55000
+  },
+  "f5b8cb6a-6f00-4bea-b046-bdd9cc7d7bce": {
+    "authorScore": 34509,
+    "bronzeScore": 52000,
+    "goldScore": 37000,
+    "name": "Spring 2023 - 15",
+    "silverScore": 42000
+  },
+  "f66c1fa9-216d-4064-877f-5136f6f751d9": {
+    "authorScore": 42000,
+    "bronzeScore": 64000,
+    "goldScore": 45000,
+    "name": "Before",
+    "silverScore": 51000
+  },
+  "f7317420-386a-4de2-bec5-14e9bddef61c": {
+    "authorScore": 23500,
+    "bronzeScore": 36000,
+    "goldScore": 25000,
+    "name": "Fall 2025 - 02",
+    "silverScore": 29000
+  },
+  "fcce1dfa-4459-456d-ac06-216548dd4427": {
+    "authorScore": 24101,
+    "bronzeScore": 37000,
+    "goldScore": 26000,
+    "name": "Flight",
+    "silverScore": 29000
+  },
+  "fe7b0fdd-f0b4-4360-b000-c9d445c6480e": {
+    "authorScore": 31735,
+    "bronzeScore": 48000,
+    "goldScore": 34000,
+    "name": "Winter 2021 - 11",
+    "silverScore": 39000
+  },
+  "feb1d15d-4dee-4680-bbe5-2170263e0000": {
+    "authorScore": 52252,
+    "bronzeScore": 79000,
+    "goldScore": 56000,
+    "name": "Fall 2023 - 23",
+    "silverScore": 63000
+  }
 }

@@ -301,6 +301,138 @@ select:focus, input:focus {
   margin-left: 0.5rem;
 }
 
+.h2h {
+  display: flex;
+  align-items: stretch;
+  margin: 0.5rem 0 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  height: 44px;
+  position: relative;
+  font-variant-numeric: tabular-nums;
+}
+
+.h2h .seg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+  transition: flex-grow 0.3s;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.h2h .seg.thibault { background: linear-gradient(90deg, var(--thibault-soft), rgba(239, 68, 68, 0.2)); color: var(--thibault); border-right: 1px solid var(--border-soft); }
+.h2h .seg.tied { background: var(--surface-2); color: var(--muted); border-right: 1px solid var(--border-soft); }
+.h2h .seg.pierre { background: linear-gradient(90deg, rgba(59, 130, 246, 0.2), var(--pierre-soft)); color: var(--pierre); }
+
+.medals-bar {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 0.72rem;
+  color: var(--muted);
+  flex-wrap: wrap;
+}
+.medal-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: var(--surface-2);
+  border: 1px solid var(--border-soft);
+  font-variant-numeric: tabular-nums;
+}
+.medal-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.medal-dot.author { background: #14b8a6; box-shadow: 0 0 6px rgba(20, 184, 166, 0.5); }
+.medal-dot.gold { background: #f5c344; box-shadow: 0 0 6px rgba(245, 195, 68, 0.4); }
+.medal-dot.silver { background: #cbd5e1; }
+.medal-dot.bronze { background: #b06a2a; }
+.medal-dot.none { background: transparent; border: 1px dashed var(--dim); box-shadow: none; }
+
+td .medal-dot, th .medal-dot {
+  margin-right: 0.4rem;
+  vertical-align: middle;
+  opacity: 0.85;
+}
+
+.campaign-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.campaign-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.25rem;
+  transition: transform 0.15s, border-color 0.15s, background 0.15s;
+}
+.campaign-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--pierre);
+  background: linear-gradient(180deg, var(--surface) 0%, rgba(59, 130, 246, 0.08) 100%);
+}
+
+.campaign-card .name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  letter-spacing: -0.01em;
+}
+.campaign-card .count {
+  color: var(--muted);
+  font-size: 0.82rem;
+  margin-bottom: 0.75rem;
+}
+.campaign-card .bar {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  overflow: hidden;
+  display: flex;
+}
+.campaign-card .bar span { height: 100%; display: block; }
+.campaign-card .bar .t { background: var(--thibault); }
+.campaign-card .bar .p { background: var(--pierre); }
+.campaign-card .bar .tied { background: var(--dim); }
+.campaign-card .legend {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+.campaign-card .legend .t { color: var(--thibault); }
+.campaign-card .legend .p { color: var(--pierre); }
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+.back-link:hover { color: var(--text); }
+
 @media (max-width: 700px) {
   main { padding: 1.5rem 1rem 3rem; }
   h1 { font-size: 1.75rem; }
