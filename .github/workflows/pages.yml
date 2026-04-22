@@ -1,0 +1,16 @@
+name: pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/**"
+      - "data/**"
+  workflow_dispatch:
+
+# TODO: implement — publish docs/ to GitHub Pages (actions/deploy-pages)
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: "echo scaffold"

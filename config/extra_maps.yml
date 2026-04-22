@@ -1,0 +1,7 @@
+# Hand-edited list of extra maps to track beyond the club campaigns
+# and Pierre's recent records. One entry per map:
+#
+# - map_uid: "abcd1234..."
+#   name: "Optional human-readable name"
+#
+maps: []

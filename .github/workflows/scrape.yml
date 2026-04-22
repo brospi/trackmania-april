@@ -1,0 +1,13 @@
+name: scrape
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+# TODO: implement — auth, build map set, snapshot records, commit diff to data/
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - run: "echo scaffold"
