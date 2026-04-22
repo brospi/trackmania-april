@@ -364,15 +364,29 @@ function renderLeaderboardInto(hostId, snapshots, maps, uids, { filterable = tru
       <th>Map</th>
       ${[PID_T, PID_P].map((p) => `<th class="time">${PLAYERS[p]}</th>`).join("")}
       <th class="time">Δ</th>
+      <th>Leader</th>
     </tr></thead>`;
 
   const rows = uids.map((uid) => {
     const map = maps[uid] || {};
-    const t = [PID_T, PID_P].map((pid) => (pb[uid] || {})[pid] ?? null);
+    const pids = [PID_T, PID_P];
+    const t = pids.map((pid) => (pb[uid] || {})[pid] ?? null);
     const deltaRaw = t[0] != null && t[1] != null ? Math.abs(t[0] - t[1]) : null;
     const delta = deltaRaw != null ? fmtTime(deltaRaw) : "—";
-    const winnerIdx = t[0] != null && t[1] != null ? (t[0] < t[1] ? 0 : 1) : -1;
-    const pids = [PID_T, PID_P];
+
+    let winnerIdx = -1;
+    let leaderCell = `<td class="muted">—</td>`;
+    if (t[0] != null && t[1] != null) {
+      if (t[0] < t[1]) winnerIdx = 0;
+      else if (t[1] < t[0]) winnerIdx = 1;
+      if (winnerIdx >= 0) {
+        const pid = pids[winnerIdx];
+        leaderCell = `<td class="winner ${SLUG[pid]}">${PLAYERS[pid]}</td>`;
+      } else {
+        leaderCell = `<td class="muted">Tied</td>`;
+      }
+    }
+
     return `<tr data-name="${(mapName(map, uid) || uid).toLowerCase()}">
       <td><span class="map-name">${mapName(map, uid)}</span></td>
       ${t
@@ -385,6 +399,7 @@ function renderLeaderboardInto(hostId, snapshots, maps, uids, { filterable = tru
         })
         .join("")}
       <td class="time muted">${delta}</td>
+      ${leaderCell}
     </tr>`;
   });
 
