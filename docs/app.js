@@ -104,20 +104,31 @@ function medalCounts(pb, uids, maps) {
 
 function parseCampaign(name) {
   const m = /^(.+?)\s*-\s*(\d+)$/.exec(name || "");
-  if (!m) return { campaign: "Other", index: null };
+  if (!m) return { campaign: null, index: null };
   return { campaign: m[1].trim(), index: parseInt(m[2], 10) };
+}
+
+function campaignOf(entry, uid) {
+  if (entry && typeof entry === "object" && entry.campaign) {
+    const parsed = parseCampaign(mapName(entry, uid));
+    return { campaign: entry.campaign, index: parsed.index };
+  }
+  const parsed = parseCampaign(mapName(entry, uid));
+  return { campaign: parsed.campaign || "Other", index: parsed.index };
 }
 
 function groupByCampaign(maps) {
   const groups = {};
   for (const [uid, entry] of Object.entries(maps)) {
-    const { campaign, index } = parseCampaign(mapName(entry, uid));
+    const { campaign, index } = campaignOf(entry, uid);
     groups[campaign] ??= { name: campaign, uids: [] };
     groups[campaign].uids.push({ uid, index });
   }
   for (const g of Object.values(groups)) {
     g.uids.sort((a, b) => {
       if (a.index != null && b.index != null) return a.index - b.index;
+      if (a.index != null) return -1;
+      if (b.index != null) return 1;
       return 0;
     });
   }

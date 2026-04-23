@@ -67,8 +67,9 @@ def _mapuids_to_mapids(client: NadeoClient, uids: list[str]) -> set[str]:
     return out
 
 
-def from_official_campaigns(client: NadeoClient) -> dict[str, str]:
-    uids: set[str] = set()
+def official_memberships(client: NadeoClient) -> dict[str, str]:
+    """{mapId: campaign_name} for every map in an official seasonal campaign."""
+    uid_to_campaign: dict[str, str] = {}
     offset, page = 0, 30
     while True:
         r = client.get(
@@ -79,16 +80,32 @@ def from_official_campaigns(client: NadeoClient) -> dict[str, str]:
         body = r.json()
         items = body.get("campaignList", []) or []
         for c in items:
+            cname = c.get("name", "")
             for m in c.get("playlist", []) or []:
                 uid = m.get("mapUid")
                 if uid:
-                    uids.add(uid)
+                    uid_to_campaign[uid] = cname
         if len(items) < page:
             break
         offset += page
-    if not uids:
+
+    if not uid_to_campaign:
         return {}
-    return {mid: "" for mid in _mapuids_to_mapids(client, list(uids))}
+
+    mapid_to_campaign: dict[str, str] = {}
+    all_uids = list(uid_to_campaign)
+    for i in range(0, len(all_uids), NAME_BATCH):
+        batch = all_uids[i : i + NAME_BATCH]
+        r = client.get(
+            f"{CORE_BASE}/maps/?mapUidList={','.join(batch)}",
+            audience="NadeoServices",
+        )
+        for entry in r.json():
+            mid = entry.get("mapId")
+            muid = entry.get("mapUid")
+            if mid and muid:
+                mapid_to_campaign[mid] = uid_to_campaign[muid]
+    return mapid_to_campaign
 
 
 def from_pierre_records(client: NadeoClient) -> dict[str, str]:
@@ -107,18 +124,24 @@ def from_extras() -> dict[str, str]:
     return {m["map_uid"]: m.get("name", "") for m in (doc.get("maps") or [])}
 
 
-def resolve_tracked_maps(client: NadeoClient) -> dict[str, str]:
-    merged: dict[str, str] = {}
+def resolve_tracked_maps(
+    client: NadeoClient,
+) -> tuple[dict[str, str], dict[str, str]]:
+    """Return ({mapId: name_hint}, {mapId: campaign_name})."""
+    tracked: dict[str, str] = {}
     for src in (
         from_extras(),
         from_pierre_records(client),
         from_club_campaigns(client),
-        from_official_campaigns(client),
     ):
         for uid, name in src.items():
-            if uid not in merged or (not merged[uid] and name):
-                merged[uid] = name
-    return merged
+            if uid not in tracked or (not tracked[uid] and name):
+                tracked[uid] = name
+
+    memberships = official_memberships(client)
+    for uid in memberships:
+        tracked.setdefault(uid, "")
+    return tracked, memberships
 
 
 def load_cached_maps() -> dict:
@@ -142,18 +165,19 @@ def enrich_maps(
     client: NadeoClient,
     tracked: dict[str, str],
     cached: dict,
+    memberships: dict[str, str] | None = None,
 ) -> dict[str, dict]:
-    """Return {uid: {name, authorScore, goldScore, silverScore, bronzeScore}}.
+    """Return {mapId: {name, campaign?, authorScore, goldScore, silverScore, bronzeScore}}.
 
-    `tracked` is the uid→name-from-source dict from resolve_tracked_maps.
     Cached entries are reused when complete; everything else is fetched.
     """
+    memberships = memberships or {}
     result: dict[str, dict] = {}
     unresolved: list[str] = []
     for uid in tracked:
         entry = cached.get(uid)
         if _is_complete(entry):
-            result[uid] = entry
+            result[uid] = dict(entry)
         else:
             unresolved.append(uid)
 
@@ -180,5 +204,9 @@ def enrich_maps(
             result[uid] = {"name": src_name}
         elif not result[uid].get("name") and src_name:
             result[uid]["name"] = src_name
+
+    for uid, cname in memberships.items():
+        if uid in result and cname:
+            result[uid]["campaign"] = cname
 
     return result

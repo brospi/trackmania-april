@@ -19,8 +19,8 @@ def main() -> int:
     with httpx.Client(timeout=30.0, headers=headers) as http:
         client = NadeoClient(http, login, password)
         cached = load_cached_maps()
-        tracked = resolve_tracked_maps(client)
-        maps = enrich_maps(client, tracked, cached)
+        tracked, memberships = resolve_tracked_maps(client)
+        maps = enrich_maps(client, tracked, cached, memberships)
         changed = snapshot(client, maps)
 
     print(f"tracked={len(maps)} changed={changed}")

@@ -62,36 +62,39 @@ def test_resolve_unions_and_prefers_name(monkeypatch, tmp_path):
         m, "from_club_campaigns", lambda c: {"shared": "", "club-only": "ClubName"}
     )
     monkeypatch.setattr(m, "from_pierre_records", lambda c: {"pierre-only": ""})
-    monkeypatch.setattr(m, "from_official_campaigns", lambda c: {"official-only": ""})
-    out = m.resolve_tracked_maps(client=None)
-    assert out == {
+    monkeypatch.setattr(
+        m, "official_memberships", lambda c: {"official-only": "Summer 2099"}
+    )
+    tracked, memberships = m.resolve_tracked_maps(client=None)
+    assert tracked == {
         "shared": "FromExtra",
         "pierre-only": "",
         "club-only": "ClubName",
         "official-only": "",
     }
+    assert memberships == {"official-only": "Summer 2099"}
 
 
-def test_official_campaigns_paginates_and_resolves_ids(client, respx_mock):
+def test_official_memberships_paginates_and_resolves_ids(client, respx_mock):
     respx_mock.post(f"{CORE_BASE}/v2/authentication/token/basic").mock(
         return_value=basic_response()
     )
-    page1 = {
+    body = {
         "campaignList": [
-            {"playlist": [{"mapUid": f"uid{i}"} for i in range(10)]}
-            for _ in range(30)
+            {
+                "name": "Winter 2099",
+                "playlist": [{"mapUid": f"uid{i}"} for i in range(5)],
+            },
+            {
+                "name": "Spring 2099",
+                "playlist": [{"mapUid": f"uid{i}"} for i in range(5, 10)],
+            },
         ]
     }
-    page2 = {"campaignList": []}
     respx_mock.route(
         method="GET",
         url__startswith=f"{LIVE_BASE}/api/token/campaign/official",
-    ).mock(
-        side_effect=[
-            httpx.Response(200, json=page1),
-            httpx.Response(200, json=page2),
-        ]
-    )
+    ).mock(return_value=httpx.Response(200, json=body))
     respx_mock.route(
         method="GET", url__startswith=f"{CORE_BASE}/maps/"
     ).mock(
@@ -103,13 +106,13 @@ def test_official_campaigns_paginates_and_resolves_ids(client, respx_mock):
             ],
         )
     )
-    out = m.from_official_campaigns(client)
+    out = m.official_memberships(client)
     assert len(out) == 10
-    assert all(k.startswith("id-uid") for k in out)
-    assert all(v == "" for v in out.values())
+    assert out["id-uid0"] == "Winter 2099"
+    assert out["id-uid9"] == "Spring 2099"
 
 
-def test_official_campaigns_empty(client, respx_mock):
+def test_official_memberships_empty(client, respx_mock):
     respx_mock.post(f"{CORE_BASE}/v2/authentication/token/basic").mock(
         return_value=basic_response()
     )
@@ -117,7 +120,38 @@ def test_official_campaigns_empty(client, respx_mock):
         method="GET",
         url__startswith=f"{LIVE_BASE}/api/token/campaign/official",
     ).mock(return_value=httpx.Response(200, json={"campaignList": []}))
-    assert m.from_official_campaigns(client) == {}
+    assert m.official_memberships(client) == {}
+
+
+def test_enrich_maps_attaches_campaign(client, respx_mock):
+    respx_mock.post(f"{CORE_BASE}/v2/authentication/token/basic").mock(
+        return_value=basic_response()
+    )
+    respx_mock.route(
+        method="GET", url__startswith=f"{CORE_BASE}/maps/"
+    ).mock(
+        return_value=httpx.Response(
+            200,
+            json=[
+                {
+                    "mapId": "uid1",
+                    "name": "Bonus",
+                    "authorScore": 1,
+                    "goldScore": 2,
+                    "silverScore": 3,
+                    "bronzeScore": 4,
+                }
+            ],
+        )
+    )
+    out = m.enrich_maps(
+        client,
+        tracked={"uid1": ""},
+        cached={},
+        memberships={"uid1": "Winter 2099"},
+    )
+    assert out["uid1"]["campaign"] == "Winter 2099"
+    assert out["uid1"]["name"] == "Bonus"
 
 
 def test_pierre_records(client, respx_mock):
