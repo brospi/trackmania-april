@@ -293,6 +293,15 @@ select:focus, input:focus {
   font-weight: 500;
   color: var(--text);
 }
+a.map-name {
+  text-decoration: none;
+  transition: color 0.15s;
+}
+a.map-name:hover {
+  color: var(--pierre);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 
 .uid {
   font-family: ui-monospace, SFMono-Regular, monospace;

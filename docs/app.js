@@ -234,7 +234,7 @@ function renderDashboard({ snapshots, maps }) {
           const w = winnerPid(s.times);
           return `<tr>
             <td class="muted">${fmtDate(s.ts)}</td>
-            <td><span class="map-name">${mapName(maps[s.map_uid], s.map_uid)}</span></td>
+            <td><a class="map-name" href="map.html?uid=${s.map_uid}">${mapName(maps[s.map_uid], s.map_uid)}</a></td>
             ${[PID_T, PID_P]
               .map((pid) => {
                 const cls =
@@ -357,9 +357,23 @@ function renderMap({ snapshots, maps }) {
     `;
   }
 
-  picker.addEventListener("change", () => draw(picker.value));
-  if (uids.length) draw(uids[0]);
-  else meta.innerHTML = `<div class="empty">No maps tracked yet.</div>`;
+  picker.addEventListener("change", () => {
+    const url = new URL(location.href);
+    url.searchParams.set("uid", picker.value);
+    history.replaceState(null, "", url);
+    draw(picker.value);
+  });
+
+  const params = new URLSearchParams(location.search);
+  const requested = params.get("uid");
+  const initial =
+    requested && uids.includes(requested) ? requested : uids[0];
+  if (uids.length) {
+    picker.value = initial;
+    draw(initial);
+  } else {
+    meta.innerHTML = `<div class="empty">No maps tracked yet.</div>`;
+  }
 }
 
 function renderLeaderboardInto(hostId, snapshots, maps, uids, { filterable = true } = {}) {
@@ -399,7 +413,7 @@ function renderLeaderboardInto(hostId, snapshots, maps, uids, { filterable = tru
     }
 
     return `<tr data-name="${(mapName(map, uid) || uid).toLowerCase()}">
-      <td><span class="map-name">${mapName(map, uid)}</span></td>
+      <td><a class="map-name" href="map.html?uid=${uid}">${mapName(map, uid)}</a></td>
       ${t
         .map((x, i) => {
           const cls =
